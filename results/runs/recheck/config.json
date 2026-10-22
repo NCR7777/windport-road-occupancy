@@ -1,0 +1,26 @@
+{
+ "e2": {
+  "e2": "runs/e2",
+  "e2long": "runs/e2_long"
+ },
+ "extra": {
+  "mix6": "runs/mixed_e4",
+  "port": "runs/port_time",
+  "pub": "runs/public_projects",
+  "sens": "runs/sens_extra",
+  "sens5": "runs/sens_e5"
+ },
+ "part": "recheck",
+ "runs": {
+  "conv": "runs/convoy_hold",
+  "e2c": "runs/e2_convoy",
+  "e4": "runs/e4",
+  "e5": "runs/e5",
+  "e6": "runs/e6",
+  "e7": "runs/e7",
+  "pocket": "runs/pocket",
+  "random": "runs/random_bound",
+  "sens": "runs/sens",
+  "sens7": "runs/sens_e7"
+ }
+}

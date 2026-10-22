@@ -1,0 +1,52 @@
+{
+ "base": {
+  "B": 9.5,
+  "Lv": 110.0,
+  "hd_s": 1800.0,
+  "hp_s": 1800.0,
+  "hy_s": 1800.0,
+  "lift_s": 3600.0,
+  "plat_len": 30.0,
+  "plat_w": 4.86,
+  "release_frac": 0.0,
+  "roro_s": 14400.0,
+  "sweep_steer_s": 120.0,
+  "v_empty": 1.3888888888888888,
+  "v_loaded": 0.6944444444444444
+ },
+ "modes": [
+  "on_road",
+  "pull_in"
+ ],
+ "networks": {
+  "okpo": {
+   "network": "okpo/rev1833"
+  },
+  "yantai": {
+   "network": "yantai/rev396"
+  }
+ },
+ "part": "facts",
+ "sites": [
+  [
+   "A1",
+   null
+  ],
+  [
+   "A2",
+   null
+  ],
+  [
+   "A3",
+   null
+  ],
+  [
+   "map",
+   "okpo"
+  ],
+  [
+   "map",
+   "yantai"
+  ]
+ ]
+}

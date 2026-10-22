@@ -1,0 +1,26 @@
+{
+ "keys": [
+  "on_road|fastcrane|K2|S1|L5|G3|H0",
+  "on_road|fastcrane|K2|S2|L3|G3|H1",
+  "on_road|fastcrane|K2|S2|L5|G1|H0",
+  "on_road|fastcrane|K2|S2|L5|G3|H0",
+  "on_road|fastcrane|K3|S1|L3|G3|H1",
+  "on_road|fastcrane|K3|S1|L5|G1|H0",
+  "on_road|fastcrane|K3|S1|L5|G3|H0",
+  "on_road|fastcrane|K3|S2|L3|G3|H0",
+  "on_road|fastcrane|K3|S2|L3|G3|H1",
+  "on_road|fastcrane|K3|S2|L5|G1|H0",
+  "on_road|fastcrane|K3|S2|L5|G3|H0",
+  "pull_in|fastcrane|K2|S1|L5|G3|H0",
+  "pull_in|fastcrane|K2|S2|L3|G3|H1",
+  "pull_in|fastcrane|K2|S2|L5|G3|H0",
+  "pull_in|fastcrane|K3|S1|L5|G1|H0",
+  "pull_in|fastcrane|K3|S1|L5|G3|H0",
+  "pull_in|fastcrane|K3|S2|L5|G1|H0"
+ ],
+ "part": "e2long",
+ "src": "results/runs/e2/points.csv",
+ "src_sha256": "47f0568a74e7d88bf6fce72ccb7b8acd90ffe6a0db4297d0322819896600673f",
+ "time_s": 600.0,
+ "title": "E2 feasible-only instances: CP-SAT 600 s"
+}

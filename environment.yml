@@ -1,0 +1,10 @@
+# Python 3.13.5 from conda, the packages from PyPI at the versions of requirements.txt:
+#   conda env create -f environment.yml && conda activate windport-road-occupancy
+name: windport-road-occupancy
+channels:
+  - defaults
+dependencies:
+  - python=3.13.5
+  - pip
+  - pip:
+      - -r requirements.txt

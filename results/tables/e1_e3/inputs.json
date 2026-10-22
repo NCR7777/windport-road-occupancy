@@ -1,0 +1,10 @@
+{
+ "e1": "results/runs/e1/points.csv",
+ "e1h": "results/runs/e1_hold/points.csv",
+ "e2": "results/runs/e2/points.csv",
+ "e2long": "results/runs/e2_long/points.csv",
+ "e3": "results/runs/e3/points.csv",
+ "rel": "results/runs/release_time/points.csv",
+ "thm": "results/runs/theorems/summary.md",
+ "w1": "results/runs/w1_grid/summary.md"
+}

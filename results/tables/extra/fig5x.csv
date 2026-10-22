@@ -1,0 +1,201 @@
+scen,line,K,port_h
+base,occupancy fcfs,1,14.198254
+base,occupancy fcfs,2,10.0
+base,occupancy fcfs,3,10.0
+base,occupancy fcfs,4,10.0
+base,occupancy fcfs,5,10.0
+base,occupancy fcfs,6,10.0
+base,occupancy fcfs,7,10.0
+base,occupancy fcfs,8,10.0
+base,"occupancy fcfs, Q_h = ∞",1,14.198254
+base,"occupancy fcfs, Q_h = ∞",2,10.0
+base,"occupancy fcfs, Q_h = ∞",3,10.0
+base,"occupancy fcfs, Q_h = ∞",4,10.0
+base,"occupancy fcfs, Q_h = ∞",5,10.0
+base,"occupancy fcfs, Q_h = ∞",6,10.0
+base,"occupancy fcfs, Q_h = ∞",7,10.0
+base,"occupancy fcfs, Q_h = ∞",8,10.0
+base,convoy,1,14.198254
+base,convoy,2,10.0
+base,convoy,3,10.0
+base,convoy,4,10.0
+base,convoy,5,10.0
+base,convoy,6,10.0
+base,convoy,7,10.0
+base,convoy,8,10.0
+base,cut as one resource,1,14.198254
+base,cut as one resource,2,10.0
+base,cut as one resource,3,10.0
+base,cut as one resource,4,10.0
+base,cut as one resource,5,10.0
+base,cut as one resource,6,10.0
+base,cut as one resource,7,10.0
+base,cut as one resource,8,10.0
+base,mixed lifting fcfs,1,10.900472
+base,mixed lifting fcfs,2,10.0
+base,mixed lifting fcfs,3,10.0
+base,mixed lifting fcfs,4,10.0
+base,mixed lifting fcfs,5,10.0
+base,mixed lifting fcfs,6,10.0
+base,mixed lifting fcfs,7,10.0
+base,mixed lifting fcfs,8,10.0
+slow,occupancy fcfs,1,18.639634
+slow,occupancy fcfs,2,10.737817
+slow,occupancy fcfs,3,10.737817
+slow,occupancy fcfs,4,10.737817
+slow,occupancy fcfs,5,10.737817
+slow,occupancy fcfs,6,10.737817
+slow,occupancy fcfs,7,10.737817
+slow,occupancy fcfs,8,10.737817
+slow,"occupancy fcfs, Q_h = ∞",1,18.639634
+slow,"occupancy fcfs, Q_h = ∞",2,11.325998
+slow,"occupancy fcfs, Q_h = ∞",3,11.397998
+slow,"occupancy fcfs, Q_h = ∞",4,10.968817
+slow,"occupancy fcfs, Q_h = ∞",5,10.146454
+slow,"occupancy fcfs, Q_h = ∞",6,10.146454
+slow,"occupancy fcfs, Q_h = ∞",7,10.146454
+slow,"occupancy fcfs, Q_h = ∞",8,10.146454
+slow,convoy,1,18.639634
+slow,convoy,2,10.737817
+slow,convoy,3,10.737817
+slow,convoy,4,10.737817
+slow,convoy,5,10.737817
+slow,convoy,6,10.737817
+slow,convoy,7,10.737817
+slow,convoy,8,10.737817
+slow,cut as one resource,1,18.639634
+slow,cut as one resource,2,10.737817
+slow,cut as one resource,3,10.737817
+slow,cut as one resource,4,10.737817
+slow,cut as one resource,5,10.737817
+slow,cut as one resource,6,10.737817
+slow,cut as one resource,7,10.737817
+slow,cut as one resource,8,10.737817
+slow,mixed lifting fcfs,1,15.444634
+slow,mixed lifting fcfs,2,10.0
+slow,mixed lifting fcfs,3,10.0
+slow,mixed lifting fcfs,4,10.0
+slow,mixed lifting fcfs,5,10.0
+slow,mixed lifting fcfs,6,10.0
+slow,mixed lifting fcfs,7,10.0
+slow,mixed lifting fcfs,8,10.0
+longslow,occupancy fcfs,1,27.279634
+longslow,occupancy fcfs,2,18.417817
+longslow,occupancy fcfs,3,18.417817
+longslow,occupancy fcfs,4,18.417817
+longslow,occupancy fcfs,5,18.417817
+longslow,occupancy fcfs,6,18.417817
+longslow,occupancy fcfs,7,18.417817
+longslow,occupancy fcfs,8,18.417817
+longslow,"occupancy fcfs, Q_h = ∞",1,27.279634
+longslow,"occupancy fcfs, Q_h = ∞",2,16.197998
+longslow,"occupancy fcfs, Q_h = ∞",3,14.198271
+longslow,"occupancy fcfs, Q_h = ∞",4,12.52909
+longslow,"occupancy fcfs, Q_h = ∞",5,12.56509
+longslow,"occupancy fcfs, Q_h = ∞",6,11.334454
+longslow,"occupancy fcfs, Q_h = ∞",7,11.352454
+longslow,"occupancy fcfs, Q_h = ∞",8,11.226454
+longslow,convoy,1,27.279634
+longslow,convoy,2,18.417817
+longslow,convoy,3,18.417817
+longslow,convoy,4,18.417817
+longslow,convoy,5,18.417817
+longslow,convoy,6,18.417817
+longslow,convoy,7,18.417817
+longslow,convoy,8,18.417817
+longslow,cut as one resource,1,27.279634
+longslow,cut as one resource,2,18.417817
+longslow,cut as one resource,3,18.417817
+longslow,cut as one resource,4,18.417817
+longslow,cut as one resource,5,18.417817
+longslow,cut as one resource,6,18.417817
+longslow,cut as one resource,7,18.417817
+longslow,cut as one resource,8,18.417817
+longslow,mixed lifting fcfs,1,24.084634
+longslow,mixed lifting fcfs,2,15.222817
+longslow,mixed lifting fcfs,3,15.222817
+longslow,mixed lifting fcfs,4,15.222817
+longslow,mixed lifting fcfs,5,15.222817
+longslow,mixed lifting fcfs,6,15.222817
+longslow,mixed lifting fcfs,7,15.222817
+longslow,mixed lifting fcfs,8,15.222817
+lane,occupancy fcfs,1,27.279634
+lane,occupancy fcfs,2,18.417817
+lane,occupancy fcfs,3,18.417817
+lane,occupancy fcfs,4,18.417817
+lane,occupancy fcfs,5,18.417817
+lane,occupancy fcfs,6,18.417817
+lane,occupancy fcfs,7,18.417817
+lane,occupancy fcfs,8,18.417817
+lane,"occupancy fcfs, Q_h = ∞",1,27.279634
+lane,"occupancy fcfs, Q_h = ∞",2,18.432726
+lane,"occupancy fcfs, Q_h = ∞",3,15.759271
+lane,"occupancy fcfs, Q_h = ∞",4,15.669271
+lane,"occupancy fcfs, Q_h = ∞",5,14.377544
+lane,"occupancy fcfs, Q_h = ∞",6,14.395544
+lane,"occupancy fcfs, Q_h = ∞",7,14.269544
+lane,"occupancy fcfs, Q_h = ∞",8,14.287544
+lane,convoy,1,27.279634
+lane,convoy,2,18.417817
+lane,convoy,3,18.417817
+lane,convoy,4,18.417817
+lane,convoy,5,18.417817
+lane,convoy,6,18.417817
+lane,convoy,7,18.417817
+lane,convoy,8,18.417817
+lane,cut as one resource,1,27.279634
+lane,cut as one resource,2,18.417817
+lane,cut as one resource,3,18.417817
+lane,cut as one resource,4,18.417817
+lane,cut as one resource,5,18.417817
+lane,cut as one resource,6,18.417817
+lane,cut as one resource,7,18.417817
+lane,cut as one resource,8,18.417817
+lane,mixed lifting fcfs,1,24.084634
+lane,mixed lifting fcfs,2,15.222817
+lane,mixed lifting fcfs,3,15.222817
+lane,mixed lifting fcfs,4,15.222817
+lane,mixed lifting fcfs,5,15.222817
+lane,mixed lifting fcfs,6,15.222817
+lane,mixed lifting fcfs,7,15.222817
+lane,mixed lifting fcfs,8,15.222817
+fastcrane,occupancy fcfs,1,13.698254
+fastcrane,occupancy fcfs,2,7.711127
+fastcrane,occupancy fcfs,3,7.711127
+fastcrane,occupancy fcfs,4,7.711127
+fastcrane,occupancy fcfs,5,7.711127
+fastcrane,occupancy fcfs,6,7.711127
+fastcrane,occupancy fcfs,7,7.711127
+fastcrane,occupancy fcfs,8,7.711127
+fastcrane,"occupancy fcfs, Q_h = ∞",1,13.698254
+fastcrane,"occupancy fcfs, Q_h = ∞",2,7.85069
+fastcrane,"occupancy fcfs, Q_h = ∞",3,5.791127
+fastcrane,"occupancy fcfs, Q_h = ∞",4,5.791127
+fastcrane,"occupancy fcfs, Q_h = ∞",5,5.791127
+fastcrane,"occupancy fcfs, Q_h = ∞",6,5.791127
+fastcrane,"occupancy fcfs, Q_h = ∞",7,5.791127
+fastcrane,"occupancy fcfs, Q_h = ∞",8,5.791127
+fastcrane,convoy,1,13.698254
+fastcrane,convoy,2,7.711127
+fastcrane,convoy,3,7.711127
+fastcrane,convoy,4,7.711127
+fastcrane,convoy,5,7.711127
+fastcrane,convoy,6,7.711127
+fastcrane,convoy,7,7.711127
+fastcrane,convoy,8,7.711127
+fastcrane,cut as one resource,1,13.698254
+fastcrane,cut as one resource,2,7.711127
+fastcrane,cut as one resource,3,7.711127
+fastcrane,cut as one resource,4,7.711127
+fastcrane,cut as one resource,5,7.711127
+fastcrane,cut as one resource,6,7.711127
+fastcrane,cut as one resource,7,7.711127
+fastcrane,cut as one resource,8,7.711127
+fastcrane,mixed lifting fcfs,1,10.020254
+fastcrane,mixed lifting fcfs,2,5.505127
+fastcrane,mixed lifting fcfs,3,5.0
+fastcrane,mixed lifting fcfs,4,5.0
+fastcrane,mixed lifting fcfs,5,5.0
+fastcrane,mixed lifting fcfs,6,5.0
+fastcrane,mixed lifting fcfs,7,5.0
+fastcrane,mixed lifting fcfs,8,5.0

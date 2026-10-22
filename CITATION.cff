@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "windport-road-occupancy: code and data of 'Road-occupancy capacity of offshore wind marshalling ports: transporter fleet, quayside staging and access-road co-design under load-out windows'"
+authors:
+  - family-names: Na
+    given-names: Chunrui
+    orcid: "https://orcid.org/0000-0002-5887-0813"
+    affiliation: "College of Shipbuilding Engineering, Harbin Engineering University; School of Civil and Environmental Engineering, Nanyang Technological University"
+  - family-names: Wang
+    given-names: Qing
+    orcid: "https://orcid.org/0000-0002-3265-4127"
+    affiliation: "College of Shipbuilding Engineering, Harbin Engineering University"
+  - family-names: Han
+    given-names: Xiao
+    affiliation: "Yantai Research Institute, Harbin Engineering University"
+  - family-names: Yao
+    given-names: Jingzheng
+    orcid: "https://orcid.org/0009-0003-8656-0091"
+    affiliation: "Yantai Research Institute, Harbin Engineering University"
+  - family-names: Zhang
+    given-names: Yuntao
+    orcid: "https://orcid.org/0009-0001-8015-8275"
+    affiliation: "College of Shipbuilding Engineering, Harbin Engineering University"
+  - family-names: Ma
+    given-names: Kun
+    orcid: "https://orcid.org/0009-0007-1911-7486"
+    affiliation: "College of Computer Science and Technology, Harbin Engineering University; Department of Electronics and Telecommunications, Politecnico di Torino"
+  - family-names: Song
+    given-names: Chengjing
+    orcid: "https://orcid.org/0009-0003-9279-437X"
+    affiliation: "Yantai Research Institute, Harbin Engineering University"
+license:
+  - MIT          # code (LICENSE)
+  - CC-BY-4.0    # derived road networks, parameter register and result data (LICENSE-data)
+repository-code: "https://github.com/NCR7777/windport-road-occupancy"
+# doi: the DOI of the Zenodo archive of the accompanying version, on acceptance of the paper
+keywords:
+  - offshore wind
+  - marshalling port
+  - monopile load-out
+  - self-propelled modular transporter
+  - road occupancy
+  - capacity bounds
+  - discrete-event simulation
+preferred-citation:
+  type: article
+  title: "Road-occupancy capacity of offshore wind marshalling ports: transporter fleet, quayside staging and access-road co-design under load-out windows"
+  authors:
+    - family-names: Na
+      given-names: Chunrui
+      orcid: "https://orcid.org/0000-0002-5887-0813"
+    - family-names: Wang
+      given-names: Qing
+      orcid: "https://orcid.org/0000-0002-3265-4127"
+    - family-names: Han
+      given-names: Xiao
+    - family-names: Yao
+      given-names: Jingzheng
+      orcid: "https://orcid.org/0009-0003-8656-0091"
+    - family-names: Zhang
+      given-names: Yuntao
+      orcid: "https://orcid.org/0009-0001-8015-8275"
+    - family-names: Ma
+      given-names: Kun
+      orcid: "https://orcid.org/0009-0007-1911-7486"
+    - family-names: Song
+      given-names: Chengjing
+      orcid: "https://orcid.org/0009-0003-9279-437X"
+  journal: "submitted to Ocean Engineering"
+  year: 2026

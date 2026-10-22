@@ -1,0 +1,164 @@
+{
+ "base": {
+  "B": 9.5,
+  "Lv": 110.0,
+  "hd_s": 1800.0,
+  "hp_s": 1800.0,
+  "hy_s": 1800.0,
+  "lift_s": 3600.0,
+  "plat_len": 30.0,
+  "plat_w": 4.86,
+  "release_frac": 0.0,
+  "roro_s": 14400.0,
+  "sweep_steer_s": 120.0,
+  "v_empty": 1.3888888888888888,
+  "v_loaded": 0.6944444444444444
+ },
+ "grid": {
+  "ell_max": 6000.0,
+  "modes": [
+   "on_road",
+   "pull_in"
+  ],
+  "named": {
+   "K": 10,
+   "kinds": [
+    "A1",
+    "A2",
+    "A3"
+   ],
+   "p": [
+    1.0,
+    0.5
+   ],
+   "scen": [
+    "base",
+    "slow",
+    "longslow",
+    "lane"
+   ],
+   "site_scen": [
+    "base",
+    "slow"
+   ],
+   "sites": [
+    "okpo",
+    "yantai"
+   ]
+  },
+  "p": [
+   0.5,
+   1.0,
+   1.5
+  ],
+  "v": [
+   0.5,
+   0.75,
+   1.0,
+   1.25,
+   1.5,
+   2.0,
+   2.5,
+   3.0,
+   4.0,
+   5.0
+  ],
+  "wide_m": 200.0,
+  "win": {
+   "G": 24,
+   "K": 10,
+   "Lp": [
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24
+   ],
+   "S": [
+    0,
+    1,
+    3
+   ],
+   "p": 1.0,
+   "v": [
+    1.0,
+    2.5
+   ]
+  }
+ },
+ "networks": {
+  "okpo": {
+   "network": "okpo/rev1833"
+  },
+  "yantai": {
+   "network": "yantai/rev396"
+  }
+ },
+ "part": "critical",
+ "scen": {
+  "base": {},
+  "fastcrane": {
+   "p": {
+    "lift_s": 1800.0
+   }
+  },
+  "joint": {
+   "joint": {
+    "K_u": 1,
+    "L_tide": 6.0,
+    "per_tide": 1
+   },
+   "p": {
+    "roro_s": 10800.0
+   }
+  },
+  "jointshared": {
+   "joint": {
+    "K_u": 0,
+    "L_tide": 6.0,
+    "per_tide": 1
+   },
+   "p": {
+    "roro_s": 10800.0,
+    "unload_first": true
+   }
+  },
+  "lane": {
+   "geo": {
+    "corridor_m": 1200.0,
+    "dist_m": 1500.0,
+    "n_junctions": 0
+   },
+   "p": {
+    "v_loaded": 0.2777777777777778
+   }
+  },
+  "long": {
+   "geo": {
+    "corridor_m": 1200.0,
+    "dist_m": 1500.0
+   }
+  },
+  "longpile": {
+   "p": {
+    "Lv": 123.6
+   }
+  },
+  "longslow": {
+   "geo": {
+    "corridor_m": 1200.0,
+    "dist_m": 1500.0
+   },
+   "p": {
+    "v_loaded": 0.2777777777777778
+   }
+  },
+  "slow": {
+   "p": {
+    "v_loaded": 0.2777777777777778
+   }
+  }
+ }
+}

@@ -1,0 +1,2758 @@
+{
+ "routes": [
+  {
+   "empty": [
+    {
+     "len_m": [
+      440.0,
+      990.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 6,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_N",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      260.0,
+      365.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 8,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_S",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "corr_N",
+   "idle": "corr_C",
+   "kind": "A1",
+   "loaded": [
+    {
+     "len_m": [
+      700.0,
+      1355.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 48,
+     "n_turns_any": 2,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_S",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_N",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "mode": "on_road",
+   "site": null
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      440.0,
+      990.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 6,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_N",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      260.0,
+      365.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 8,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_S",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "corr_N",
+   "idle": "corr_C",
+   "kind": "A1",
+   "loaded": [
+    {
+     "len_m": [
+      700.0,
+      1355.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 48,
+     "n_turns_any": 2,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_S",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_N",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "mode": "pull_in",
+   "site": null
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      560.0,
+      1110.0
+     ],
+     "max_bend_in_road_deg": 90.0,
+     "n_legs": 6,
+     "turns": []
+    },
+    {
+     "len_m": [
+      260.0,
+      365.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 8,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_S",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "corr_N",
+   "idle": "corr_C",
+   "kind": "A2",
+   "loaded": [
+    {
+     "len_m": [
+      700.0,
+      1355.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 48,
+     "n_turns_any": 2,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_S",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        427.3,
+        888.2
+       ],
+       "node": "corr_N",
+       "swept_arms": [
+        "loop"
+       ]
+      }
+     ]
+    }
+   ],
+   "mode": "on_road",
+   "site": null
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      560.0,
+      1110.0
+     ],
+     "max_bend_in_road_deg": 90.0,
+     "n_legs": 6,
+     "turns": []
+    },
+    {
+     "len_m": [
+      260.0,
+      365.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 8,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_S",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "corr_N",
+   "idle": "corr_C",
+   "kind": "A2",
+   "loaded": [
+    {
+     "len_m": [
+      700.0,
+      1355.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 48,
+     "n_turns_any": 2,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr_S",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        427.3,
+        888.2
+       ],
+       "node": "corr_N",
+       "swept_arms": [
+        "loop"
+       ]
+      }
+     ]
+    }
+   ],
+   "mode": "pull_in",
+   "site": null
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      515.0,
+      1065.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 6,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr2_N",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      740.0,
+      845.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 8,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr2_S",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "corr2_N",
+   "idle": "corr2_C",
+   "kind": "A3",
+   "loaded": [
+    {
+     "len_m": [
+      700.0,
+      1355.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 48,
+     "n_turns_any": 2,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr1_S",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr1_N",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "mode": "on_road",
+   "site": null
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      515.0,
+      1065.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 6,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr2_N",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      740.0,
+      845.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 8,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr2_S",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "corr2_N",
+   "idle": "corr2_C",
+   "kind": "A3",
+   "loaded": [
+    {
+     "len_m": [
+      700.0,
+      1355.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 48,
+     "n_turns_any": 2,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr1_S",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        431.0
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "corr1_N",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "mode": "pull_in",
+   "site": null
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      147.7,
+      257.7
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 2,
+     "turns": [
+      {
+       "deg": 83.9,
+       "delta_s": [
+        236.0,
+        409.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        430.4,
+        895.9
+       ],
+       "node": "node_trace_021",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      253.5,
+      583.5
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 4,
+     "turns": [
+      {
+       "deg": 89.9,
+       "delta_s": [
+        244.2,
+        430.5
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "node_trace_174",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        431.6,
+        898.9
+       ],
+       "node": "node_trace_171",
+       "swept_arms": []
+      },
+      {
+       "deg": 83.9,
+       "delta_s": [
+        236.0,
+        409.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        430.4,
+        895.9
+       ],
+       "node": "node_trace_021",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      141.8,
+      141.8
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 96.1,
+       "delta_s": [
+        252.8,
+        452.1
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        447.2,
+        938.1
+       ],
+       "node": "node_trace_021",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      259.8,
+      259.8
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 96.1,
+       "delta_s": [
+        252.8,
+        452.1
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        447.2,
+        938.1
+       ],
+       "node": "node_trace_021",
+       "swept_arms": []
+      },
+      {
+       "deg": 91.0,
+       "delta_s": [
+        245.8,
+        434.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        433.0,
+        902.6
+       ],
+       "node": "node_trace_075",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      351.1,
+      416.4
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 2,
+     "turns": [
+      {
+       "deg": 104.7,
+       "delta_s": [
+        264.8,
+        481.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        447.7,
+        939.1
+       ],
+       "node": "node_trace_096",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "node_trace_018",
+   "idle": "pocket",
+   "kind": "map",
+   "loaded": [
+    {
+     "len_m": [
+      229.5,
+      339.5
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 2,
+     "n_turns_any": 0,
+     "turns": []
+    },
+    {
+     "len_m": [
+      335.3,
+      665.3
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 4,
+     "n_turns_any": 2,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        431.6,
+        898.9
+       ],
+       "node": "node_trace_171",
+       "swept_arms": [
+        "road_trace_206",
+        "road_trace_447"
+       ]
+      },
+      {
+       "deg": 89.9,
+       "delta_s": [
+        244.2,
+        430.5
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "node_trace_174",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      347.5,
+      457.5
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 2,
+     "n_turns_any": 1,
+     "turns": [
+      {
+       "deg": 91.0,
+       "delta_s": [
+        245.8,
+        434.6
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        433.0,
+        902.6
+       ],
+       "node": "node_trace_075",
+       "swept_arms": [
+        "road_trace_454"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      453.3,
+      783.3
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 4,
+     "n_turns_any": 3,
+     "turns": [
+      {
+       "deg": 91.0,
+       "delta_s": [
+        245.8,
+        434.6
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        433.0,
+        902.6
+       ],
+       "node": "node_trace_075",
+       "swept_arms": [
+        "road_trace_454"
+       ]
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        431.6,
+        898.9
+       ],
+       "node": "node_trace_171",
+       "swept_arms": [
+        "road_trace_206",
+        "road_trace_447"
+       ]
+      },
+      {
+       "deg": 89.9,
+       "delta_s": [
+        244.2,
+        430.5
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "node_trace_174",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      438.8,
+      614.1
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 4,
+     "n_turns_any": 5,
+     "turns": [
+      {
+       "deg": 104.7,
+       "delta_s": [
+        264.8,
+        481.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        447.7,
+        939.1
+       ],
+       "node": "node_trace_096",
+       "swept_arms": [
+        "road_trace_108"
+       ]
+      },
+      {
+       "deg": 90.5,
+       "delta_s": [
+        245.1,
+        432.7
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        439.5,
+        918.7
+       ],
+       "node": "node_trace_021",
+       "swept_arms": [
+        "pocket_stub",
+        "road_trace_087"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      544.5,
+      939.9
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 8,
+     "n_turns_any": 7,
+     "turns": [
+      {
+       "deg": 104.7,
+       "delta_s": [
+        264.8,
+        481.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        447.7,
+        939.1
+       ],
+       "node": "node_trace_096",
+       "swept_arms": [
+        "road_trace_108"
+       ]
+      },
+      {
+       "deg": 90.5,
+       "delta_s": [
+        245.1,
+        432.7
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        439.5,
+        918.7
+       ],
+       "node": "node_trace_021",
+       "swept_arms": [
+        "pocket_stub",
+        "road_trace_087"
+       ]
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        431.6,
+        898.9
+       ],
+       "node": "node_trace_171",
+       "swept_arms": [
+        "road_trace_206",
+        "road_trace_447"
+       ]
+      },
+      {
+       "deg": 89.9,
+       "delta_s": [
+        244.2,
+        430.5
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "node_trace_174",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "mode": "on_road",
+   "site": "okpo"
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      147.7,
+      257.7
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 2,
+     "turns": [
+      {
+       "deg": 83.9,
+       "delta_s": [
+        236.0,
+        409.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        430.4,
+        895.9
+       ],
+       "node": "node_trace_021",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      253.5,
+      583.5
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 4,
+     "turns": [
+      {
+       "deg": 89.9,
+       "delta_s": [
+        244.2,
+        430.5
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "node_trace_174",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        431.6,
+        898.9
+       ],
+       "node": "node_trace_171",
+       "swept_arms": []
+      },
+      {
+       "deg": 83.9,
+       "delta_s": [
+        236.0,
+        409.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        430.4,
+        895.9
+       ],
+       "node": "node_trace_021",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      141.8,
+      141.8
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 96.1,
+       "delta_s": [
+        252.8,
+        452.1
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        447.2,
+        938.1
+       ],
+       "node": "node_trace_021",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      259.8,
+      259.8
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 96.1,
+       "delta_s": [
+        252.8,
+        452.1
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        447.2,
+        938.1
+       ],
+       "node": "node_trace_021",
+       "swept_arms": []
+      },
+      {
+       "deg": 91.0,
+       "delta_s": [
+        245.8,
+        434.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        433.0,
+        902.6
+       ],
+       "node": "node_trace_075",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      351.1,
+      416.4
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 2,
+     "turns": [
+      {
+       "deg": 104.7,
+       "delta_s": [
+        264.8,
+        481.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        447.7,
+        939.1
+       ],
+       "node": "node_trace_096",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "node_trace_018",
+   "idle": "pocket",
+   "kind": "map",
+   "loaded": [
+    {
+     "len_m": [
+      229.5,
+      339.5
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 2,
+     "n_turns_any": 0,
+     "turns": []
+    },
+    {
+     "len_m": [
+      335.3,
+      665.3
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 4,
+     "n_turns_any": 2,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        431.6,
+        898.9
+       ],
+       "node": "node_trace_171",
+       "swept_arms": [
+        "road_trace_206",
+        "road_trace_447"
+       ]
+      },
+      {
+       "deg": 89.9,
+       "delta_s": [
+        244.2,
+        430.5
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "node_trace_174",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      347.5,
+      457.5
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 2,
+     "n_turns_any": 1,
+     "turns": [
+      {
+       "deg": 91.0,
+       "delta_s": [
+        245.8,
+        434.6
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        433.0,
+        902.6
+       ],
+       "node": "node_trace_075",
+       "swept_arms": [
+        "road_trace_454"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      453.3,
+      783.3
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 4,
+     "n_turns_any": 3,
+     "turns": [
+      {
+       "deg": 91.0,
+       "delta_s": [
+        245.8,
+        434.6
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        433.0,
+        902.6
+       ],
+       "node": "node_trace_075",
+       "swept_arms": [
+        "road_trace_454"
+       ]
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        431.6,
+        898.9
+       ],
+       "node": "node_trace_171",
+       "swept_arms": [
+        "road_trace_206",
+        "road_trace_447"
+       ]
+      },
+      {
+       "deg": 89.9,
+       "delta_s": [
+        244.2,
+        430.5
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "node_trace_174",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      438.8,
+      614.1
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 4,
+     "n_turns_any": 5,
+     "turns": [
+      {
+       "deg": 104.7,
+       "delta_s": [
+        264.8,
+        481.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        447.7,
+        939.1
+       ],
+       "node": "node_trace_096",
+       "swept_arms": [
+        "road_trace_108"
+       ]
+      },
+      {
+       "deg": 90.5,
+       "delta_s": [
+        245.1,
+        432.7
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        439.5,
+        918.7
+       ],
+       "node": "node_trace_021",
+       "swept_arms": [
+        "pocket_stub",
+        "road_trace_087"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      544.5,
+      939.9
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 8,
+     "n_turns_any": 7,
+     "turns": [
+      {
+       "deg": 104.7,
+       "delta_s": [
+        264.8,
+        481.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        447.7,
+        939.1
+       ],
+       "node": "node_trace_096",
+       "swept_arms": [
+        "road_trace_108"
+       ]
+      },
+      {
+       "deg": 90.5,
+       "delta_s": [
+        245.1,
+        432.7
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        439.5,
+        918.7
+       ],
+       "node": "node_trace_021",
+       "swept_arms": [
+        "pocket_stub",
+        "road_trace_087"
+       ]
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        431.6,
+        898.9
+       ],
+       "node": "node_trace_171",
+       "swept_arms": [
+        "road_trace_206",
+        "road_trace_447"
+       ]
+      },
+      {
+       "deg": 89.9,
+       "delta_s": [
+        244.2,
+        430.5
+       ],
+       "empty_sweep_s": null,
+       "junction": false,
+       "junction_hold_s": null,
+       "node": "node_trace_174",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "mode": "pull_in",
+   "site": "okpo"
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      187.7,
+      187.7
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 93.0,
+       "delta_s": [
+        248.6,
+        441.4
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        443.0,
+        927.4
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      431.9,
+      431.9
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.2,
+       "delta_s": [
+        244.6,
+        431.5
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        439.0,
+        917.5
+       ],
+       "node": "node_trace_022",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      187.1,
+      362.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 5,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      573.5,
+      573.5
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.2,
+       "delta_s": [
+        244.6,
+        431.5
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        439.0,
+        917.5
+       ],
+       "node": "node_trace_022",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        438.8,
+        916.9
+       ],
+       "node": "node_8fed6000-40b2-4147-a289-69110235e4ad",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      146.4,
+      146.4
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      149.2,
+      149.2
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 94.6,
+       "delta_s": [
+        250.8,
+        447.1
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        445.2,
+        933.1
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      110.1,
+      110.1
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "node_trace_029",
+   "idle": "pocket",
+   "kind": "map",
+   "loaded": [
+    {
+     "len_m": [
+      559.6,
+      559.6
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 5,
+     "turns": [
+      {
+       "deg": 90.2,
+       "delta_s": [
+        244.6,
+        431.5
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        439.0,
+        917.5
+       ],
+       "node": "node_trace_022",
+       "swept_arms": [
+        "road_trace_021",
+        "road_trace_113"
+       ]
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": [
+        "road_trace_002",
+        "road_trace_050"
+       ]
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_027"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      314.9,
+      489.7
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 5,
+     "n_turns_any": 4,
+     "turns": [
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": [
+        "road_trace_002",
+        "road_trace_050"
+       ]
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_027"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      701.3,
+      701.3
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 6,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        438.8,
+        916.9
+       ],
+       "node": "node_8fed6000-40b2-4147-a289-69110235e4ad",
+       "swept_arms": [
+        "road_trace_114"
+       ]
+      },
+      {
+       "deg": 90.2,
+       "delta_s": [
+        244.6,
+        431.5
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        439.0,
+        917.5
+       ],
+       "node": "node_trace_022",
+       "swept_arms": [
+        "road_trace_021",
+        "road_trace_113"
+       ]
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": [
+        "road_trace_002",
+        "road_trace_050"
+       ]
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_027"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      274.2,
+      274.2
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 3,
+     "turns": [
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_027"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      276.9,
+      276.9
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 3,
+     "turns": [
+      {
+       "deg": 94.6,
+       "delta_s": [
+        250.8,
+        447.1
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        445.2,
+        933.1
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_026"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      237.8,
+      237.8
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 2,
+     "turns": []
+    }
+   ],
+   "mode": "on_road",
+   "site": "yantai"
+  },
+  {
+   "empty": [
+    {
+     "len_m": [
+      187.7,
+      187.7
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 93.0,
+       "delta_s": [
+        248.6,
+        441.4
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        443.0,
+        927.4
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      431.9,
+      431.9
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.2,
+       "delta_s": [
+        244.6,
+        431.5
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        439.0,
+        917.5
+       ],
+       "node": "node_trace_022",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      187.1,
+      362.0
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 5,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      573.5,
+      573.5
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.2,
+       "delta_s": [
+        244.6,
+        431.5
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        439.0,
+        917.5
+       ],
+       "node": "node_trace_022",
+       "swept_arms": []
+      },
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        438.8,
+        916.9
+       ],
+       "node": "node_8fed6000-40b2-4147-a289-69110235e4ad",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      146.4,
+      146.4
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      149.2,
+      149.2
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      },
+      {
+       "deg": 94.6,
+       "delta_s": [
+        250.8,
+        447.1
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        445.2,
+        933.1
+       ],
+       "node": "node_trace_024",
+       "swept_arms": []
+      }
+     ]
+    },
+    {
+     "len_m": [
+      110.1,
+      110.1
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_legs": 1,
+     "turns": [
+      {
+       "deg": 87.0,
+       "delta_s": [
+        240.3,
+        420.6
+       ],
+       "empty_sweep_s": 30.0,
+       "junction": true,
+       "junction_hold_s": [
+        434.7,
+        906.6
+       ],
+       "node": "node_trace_066",
+       "swept_arms": []
+      }
+     ]
+    }
+   ],
+   "gate": "node_trace_029",
+   "idle": "pocket",
+   "kind": "map",
+   "loaded": [
+    {
+     "len_m": [
+      559.6,
+      559.6
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 5,
+     "turns": [
+      {
+       "deg": 90.2,
+       "delta_s": [
+        244.6,
+        431.5
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        439.0,
+        917.5
+       ],
+       "node": "node_trace_022",
+       "swept_arms": [
+        "road_trace_021",
+        "road_trace_113"
+       ]
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": [
+        "road_trace_002",
+        "road_trace_050"
+       ]
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_027"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      314.9,
+      489.7
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 5,
+     "n_turns_any": 4,
+     "turns": [
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": [
+        "road_trace_002",
+        "road_trace_050"
+       ]
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_027"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      701.3,
+      701.3
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 6,
+     "turns": [
+      {
+       "deg": 90.0,
+       "delta_s": [
+        244.4,
+        430.9
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        438.8,
+        916.9
+       ],
+       "node": "node_8fed6000-40b2-4147-a289-69110235e4ad",
+       "swept_arms": [
+        "road_trace_114"
+       ]
+      },
+      {
+       "deg": 90.2,
+       "delta_s": [
+        244.6,
+        431.5
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        439.0,
+        917.5
+       ],
+       "node": "node_trace_022",
+       "swept_arms": [
+        "road_trace_021",
+        "road_trace_113"
+       ]
+      },
+      {
+       "deg": 89.1,
+       "delta_s": [
+        243.2,
+        428.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        437.6,
+        914.0
+       ],
+       "node": "node_trace_025",
+       "swept_arms": [
+        "road_trace_002",
+        "road_trace_050"
+       ]
+      },
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_027"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      274.2,
+      274.2
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 3,
+     "turns": [
+      {
+       "deg": 85.4,
+       "delta_s": [
+        238.0,
+        415.0
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        432.4,
+        901.0
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_027"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      276.9,
+      276.9
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 3,
+     "turns": [
+      {
+       "deg": 94.6,
+       "delta_s": [
+        250.8,
+        447.1
+       ],
+       "empty_sweep_s": null,
+       "junction": true,
+       "junction_hold_s": [
+        445.2,
+        933.1
+       ],
+       "node": "node_trace_024",
+       "swept_arms": [
+        "road_trace_026"
+       ]
+      }
+     ]
+    },
+    {
+     "len_m": [
+      237.8,
+      237.8
+     ],
+     "max_bend_in_road_deg": 0.0,
+     "n_routes": 1,
+     "n_turns_any": 2,
+     "turns": []
+    }
+   ],
+   "mode": "pull_in",
+   "site": "yantai"
+  }
+ ],
+ "set": {
+  "B": 9.5,
+  "Lv": 110.0,
+  "axle_lines_in_footprint": 42,
+  "axle_lines_needed_1500t": 80,
+  "axle_lines_per_file": 21,
+  "files": 2,
+  "model": "one vehicle set = one vehicle (loaded vehicle-plus-load length Lv, load width B; empty plat_len × plat_w)",
+  "note": "1,500 t / 18.75 t = 80 axle lines; a 30 m × 4.86 m platform has about 2 × 21 = 42 axle lines",
+  "plat_len": 30.0,
+  "plat_w": 4.86
+ },
+ "te": [
+  {
+   "c": 5600.8,
+   "cut": "r|corr_lane_1",
+   "k_dagger": 6.4585,
+   "plat_len": 30.0,
+   "scen": "base",
+   "te": 169.2,
+   "te_occ": 169.2,
+   "tl": 698.0
+  },
+  {
+   "c": 5600.8,
+   "cut": "r|corr_lane_1",
+   "k_dagger": 6.3015,
+   "k_dagger_rel": -0.0243,
+   "plat_len": 60.0,
+   "scen": "base",
+   "te": 190.8,
+   "te_occ": 190.8,
+   "te_rel": 0.1277,
+   "tl": 698.0
+  },
+  {
+   "c": 11374.0,
+   "cut": "r|corr_lane_0",
+   "k_dagger": 1.8787,
+   "plat_len": 30.0,
+   "scen": "lane",
+   "te": 889.2,
+   "te_occ": 889.2,
+   "tl": 5165.0
+  },
+  {
+   "c": 11374.0,
+   "cut": "r|corr_lane_0",
+   "k_dagger": 1.872,
+   "k_dagger_rel": -0.0036,
+   "plat_len": 60.0,
+   "scen": "lane",
+   "te": 910.8,
+   "te_occ": 910.8,
+   "te_rel": 0.0243,
+   "tl": 5165.0
+  }
+ ],
+ "width": {
+  "B": 9.5,
+  "diameters_registry": {
+   "note": "Parameter registry: Moray West 10 m; Inch Cape 11.5 m, Hornsea 3 11 m (Table B.1)"
+  },
+  "e7": [
+   {
+    "D": 9.5,
+    "Lv": 85.0,
+    "fits_10m": true,
+    "fits_12m": true,
+    "lev": "85",
+    "loaded_empty_threshold": 15.36,
+    "two_loaded_threshold": 20.0
+   },
+   {
+    "D": 9.5,
+    "Lv": 100.0,
+    "fits_10m": true,
+    "fits_12m": true,
+    "lev": "100",
+    "loaded_empty_threshold": 15.36,
+    "two_loaded_threshold": 20.0
+   },
+   {
+    "D": 11.5,
+    "Lv": 110.0,
+    "fits_10m": false,
+    "fits_12m": true,
+    "lev": "110",
+    "loaded_empty_threshold": 17.36,
+    "two_loaded_threshold": 24.0
+   },
+   {
+    "D": 12.0,
+    "Lv": 120.0,
+    "fits_10m": false,
+    "fits_12m": true,
+    "lev": "120",
+    "loaded_empty_threshold": 17.86,
+    "two_loaded_threshold": 25.0
+   }
+  ],
+  "lat_clear": 1.0,
+  "roads": {
+   "apron 12 m": {
+    "capacity": 13.0,
+    "empty": 5.86,
+    "loaded": 10.5,
+    "loaded_empty_pass": false,
+    "two_empty_pass": true,
+    "two_loaded_pass": false
+   },
+   "double lane 20 m": {
+    "capacity": 21.0,
+    "empty": 5.86,
+    "loaded": 10.5,
+    "loaded_empty_pass": true,
+    "two_empty_pass": true,
+    "two_loaded_pass": true
+   },
+   "single lane 10 m": {
+    "capacity": 11.0,
+    "empty": 5.86,
+    "loaded": 10.5,
+    "loaded_empty_pass": false,
+    "two_empty_pass": false,
+    "two_loaded_pass": false
+   },
+   "single lane 12 m (E7)": {
+    "capacity": 13.0,
+    "empty": 5.86,
+    "loaded": 10.5,
+    "loaded_empty_pass": false,
+    "two_empty_pass": true,
+    "two_loaded_pass": false
+   }
+  },
+  "threshold_loaded_empty_m": 15.36,
+  "threshold_two_loaded_m": 20.0,
+  "w_e": 4.86
+ }
+}

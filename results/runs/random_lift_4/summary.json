@@ -1,0 +1,21 @@
+{
+ "gen": "hold",
+ "n": 4000,
+ "ran": 4000,
+ "error": 0,
+ "wfn": 0,
+ "def": 0,
+ "lstar": 0,
+ "mono": 0,
+ "check": 0,
+ "cut": 0,
+ "lifts_checked": 33606,
+ "lifts_violating": 0,
+ "corrected": 907,
+ "raised": 0,
+ "cut_cases": 1998,
+ "cut_with_lane": 395,
+ "maps": 3196,
+ "maps_hold": 2394,
+ "lstar_tie": 402
+}

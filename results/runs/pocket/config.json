@@ -1,0 +1,170 @@
+{
+ "base": {
+  "B": 9.5,
+  "Lv": 110.0,
+  "hd_s": 1800.0,
+  "hp_s": 1800.0,
+  "hy_s": 1800.0,
+  "lift_s": 3600.0,
+  "plat_len": 30.0,
+  "plat_w": 4.86,
+  "release_frac": 0.0,
+  "roro_s": 14400.0,
+  "sweep_steer_s": 120.0,
+  "v_empty": 1.3888888888888888,
+  "v_loaded": 0.6944444444444444
+ },
+ "e7": {
+  "100": {
+   "B": 9.5,
+   "Lv": 100.0,
+   "t": 1500
+  },
+  "110": {
+   "B": 11.5,
+   "Lv": 110.0,
+   "t": 2300
+  },
+  "120": {
+   "B": 12.0,
+   "Lv": 120.0,
+   "t": 3000
+  },
+  "85": {
+   "B": 9.5,
+   "Lv": 85.0,
+   "t": 1500
+  }
+ },
+ "grid": {
+  "G": [
+   3,
+   24
+  ],
+  "K": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "L": [
+   2,
+   3,
+   4,
+   6,
+   8,
+   12,
+   18,
+   24
+  ],
+  "S": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ],
+  "sets": [
+   {
+    "kinds": [
+     "A1"
+    ],
+    "scen": [
+     "slow",
+     "long",
+     "longslow",
+     "lane",
+     "fastcrane",
+     "joint",
+     "jointshared"
+    ]
+   },
+   {
+    "kinds": [
+     "A2",
+     "A3"
+    ],
+    "scen": [
+     "longslow",
+     "lane"
+    ]
+   }
+  ],
+  "stub_m": 30.0,
+  "title": "Off-road pocket: sensitivity of the corridor-limited E1 scenarios"
+ },
+ "nc": {
+  "okpo": 6,
+  "yantai": 1
+ },
+ "part": "pocket",
+ "scen": {
+  "base": {},
+  "fastcrane": {
+   "p": {
+    "lift_s": 1800.0
+   }
+  },
+  "joint": {
+   "joint": {
+    "K_u": 1,
+    "L_tide": 6.0,
+    "per_tide": 1
+   },
+   "p": {
+    "roro_s": 10800.0
+   }
+  },
+  "jointshared": {
+   "joint": {
+    "K_u": 0,
+    "L_tide": 6.0,
+    "per_tide": 1
+   },
+   "p": {
+    "roro_s": 10800.0,
+    "unload_first": true
+   }
+  },
+  "lane": {
+   "geo": {
+    "corridor_m": 1200.0,
+    "dist_m": 1500.0,
+    "n_junctions": 0
+   },
+   "p": {
+    "v_loaded": 0.2777777777777778
+   }
+  },
+  "long": {
+   "geo": {
+    "corridor_m": 1200.0,
+    "dist_m": 1500.0
+   }
+  },
+  "longpile": {
+   "p": {
+    "Lv": 123.6
+   }
+  },
+  "longslow": {
+   "geo": {
+    "corridor_m": 1200.0,
+    "dist_m": 1500.0
+   },
+   "p": {
+    "v_loaded": 0.2777777777777778
+   }
+  },
+  "slow": {
+   "p": {
+    "v_loaded": 0.2777777777777778
+   }
+  }
+ },
+ "tide_h": 12.4206,
+ "title": "Off-road pocket: sensitivity of the corridor-limited E1 scenarios"
+}

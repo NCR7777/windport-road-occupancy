@@ -1,0 +1,593 @@
+{
+ "okpo": {
+  "map": {
+   "commit": "9d84312f9fa5f98616eccfbc3998083045f6a601",
+   "path": "okpo/rs-tif-10_cranes.map.json",
+   "sha256": "323dec4f6ced282c1d4585b03de8a7912ddc57c5806d4192da4a201dd104490a"
+  },
+  "quays": [
+   {
+    "L": 515.4,
+    "W": 12.0,
+    "area_ha": 0.57,
+    "ends": [
+     "node_trace_265",
+     "node_trace_164",
+     "node_trace_121",
+     "node_trace_266",
+     "node_trace_265"
+    ],
+    "n": 4,
+    "roads": [
+     "road_trace_332",
+     "road_trace_141",
+     "road_trace_350",
+     "road_trace_352"
+    ],
+    "zone": "zone_trace_005"
+   },
+   {
+    "L": 313.3,
+    "W": 18.0,
+    "area_ha": 0.38,
+    "ends": [
+     "node_trace_172",
+     "node_trace_169",
+     "node_trace_304",
+     "node_trace_166",
+     "node_trace_168"
+    ],
+    "n": 2,
+    "roads": [
+     "road_trace_205",
+     "road_trace_430",
+     "road_trace_429",
+     "road_trace_202"
+    ],
+    "zone": "zone_trace_020"
+   },
+   {
+    "L": 756.5,
+    "W": 12.0,
+    "area_ha": 0.31,
+    "ends": [
+     "node_trace_174",
+     "node_trace_175"
+    ],
+    "n": 6,
+    "roads": [
+     "road_trace_019"
+    ],
+    "zone": "zone_trace_021"
+   },
+   {
+    "L": 37.0,
+    "W": 25.0,
+    "area_ha": 0.31,
+    "ends": [
+     "node_trace_166",
+     "node_trace_168"
+    ],
+    "n": 0,
+    "roads": [
+     "road_trace_202"
+    ],
+    "zone": "zone_trace_021"
+   },
+   {
+    "L": 583.6,
+    "W": 12.0,
+    "area_ha": 0.62,
+    "ends": [
+     "node_trace_086",
+     "node_trace_085",
+     "node_trace_087",
+     "node_trace_090"
+    ],
+    "n": 5,
+    "roads": [
+     "road_trace_098",
+     "road_trace_093",
+     "road_trace_096"
+    ],
+    "zone": "zone_trace_023"
+   },
+   {
+    "L": 977.5,
+    "W": 12.0,
+    "area_ha": 0.63,
+    "ends": [
+     "node_trace_018",
+     "node_trace_171",
+     "node_trace_174",
+     "node_trace_175"
+    ],
+    "n": 8,
+    "roads": [
+     "road_trace_206",
+     "road_trace_207",
+     "road_trace_019"
+    ],
+    "zone": "zone_trace_024"
+   },
+   {
+    "L": 218.5,
+    "W": 12.0,
+    "area_ha": 0.38,
+    "ends": [
+     "node_trace_174",
+     "node_trace_171",
+     "node_trace_017",
+     "node_trace_022"
+    ],
+    "n": 1,
+    "roads": [
+     "road_trace_207",
+     "road_trace_203",
+     "road_trace_020"
+    ],
+    "zone": "zone_trace_025"
+   },
+   {
+    "L": 293.3,
+    "W": 12.0,
+    "area_ha": 0.54,
+    "ends": [
+     "node_trace_235",
+     "node_trace_314",
+     "node_trace_230",
+     "node_trace_229"
+    ],
+    "n": 2,
+    "roads": [
+     "road_trace_458",
+     "road_trace_453",
+     "road_trace_291"
+    ],
+    "zone": "zone_trace_033"
+   },
+   {
+    "L": 293.2,
+    "W": 15.0,
+    "area_ha": 1.31,
+    "ends": [
+     "node_a5e6b277-73b9-422f-825d-a3363b9c3e68",
+     "node_trace_228",
+     "node_trace_230"
+    ],
+    "n": 2,
+    "roads": [
+     "road_85e13559-e3f4-4217-b37f-b7213e072d6a",
+     "road_trace_290"
+    ],
+    "zone": "zone_trace_035"
+   },
+   {
+    "L": 90.9,
+    "W": 25.0,
+    "area_ha": 1.31,
+    "ends": [
+     "node_trace_238",
+     "node_trace_239",
+     "node_trace_237"
+    ],
+    "n": 0,
+    "roads": [
+     "road_trace_300",
+     "road_trace_301"
+    ],
+    "zone": "zone_trace_035"
+   },
+   {
+    "L": 347.7,
+    "W": 12.0,
+    "area_ha": 1.24,
+    "ends": [
+     "node_trace_208",
+     "node_trace_206",
+     "node_trace_318",
+     "node_trace_199",
+     "node_trace_204"
+    ],
+    "n": 3,
+    "roads": [
+     "road_trace_256",
+     "road_trace_466",
+     "road_trace_287",
+     "road_trace_252"
+    ],
+    "zone": "zone_trace_044"
+   },
+   {
+    "L": 820.8,
+    "W": 12.0,
+    "area_ha": 1.94,
+    "ends": [
+     "node_trace_155",
+     "node_trace_156",
+     "node_trace_110",
+     "node_trace_126",
+     "node_trace_129",
+     "node_trace_134",
+     "node_trace_127",
+     "node_trace_155"
+    ],
+    "n": 7,
+    "roads": [
+     "road_trace_187",
+     "road_trace_166",
+     "road_trace_148",
+     "road_trace_147",
+     "road_trace_153",
+     "road_trace_151",
+     "road_trace_185"
+    ],
+    "zone": "zone_trace_050"
+   },
+   {
+    "L": 882.9,
+    "W": 12.0,
+    "area_ha": 2.03,
+    "ends": [
+     "node_trace_268",
+     "node_trace_266",
+     "node_trace_121",
+     "node_trace_156",
+     "node_trace_155",
+     "node_trace_125",
+     "node_trace_122",
+     "node_trace_123"
+    ],
+    "n": 8,
+    "roads": [
+     "road_trace_349",
+     "road_trace_350",
+     "road_trace_145",
+     "road_trace_187",
+     "road_trace_184",
+     "road_trace_135",
+     "road_trace_132"
+    ],
+    "zone": "zone_trace_054"
+   },
+   {
+    "L": 510.0,
+    "W": 12.0,
+    "area_ha": 0.82,
+    "ends": [
+     "node_trace_138",
+     "node_trace_143",
+     "node_trace_144",
+     "node_trace_120",
+     "node_trace_125",
+     "node_trace_155",
+     "node_trace_153",
+     "node_trace_138"
+    ],
+    "n": 4,
+    "roads": [
+     "road_trace_168",
+     "road_trace_171",
+     "road_trace_170",
+     "road_trace_120",
+     "road_trace_184",
+     "road_trace_186",
+     "road_trace_175"
+    ],
+    "zone": "zone_trace_055"
+   },
+   {
+    "L": 460.7,
+    "W": 12.0,
+    "area_ha": 0.93,
+    "ends": [
+     "node_trace_173",
+     "node_trace_408",
+     "node_trace_013",
+     "node_trace_020"
+    ],
+    "n": 4,
+    "roads": [
+     "road_trace_199",
+     "road_trace_691",
+     "road_trace_017"
+    ],
+    "zone": "zone_trace_064"
+   }
+  ],
+  "selection": {
+   "cradles": [
+    [
+     "road_trace_206",
+     112.1
+    ],
+    [
+     "road_trace_206",
+     2.1
+    ],
+    [
+     "road_trace_019",
+     54.0
+    ],
+    [
+     "road_trace_019",
+     164.0
+    ],
+    [
+     "road_trace_019",
+     274.0
+    ],
+    [
+     "road_trace_019",
+     384.0
+    ],
+    [
+     "road_trace_019",
+     494.0
+    ],
+    [
+     "road_trace_019",
+     604.0
+    ]
+   ],
+   "gate": "node_trace_018",
+   "near": "node_trace_021",
+   "quay_zone": "zone_trace_024",
+   "storage_zone": "zone_trace_027",
+   "yard": "yupu"
+  },
+  "yards": [
+   {
+    "area_ha": 6.82,
+    "gate": "node_trace_018",
+    "n_frontage": 17,
+    "near": "node_trace_055",
+    "ok": true,
+    "route_m": 2865.5,
+    "zone": "zone_trace_001"
+   },
+   {
+    "area_ha": 1.0,
+    "gate": "node_trace_018",
+    "n_frontage": 7,
+    "near": "node_trace_107",
+    "ok": false,
+    "route_m": 3305.3,
+    "zone": "zone_trace_003"
+   },
+   {
+    "area_ha": 1.45,
+    "gate": "node_trace_018",
+    "n_frontage": 6,
+    "near": "node_trace_162",
+    "ok": false,
+    "route_m": 3429.2,
+    "zone": "zone_trace_004"
+   },
+   {
+    "area_ha": 1.23,
+    "gate": "node_trace_018",
+    "n_frontage": 3,
+    "near": "node_trace_183",
+    "ok": false,
+    "route_m": 2993.8,
+    "zone": "zone_trace_015"
+   },
+   {
+    "area_ha": 1.27,
+    "gate": "node_trace_018",
+    "n_frontage": 2,
+    "near": "node_trace_371",
+    "ok": false,
+    "route_m": 2853.9,
+    "zone": "zone_trace_016"
+   },
+   {
+    "area_ha": 1.08,
+    "gate": "node_trace_018",
+    "n_frontage": 4,
+    "near": "node_trace_018",
+    "ok": false,
+    "route_m": 0.0,
+    "zone": "zone_trace_022"
+   },
+   {
+    "area_ha": 2.2,
+    "gate": "node_trace_018",
+    "n_frontage": 4,
+    "near": "node_trace_021",
+    "ok": true,
+    "route_m": 282.7,
+    "zone": "zone_trace_027"
+   },
+   {
+    "area_ha": 0.4,
+    "gate": "node_trace_018",
+    "n_frontage": 4,
+    "near": "node_trace_228",
+    "ok": false,
+    "route_m": 6016.8,
+    "zone": "zone_trace_032"
+   },
+   {
+    "area_ha": 0.67,
+    "gate": "node_trace_018",
+    "n_frontage": 9,
+    "near": "node_trace_133",
+    "ok": false,
+    "route_m": 4821.6,
+    "zone": "zone_trace_046"
+   },
+   {
+    "area_ha": 0.82,
+    "gate": "node_trace_018",
+    "n_frontage": 7,
+    "near": "node_trace_134",
+    "ok": false,
+    "route_m": 4631.9,
+    "zone": "zone_trace_048"
+   },
+   {
+    "area_ha": 1.43,
+    "gate": "node_trace_018",
+    "n_frontage": 6,
+    "near": "node_trace_155",
+    "ok": false,
+    "route_m": 4341.3,
+    "zone": "zone_trace_049"
+   },
+   {
+    "area_ha": 0.66,
+    "gate": "node_trace_018",
+    "n_frontage": 4,
+    "near": "node_trace_136",
+    "ok": false,
+    "route_m": 4504.9,
+    "zone": "zone_trace_051"
+   },
+   {
+    "area_ha": 0.73,
+    "gate": "node_trace_018",
+    "n_frontage": 8,
+    "near": "node_trace_138",
+    "ok": false,
+    "route_m": 4323.1,
+    "zone": "zone_trace_052"
+   },
+   {
+    "area_ha": 1.11,
+    "gate": "node_trace_018",
+    "n_frontage": 10,
+    "near": "node_trace_342",
+    "ok": false,
+    "route_m": 2277.9,
+    "zone": "zone_trace_053"
+   },
+   {
+    "area_ha": 0.74,
+    "gate": "node_trace_018",
+    "n_frontage": 4,
+    "near": "node_trace_109",
+    "ok": false,
+    "route_m": 3201.2,
+    "zone": "zone_trace_062"
+   }
+  ]
+ },
+ "yantai": {
+  "map": {
+   "commit": "9d84312f9fa5f98616eccfbc3998083045f6a601",
+   "path": "cimc_yantai/rs-tif-02_r383.map.json",
+   "sha256": "54352b34cdd7d784fbdb5c6368ded7486918ad770e85c15df638bf5bd9b06ed1"
+  },
+  "quays": [
+   {
+    "L": 214.8,
+    "W": 15.0,
+    "area_ha": 0.27,
+    "ends": [
+     "node_trace_052",
+     "node_trace_056",
+     "node_trace_061",
+     "node_trace_053",
+     "node_trace_029"
+    ],
+    "n": 1,
+    "roads": [
+     "road_trace_056",
+     "road_trace_071",
+     "road_trace_072",
+     "road_trace_060"
+    ],
+    "zone": "zone_trace_029"
+   }
+  ],
+  "selection": {
+   "cradles": [
+    [
+     "road_trace_072",
+     21.1
+    ]
+   ],
+   "gate": "node_trace_029",
+   "near": "node_trace_066",
+   "quay_zone": "zone_trace_029",
+   "storage_zone": "zone_trace_003",
+   "yard": "yantai"
+  },
+  "yards": [
+   {
+    "area_ha": 1.85,
+    "gate": "node_trace_029",
+    "n_frontage": 10,
+    "near": "node_trace_066",
+    "ok": true,
+    "route_m": 102.8,
+    "zone": "zone_trace_003"
+   },
+   {
+    "area_ha": 0.93,
+    "gate": "node_trace_029",
+    "n_frontage": 5,
+    "near": "node_trace_016",
+    "ok": false,
+    "route_m": 1163.8,
+    "zone": "zone_trace_010"
+   },
+   {
+    "area_ha": 0.72,
+    "gate": "node_trace_029",
+    "n_frontage": 5,
+    "near": "node_trace_001",
+    "ok": false,
+    "route_m": 1250.9,
+    "zone": "zone_trace_018"
+   },
+   {
+    "area_ha": 0.49,
+    "gate": "node_trace_029",
+    "n_frontage": 6,
+    "near": "node_trace_029",
+    "ok": false,
+    "route_m": 0.0,
+    "zone": "zone_trace_020"
+   },
+   {
+    "area_ha": 0.45,
+    "gate": "node_trace_052",
+    "n_frontage": 5,
+    "near": "node_trace_056",
+    "ok": false,
+    "route_m": 53.2,
+    "zone": "zone_trace_021"
+   },
+   {
+    "area_ha": 0.94,
+    "gate": "node_trace_029",
+    "n_frontage": 7,
+    "near": "node_trace_054",
+    "ok": false,
+    "route_m": 111.8,
+    "zone": "zone_trace_022"
+   },
+   {
+    "area_ha": 0.67,
+    "gate": "node_trace_052",
+    "n_frontage": 6,
+    "near": "node_trace_052",
+    "ok": false,
+    "route_m": 0.0,
+    "zone": "zone_trace_024"
+   },
+   {
+    "area_ha": 5.04,
+    "gate": "node_trace_029",
+    "n_frontage": 2,
+    "near": "node_trace_082",
+    "ok": true,
+    "route_m": 1755.5,
+    "zone": "zone_trace_030"
+   }
+  ]
+ }
+}

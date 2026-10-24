@@ -1,0 +1,12 @@
+{
+ "chain2": null,
+ "part": "exact",
+ "src": {
+  "chain": "results/runs/chain",
+  "e2": "results/runs/e2",
+  "e2long": "results/runs/e2_long",
+  "e4": "results/runs/e4",
+  "port": "results/runs/port_time",
+  "w1": "results/runs/w1_grid"
+ }
+}

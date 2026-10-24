@@ -1,0 +1,13 @@
+{
+ "endpoint": "https://overpass-api.de/api/interpreter",
+ "query": "[out:json][timeout:180];(way[\"highway\"](51.955,3.99,51.98,4.035);way[\"man_made\"~\"^(quay|pier)$\"](51.955,3.99,51.98,4.035);way[\"natural\"=\"coastline\"](51.955,3.99,51.98,4.035);way[\"landuse\"](51.955,3.99,51.98,4.035);relation[\"landuse\"](51.955,3.99,51.98,4.035);way[\"industrial\"](51.955,3.99,51.98,4.035);way[\"name\"][\"landuse\"!~\".\"][\"highway\"!~\".\"](51.955,3.99,51.98,4.035);node[\"seamark:type\"~\"berth|mooring\"](51.955,3.99,51.98,4.035);way[\"natural\"=\"water\"](51.955,3.99,51.98,4.035);way[\"waterway\"~\"^(dock|riverbank)$\"](51.955,3.99,51.98,4.035);)->.a;relation[\"natural\"=\"water\"](51.955,3.99,51.98,4.035)->.wr;way(r.wr)(51.955,3.99,51.98,4.035)->.wm;(.a;.wm;)->.b;(.b;.b>;);out body;.wr out body;",
+ "fetched_utc": "2026-10-23T13:39:08Z",
+ "osm_base": "2026-10-23T13:38:01Z",
+ "copyright": "© OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright)",
+ "bbox": [
+  51.955,
+  3.99,
+  51.98,
+  4.035
+ ]
+}

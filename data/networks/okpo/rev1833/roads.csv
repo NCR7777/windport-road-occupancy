@@ -724,3 +724,4 @@ road_trace_717,road464,node_aab6432a-4e9c-491e-8011-ad1d4c0490bf,node_trace_419,
 road_trace_718,road002,node_trace_020,node_trace_102,23.651011690284687,12.0,known
 road_trace_719,road005,node_trace_177,node_trace_279,46.487290177603576,12.0,known
 pocket_stub,pocket_stub,node_trace_021,pocket,29.999999999999922,20.0,known
+pocket2_stub,pocket2_stub,node_trace_055,pocket2,30.0,20.0,known

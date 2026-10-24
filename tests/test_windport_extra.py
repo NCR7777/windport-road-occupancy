@@ -53,6 +53,7 @@ def test_wprime_matches_bounds2_and_is_monotone(c):
         assert f(lo) < n <= f(hi) and hi - lo <= 1e-3
 
 
+@pytest.mark.skipif(not E3.exists(), reason="E3 batch of the first version: not part of the release")
 def test_lstar_below_port_time_and_e3_reproduced():
     """port_cfg gives the same configuration as E3 (identical port time); L*(n) does not exceed the simulated port time."""
     rows = e3_rows()
@@ -68,6 +69,7 @@ def test_lstar_below_port_time_and_e3_reproduced():
         assert lo / 3600.0 <= ph + 1e-9
 
 
+@pytest.mark.skipif(not E3.exists(), reason="E3 batch of the first version: not part of the release")
 def test_fix_group_reproduces_e3():
     rows = e3_rows()
     g = dict(X.GRIDS["fix"], K=[1, 2, 3])

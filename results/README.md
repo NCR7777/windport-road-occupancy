@@ -1,51 +1,67 @@
 # Result data
 
+The files of this directory are the result files that the paper reads, with the configuration of each run directory and
+the inputs of each report directory, and two inputs of the shipyard batches (the turn analyses on the yard maps).
 `MANIFEST.csv` lists every file of `results/` with its SHA-256, its size, the commit of the research repository it was
-exported from (`source_commit`), how it was exported (`export`) and where the manuscript uses it (`used_for`).
-`RECOMPUTE.md` (repository root) names the command that recomputes each directory.
+exported from (`source_commit`), how it was exported (`export`) and where the paper uses it (`used_for`). `RECOMPUTE.md`
+(repository root) gives the command and the order of the scripts.
 
-`export` is `as committed` for files copied byte for byte; `configuration: internal fields removed, text translated` for
-the `config.json` of a run (the parameters, grids and scenarios are unchanged; removed are the SHA-256 of the code and input
-files of the research repository and the run label, and the shipyard maps are replaced by the names of their derived
-graphs); `labels translated` for tables whose label columns were in Chinese (the label text only; numbers and keys
-unchanged); `paths renamed` for `inputs.json`; `notes translated` and `translated` for JSON notes and markdown reports;
-`internal labels renamed` where labels, keys or column names carried internal run labels (the batch labels of
-`runs/recheck` are `runs:<part>` for the batches of `windport_runs.py` and `extra:<part>` for those of `windport_extra.py`,
-rows sorted by them as the script sorts them; the E1 baseline of `tables/e4_e7/table_pocket.csv` is in `sim_e1` and
-`tie_e1`), exactly as the release code writes them.
+`export` is
+- `as committed`: copied byte for byte;
+- `configuration: internal fields removed, text translated`: the `config.json` of a run. The parameters, grids and scenarios
+  are unchanged; removed are the SHA-256 of the code and input files of the research repository and the run label; the
+  shipyard maps are replaced by the names of their derived graphs (`networks`); directory names and batch labels are
+  written as in this release; the key `geometry` (the parameters of the layout geometry, as `windport.archetypes.GEOMETRIES`)
+  is written `geometry_params`;
+- `labels translated, internal names renamed` / `text translated, internal names renamed` / `notes translated`: CSV and JSON
+  data whose labels or notes were in Chinese (the label text only; numbers and keys unchanged), and whose batch labels and
+  directory names are written as in this release (the same renaming as the code: below);
+- `translated`: markdown reports, translated;
+- `paths renamed`: `inputs.json` of a report directory;
+- `split in two parts`: `tables/design/compat/e_recheck_rows_part1.csv` and `_part2.csv` are one table of 317,308 data rows
+  (58 MB) split at data row 158,654 so that each file stays below 50 MB; both parts carry the header row; part 1 followed by
+  part 2 without its header row is the table.
 
 ## Layout
 
 | Directory | Contents |
 |---|---|
-| `runs/<run>/` | one batch each: `config.json` (layouts, parameters, scenarios, grid), `points.csv` (one row per point), and where the batch writes them `summary.md`, `summary.json`, `cases.csv`, `bad.csv` (random regressions), `<part>.csv` (analytic parts) |
-| `tables/e1_e3/` | report tables of E1-E3 (`windport_report.py`): bound against simulation (`fig2.csv`), binding regimes (`fig_regime.csv`), port time of the two representations (`fig3.csv`, `table3.csv`), E2 summary (`table2.csv`), gate holding places (`table_hold.csv`), release time of direct lifts (`table_rel.csv`), `summary.md` |
-| `tables/e4_e7/` | report tables of E2 with W′ and convoy dispatch (`table2b.csv`), E4 plateau and cradle-vehicle rates (`table_e4_plateau.csv`, `table_e4_rate.csv`, `fig4.csv`), E5 (`table_e5.csv`), E6 shipyards (`table4.csv`, `fig6.csv`), E7 (`table_e7.csv`), off-road waiting area (`table_pocket.csv`), gate holding places with convoy dispatch (`table_hold2.csv`), sensitivity (`tableC_e*.csv`), `summary.md` (`windport_report2.py`) |
-| `tables/extra/` | worked example (`table_example.csv`), added columns of the fixed-time table (`table5x.csv`, `fig5x.csv`) and of the plateau table (`table6x.csv`), cost and configuration (`table_cost.csv`, `table_cost_best.csv`), critical single-lane length (`fig13_critical.csv`, `table_critical_check.csv`), mixed lifting and release time (`table_mixx.csv`, `table_mixx_win.csv`), added sensitivity rows (`tableC3x.csv`, `tableC4x.csv`), diameters (`table7_diam.md`), public projects (`table_pub.md`), `summary.md` (`windport_report3.py`) |
-| `tables/sites/` | the berth, storage area, gate and waiting area of each shipyard (`sites.json`, `sites.md`), selected on the yard maps by the rules of `windport/shipyard.py` |
-
-The runs: `w1_grid`, `theorems` (exhaustive checks); `e1`, `e1_hold`, `release_time`, `e3` (`windport_sim.py`); `e2`,
-`e2_long` (`windport_e2.py`, `windport_e2long.py`); `e4`, `e5`, `e6`, `e7`, `pocket`, `convoy_hold`, `e2_convoy`, `sens`
-(`windport_runs.py`); `sens_e7` (`windport_sens_e7.py`); `chain` (`windport_chain_check.py`); `random_bound`
-(`windport_random.py`); `random_lift_1`-`4` (`windport_random_lift.py --gen main|main|port|hold`); `port_time`,
-`fixed_time`, `mixed_e4`, `mixed_release`, `sens_extra`, `public_projects` (`windport_extra.py --part port|fix|mix6|mixx|sens|pub`);
-`sens_e5` (`windport_sens_e5.py`); `example`, `critical` (`windport_analytic.py`); `facts` (`windport_facts.py`); `recheck`
-(`windport_recheck.py`).
+| `runs/w1_grid`, `runs/theorems`, `runs/chain` | exhaustive checks of W, of Theorems 3 and 4, of the cut in series (two-block chains) |
+| `runs/random_bound`, `runs/random_lift_1`-`4`, `runs/main2_random_a`, `runs/main2_random_dead` | random-layout regressions (summaries) |
+| `runs/recheck`, `runs/facts` | recheck of the return correction; code facts (set composition, widths) |
+| `runs/deadend_exact`, `runs/deadend_chain2`, `runs/conservative_exact` | exhaustive checks against W″ (original and conservative lifting rule; summaries) |
+| `runs/maingeom_<batch>` | batches on the main geometry of the layouts (first cradle 170 m), conservative lifting rule: `e1e3_e1h` (gate holding places), `runs_e4` (fleet and cradles), `runs_conv` (convoy dispatch), `extra_port` (port times), `extra_sens` (sensitivity), `e2` (CP-SAT small instances, `e2long/` with 600 s), `critical`, `example`, `sens` (closure under the load), `xscan` (release threshold) |
+| `runs/main2_splice`, `runs/main2_codesign` | main2 geometry: rerun points spliced into their batches (`e1e3_e1/`, `runs_pocket/`, `extra_sens5/`); joint-design enumeration |
+| `runs/design_e6_hi` | shipyards, one voyage of storage, alternative manoeuvres (upper durations) |
+| `runs/design_turn`, `runs/spatial_turn_sweep` | turn analyses on the yard maps: class and duration of each alternative turn (`turn_alt.json`), turns that need one (`turn_extra.json`) |
+| `runs/survey` | public load-out sites: `segments_public.csv` (haul paths by segment, measured on imagery, no coordinates), `critical_points.csv` (the sites as points of the critical-length figure) |
+| `tables/sites`, `tables/sites_multi` | the berth, storage area, gate and waiting area of each shipyard, one voyage and three voyages of storage |
+| `tables/spatial`, `tables/conservative`, `tables/main2`, `tables/design` | report tables of the stages (spatial additions, conservative lifting rule, main2 geometry, design analyses); `reports/after/e1_e3`, `e4_e7`, `extra`: the report tables of `windport_report.py`, `windport_report2.py`, `windport_report3.py` on the batches of the stage |
 
 ## Conventions
 
-- Layouts `A1`, `A2`, `A3` are Layouts 1, 2, 3 of the paper; `map:okpo`, `map:yantai` (or `kind = map` with `site`) the two
-  shipyards.
+- Layouts `A1`, `A2`, `A3` are Layouts 1, 2, 3 of the paper (`A1rows`: Layout 1 with the rebuilt side-by-side cradle rows of
+  the main2 geometry; `A1side`, `A1pass`: side-by-side cradles and passing places of the spatial additions); `map:okpo`,
+  `map:yantai` (or `kind = map` with `site`) the two shipyards; `storage`: `runs` one voyage, `multi` three voyages,
+  `transfer` the two-level transfer.
+- Batch labels: `<stage>:<part>`, with the stages `e1e3` (E1-E3), `runs` (E4-E7), `extra` (the extra analyses), `spatial`,
+  `deadend`, `conservative`, `unified`, `maingeom`, `main2`, `design`; directory names `runs/<stage>_<part>`.
+- `semantics`: `lift_tu0.05_head` is the conservative lifting rule with the area under the load closed for t_u = 0.05 p and
+  the load extent of the main measure; `src` names the batch whose keys a rerun takes.
 - Scenarios (`scen`): `base` (the Rønne case model: loaded 2.5 km/h, crane cycle 1 h), `slow` (loaded 1 km/h), `long`
   (storage-quay route 1,500 m with a 1,200 m single lane), `longslow` (both), `lane` (as `longslow`, the single lane without
   side branches), `longpile` (vehicle and monopile 123.6 m), `fastcrane` (crane cycle 0.5 h), `joint`, `jointshared`
   (unloading and load-out on shared roads, by a dedicated or the shared fleet).
 - Cradles (`mode`): `on_road` roadside cradles, `pull_in` pull-in cradle bays; `S` the number of cradles (0 = direct lift
-  from the vehicle); `lift`: `cradle`, `direct`, `mixed`.
+  from the vehicle); `lift`: `cradle`, `direct`, `mixed`; `S1m`, `S3m` mixed lifting with 1 or 3 cradles.
 - `K` SPMT sets; `L` window length and `G` time before the window (h); `hold` gate holding places Q_h (`inf` unlimited);
-  `rule`: `fcfs` first-come-first-served, `convoy` convoy dispatch; `x` the overlap of unloading and load-out (E5) or the
-  release time of a direct lift as a share of the crane cycle; `lat` the lateral clearance (m).
-- `w1` the bound W, `w1g` the strengthened bound W′, `binding` / `w1g_binding` their binding terms (`interface`, `turnover`,
-  `fleet`, `cut`, `zone`, `prep`, `serial`), `regime` interface-, staging- or flow-limited; `sim` the monopiles lifted in the
-  window in the simulation; `port_h` the vessel's port time (h); `check_ok` 1 if the independent checker accepts the
-  schedule.
+  `rule`: `fcfs` first-come-first-served, `convoy` convoy dispatch; `x` the overlap of unloading and load-out or the release
+  time of a direct lift as a share of the crane cycle; `lat` the lateral clearance (m); `reach` / `S_r` the cradle positions
+  within the crane's reach, `shift_s` / `t_sh` the time to shift for the others.
+- `w1` the bound W, `w1g` the strengthened bound W′, `new` the bound W″ of the recheck tables (`sem = lift`: conservative lifting rule),
+  `binding`, `cls`, `lab` their binding terms (`crane`, `cradle turnover`, `fleet`, `road`; `tie (...)` when several bind;
+  `·preparation` when the preparation term binds), `regime` interface-, staging- or flow-limited; `sim` the monopiles lifted
+  in the window in the simulation; `port_h` the vessel's port time (h); `lstar` the rule-free bound on it; `check_ok` 1 if
+  the independent checker accepts the schedule.
+- Alternative turns (`cls`): `in place, feasible (road surface only)`, `early re-orientation`, `reversing or crab steering`,
+  `no space (operator to confirm)`; durations `t` for loaded speed `base` / `slow` and the lower (`lo`) and upper (`hi`) end.

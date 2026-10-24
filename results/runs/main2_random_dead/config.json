@@ -1,0 +1,20 @@
+{
+ "first": [
+  40.0,
+  110.0,
+  170.0,
+  250.0
+ ],
+ "gen": "dead",
+ "geometry_params": {
+  "gate_cradle_m": 170.0,
+  "loop_open_m": 60.0,
+  "quay_edge_m": 20.0,
+  "ramp_axis": "along",
+  "turn_open_m": 60.0
+ },
+ "n": 12000,
+ "part": "random",
+ "rows_share": 0.4,
+ "start": 84000
+}

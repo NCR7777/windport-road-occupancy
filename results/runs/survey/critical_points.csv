@@ -1,0 +1,33 @@
+kind,name,storage,scen,mode,p,turn_extra,route_m,v,lane_frac,lane_m,src,cut,zone1,w,Q,tl,te,te_occ,dq,c,res,ratio_cut,ratio_zone1,ratio_w
+port,Rotterdam Maasvlakte 2 (Sif),,,on_road,1.0,0.0,655.6,1.0,0.0,10.0,imagery path (public-site survey),2402.0,2429.0,2429.0,1,2375.0,27.0,54.0,0.0,7294.2,r|apron_0,0.667,0.675,0.675
+port,Rotterdam Maasvlakte 2 (Sif),,,pull_in,1.0,0.0,655.6,1.0,0.0,10.0,imagery path (public-site survey),1016.0,2429.0,1016.0,10,989.0,27.0,54.0,1386.0,7294.2,r|apron_0,0.282,0.675,0.282
+port,Rotterdam Maasvlakte 2 (Sif),,,on_road,1.0,0.0,655.6,2.5,0.0,10.0,imagery path (public-site survey),2129.0,2156.0,2156.0,1,2102.0,27.0,54.0,0.0,5504.9,r|apron_0,0.591,0.599,0.599
+port,Rotterdam Maasvlakte 2 (Sif),,,pull_in,1.0,0.0,655.6,2.5,0.0,10.0,imagery path (public-site survey),494.6,2156.0,494.6,10,467.6,27.0,54.0,1634.4,5504.9,r|apron_0,0.137,0.599,0.137
+port,Ferrol / Fene (Navantia Seanergies-Windar),,,on_road,1.0,0.0,322.0,1.0,0.0,10.0,imagery path (public-site survey),2402.0,2429.0,2429.0,1,2375.0,27.0,54.0,0.0,5853.1,r|apron_0,0.667,0.675,0.675
+port,Ferrol / Fene (Navantia Seanergies-Windar),,,pull_in,1.0,0.0,322.0,1.0,0.0,10.0,imagery path (public-site survey),1016.0,2429.0,1016.0,10,989.0,27.0,54.0,1386.0,5853.1,r|apron_0,0.282,0.675,0.282
+port,Ferrol / Fene (Navantia Seanergies-Windar),,,on_road,1.0,0.0,322.0,2.5,0.0,10.0,imagery path (public-site survey),2129.0,2156.0,2156.0,1,2102.0,27.0,54.0,0.0,4784.3,r|apron_0,0.591,0.599,0.599
+port,Ferrol / Fene (Navantia Seanergies-Windar),,,pull_in,1.0,0.0,322.0,2.5,0.0,10.0,imagery path (public-site survey),494.6,2156.0,494.6,10,467.6,27.0,54.0,1634.4,4784.3,r|apron_0,0.137,0.599,0.137
+port,Nordenham-Blexen (Steelwind),,,on_road,1.0,0.0,687.8,1.0,0.0,10.0,imagery path (public-site survey),2402.0,2429.0,2429.0,1,2375.0,27.0,54.0,0.0,7433.3,r|apron_0,0.667,0.675,0.675
+port,Nordenham-Blexen (Steelwind),,,pull_in,1.0,0.0,687.8,1.0,0.0,10.0,imagery path (public-site survey),1016.0,2429.0,1016.0,10,989.0,27.0,54.0,1386.0,7433.3,r|apron_0,0.282,0.675,0.282
+port,Nordenham-Blexen (Steelwind),,,on_road,1.0,0.0,687.8,2.5,0.0,10.0,imagery path (public-site survey),2129.0,2156.0,2156.0,1,2102.0,27.0,54.0,0.0,5574.5,r|apron_0,0.591,0.599,0.599
+port,Nordenham-Blexen (Steelwind),,,pull_in,1.0,0.0,687.8,2.5,0.0,10.0,imagery path (public-site survey),494.6,2156.0,494.6,10,467.6,27.0,54.0,1634.4,5574.5,r|apron_0,0.137,0.599,0.137
+port,Rostock Überseehafen (EEW SPC),,,on_road,1.0,0.0,325.0,1.0,0.0,10.0,imagery path (public-site survey),2402.0,2429.0,2429.0,1,2375.0,27.0,54.0,0.0,5866.0,r|apron_0,0.667,0.675,0.675
+port,Rostock Überseehafen (EEW SPC),,,pull_in,1.0,0.0,325.0,1.0,0.0,10.0,imagery path (public-site survey),1016.0,2429.0,1016.0,10,989.0,27.0,54.0,1386.0,5866.0,r|apron_0,0.282,0.675,0.282
+port,Rostock Überseehafen (EEW SPC),,,on_road,1.0,0.0,325.0,2.5,0.0,10.0,imagery path (public-site survey),2129.0,2156.0,2156.0,1,2102.0,27.0,54.0,0.0,4790.8,r|apron_0,0.591,0.599,0.599
+port,Rostock Überseehafen (EEW SPC),,,pull_in,1.0,0.0,325.0,2.5,0.0,10.0,imagery path (public-site survey),494.6,2156.0,494.6,10,467.6,27.0,54.0,1634.4,4790.8,r|apron_0,0.137,0.599,0.137
+port,Rønne (Bornholm),,,on_road,1.0,0.0,129.4,1.0,0.0,10.0,imagery path (public-site survey),2402.0,2429.0,2429.0,1,2375.0,27.0,54.0,0.0,5021.0,r|apron_0,0.667,0.675,0.675
+port,Rønne (Bornholm),,,pull_in,1.0,0.0,129.4,1.0,0.0,10.0,imagery path (public-site survey),1016.0,2429.0,1016.0,10,989.0,27.0,54.0,1386.0,5021.0,r|apron_0,0.282,0.675,0.282
+port,Rønne (Bornholm),,,on_road,1.0,0.0,129.4,2.5,0.0,10.0,imagery path (public-site survey),2129.0,2156.0,2156.0,1,2102.0,27.0,54.0,0.0,4368.3,r|apron_0,0.591,0.599,0.599
+port,Rønne (Bornholm),,,pull_in,1.0,0.0,129.4,2.5,0.0,10.0,imagery path (public-site survey),494.6,2156.0,494.6,10,467.6,27.0,54.0,1634.4,4368.3,r|apron_0,0.137,0.599,0.137
+port,Vlissingen (Verbrugge Scaldia Terminals),,,on_road,1.0,0.0,239.1,1.0,0.0,10.0,imagery path (public-site survey),2402.0,2429.0,2429.0,1,2375.0,27.0,54.0,0.0,5494.9,r|apron_0,0.667,0.675,0.675
+port,Vlissingen (Verbrugge Scaldia Terminals),,,pull_in,1.0,0.0,239.1,1.0,0.0,10.0,imagery path (public-site survey),1016.0,2429.0,1016.0,10,989.0,27.0,54.0,1386.0,5494.9,r|apron_0,0.282,0.675,0.282
+port,Vlissingen (Verbrugge Scaldia Terminals),,,on_road,1.0,0.0,239.1,2.5,0.0,10.0,imagery path (public-site survey),2129.0,2156.0,2156.0,1,2102.0,27.0,54.0,0.0,4605.3,r|apron_0,0.591,0.599,0.599
+port,Vlissingen (Verbrugge Scaldia Terminals),,,pull_in,1.0,0.0,239.1,2.5,0.0,10.0,imagery path (public-site survey),494.6,2156.0,494.6,10,467.6,27.0,54.0,1634.4,4605.3,r|apron_0,0.137,0.599,0.137
+port,Vlissingen (Verbrugge Zeeland Terminals),,,on_road,1.0,0.0,366.5,1.0,0.0,10.0,imagery path (public-site survey),2402.0,2429.0,2429.0,1,2375.0,27.0,54.0,0.0,6045.3,r|apron_0,0.667,0.675,0.675
+port,Vlissingen (Verbrugge Zeeland Terminals),,,pull_in,1.0,0.0,366.5,1.0,0.0,10.0,imagery path (public-site survey),1016.0,2429.0,1016.0,10,989.0,27.0,54.0,1386.0,6045.3,r|apron_0,0.282,0.675,0.282
+port,Vlissingen (Verbrugge Zeeland Terminals),,,on_road,1.0,0.0,366.5,2.5,0.0,10.0,imagery path (public-site survey),2129.0,2156.0,2156.0,1,2102.0,27.0,54.0,0.0,4880.5,r|apron_0,0.591,0.599,0.599
+port,Vlissingen (Verbrugge Zeeland Terminals),,,pull_in,1.0,0.0,366.5,2.5,0.0,10.0,imagery path (public-site survey),494.6,2156.0,494.6,10,467.6,27.0,54.0,1634.4,4880.5,r|apron_0,0.137,0.599,0.137
+port,Eemshaven (Gode Wind 3: BOW storage area → Wagenborg quay),,,on_road,1.0,0.0,1135.2,1.0,0.768,794.6,imagery path (public-site survey),4302.9,5832.9,4302.9,2,3705.6,597.3,597.3,1530.0,9366.1,r|corr_lane_0,1.195,1.62,1.195
+port,Eemshaven (Gode Wind 3: BOW storage area → Wagenborg quay),,,pull_in,1.0,0.0,1135.2,1.0,0.768,794.6,imagery path (public-site survey),4302.9,5832.9,4302.9,2,3705.6,597.3,597.3,1530.0,9366.1,r|corr_lane_0,1.195,1.62,1.195
+port,Eemshaven (Gode Wind 3: BOW storage area → Wagenborg quay),,,on_road,1.0,0.0,1135.2,2.5,0.768,794.6,imagery path (public-site survey),2151.5,3843.5,2151.5,2,1554.2,597.3,597.3,1692.0,6540.8,r|corr_lane_0,0.598,1.068,0.598
+port,Eemshaven (Gode Wind 3: BOW storage area → Wagenborg quay),,,pull_in,1.0,0.0,1135.2,2.5,0.768,794.6,imagery path (public-site survey),2151.5,3843.5,2151.5,2,1554.2,597.3,597.3,1692.0,6540.8,r|corr_lane_0,0.598,1.068,0.598

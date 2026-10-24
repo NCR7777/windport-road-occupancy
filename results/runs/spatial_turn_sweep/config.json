@@ -1,0 +1,110 @@
+{
+ "base": {
+  "B": 9.5,
+  "Lv": 110.0,
+  "hd_s": 1800.0,
+  "hp_s": 1800.0,
+  "hy_s": 1800.0,
+  "lift_s": 3600.0,
+  "plat_len": 30.0,
+  "plat_w": 4.86,
+  "release_frac": 0.0,
+  "roro_s": 14400.0,
+  "sweep_steer_s": 120.0,
+  "v_empty": 1.3888888888888888,
+  "v_loaded": 0.6944444444444444
+ },
+ "grid": {
+  "inner_m": 8.0,
+  "modes": [
+   "on_road",
+   "pull_in"
+  ],
+  "sites": [
+   "okpo",
+   "yantai"
+  ],
+  "step_deg": 2.0,
+  "step_m": 2.0,
+  "storage": [
+   "runs",
+   "multi"
+  ]
+ },
+ "layers": {
+  "building": null,
+  "other": [
+   "yard",
+   "assembly_yard",
+   "buffer",
+   "steel_stockyard",
+   "offshore_fabrication_yard",
+   "gantry_crane_span"
+  ],
+  "water": [
+   "dry_dock",
+   "floating_dock"
+  ]
+ },
+ "networks": {
+  "okpo": "okpo/rev1833",
+  "yantai": "yantai/rev396"
+ },
+ "part": "turn",
+ "sites_multi": {
+  "okpo": {
+   "cradles": [
+    [
+     "road_trace_206",
+     112.1
+    ],
+    [
+     "road_trace_206",
+     2.1
+    ],
+    [
+     "road_trace_019",
+     54.0
+    ],
+    [
+     "road_trace_019",
+     164.0
+    ],
+    [
+     "road_trace_019",
+     274.0
+    ],
+    [
+     "road_trace_019",
+     384.0
+    ],
+    [
+     "road_trace_019",
+     494.0
+    ],
+    [
+     "road_trace_019",
+     604.0
+    ]
+   ],
+   "gate": "node_trace_018",
+   "near": "node_trace_055",
+   "quay_zone": "zone_trace_024",
+   "storage_zone": "zone_trace_001",
+   "yard": "yupu"
+  },
+  "yantai": {
+   "cradles": [
+    [
+     "road_trace_072",
+     21.1
+    ]
+   ],
+   "gate": "node_trace_029",
+   "near": "node_trace_082",
+   "quay_zone": "zone_trace_029",
+   "storage_zone": "zone_trace_030",
+   "yard": "yantai"
+  }
+ }
+}

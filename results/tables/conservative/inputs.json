@@ -1,0 +1,83 @@
+{
+ "new": {
+  "e1e3:e1": "runs/conservative_e1e3_e1",
+  "e1e3:e1h": "runs/conservative_e1e3_e1h",
+  "e1e3:rel": "runs/conservative_e1e3_rel",
+  "e1e3:e3": "runs/conservative_e1e3_e3",
+  "runs:e4": "runs/conservative_runs_e4",
+  "runs:e5": "runs/conservative_runs_e5",
+  "runs:e6": "runs/conservative_runs_e6",
+  "runs:e7": "runs/conservative_runs_e7",
+  "runs:pocket": "runs/conservative_runs_pocket",
+  "runs:conv": "runs/conservative_runs_conv",
+  "runs:e2c": "runs/conservative_runs_e2c",
+  "runs:sens": "runs/conservative_runs_sens",
+  "extra:port": "runs/conservative_extra_port",
+  "extra:fix": "runs/conservative_extra_fix",
+  "extra:mix6": "runs/conservative_extra_mix6",
+  "extra:sens": "runs/conservative_extra_sens",
+  "extra:pub": "runs/conservative_extra_pub",
+  "extra:mixx": "runs/conservative_extra_mixx",
+  "runs:sens7": "runs/conservative_runs_sens7",
+  "extra:sens5": "runs/conservative_extra_sens5",
+  "e1e3:e2": "runs/conservative_e2",
+  "e1e3:e2long": "runs/conservative_e2/e2long"
+ },
+ "recheck": "runs/conservative_recheck",
+ "orig": {
+  "windport_report": {
+   "e1": "runs/e1",
+   "e1h": "runs/e1_hold",
+   "rel": "runs/release_time",
+   "e3": "runs/e3",
+   "e2": "runs/e2",
+   "e2long": "runs/e2_long",
+   "thm": "runs/theorems",
+   "w1": "runs/w1_grid"
+  },
+  "windport_report2": {
+   "e4": "runs/e4",
+   "e5": "runs/e5",
+   "e6": "runs/e6",
+   "e7": "runs/e7",
+   "pocket": "runs/pocket",
+   "conv": "runs/convoy_hold",
+   "e2c": "runs/e2_convoy",
+   "sens": "runs/sens",
+   "sens7": "runs/sens_e7",
+   "random": "runs/random_bound",
+   "chain": "runs/chain",
+   "sites": "tables/sites",
+   "e1": "runs/e1",
+   "e1h": "runs/e1_hold",
+   "e2": "runs/e2",
+   "e2long": "runs/e2_long"
+  },
+  "windport_report3": {
+   "port": "runs/port_time",
+   "fix": "runs/fixed_time",
+   "mix6": "runs/mixed_e4",
+   "sens": "runs/sens_extra",
+   "pub": "runs/public_projects",
+   "example": "runs/example",
+   "critical": "runs/critical",
+   "facts": "runs/facts",
+   "random": "runs/random_lift_1",
+   "random2": "runs/random_lift_2",
+   "random3": "runs/random_lift_3",
+   "random4": "runs/random_lift_4",
+   "sens5": "runs/sens_e5",
+   "mixx": "runs/mixed_release",
+   "recheck": "runs/recheck",
+   "e3": "runs/e3",
+   "e4": "runs/e4",
+   "e5": "runs/e5",
+   "sens0": "runs/sens"
+  }
+ },
+ "reports": {
+  "windport_report": "tables/e1_e3",
+  "windport_report2": "tables/e4_e7",
+  "windport_report3": "tables/extra"
+ }
+}

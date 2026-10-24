@@ -1,0 +1,5 @@
+site,st,nodes,ok_b,ok_bw,ok_all,circ,routes,r_b,r_bw,r_all
+okpo,runs,5,1,1,1,1,48,4,4,4
+okpo,multi,9,4,4,3,1,204,0,0,0
+yantai,runs,5,1,1,1,0,20,4,4,4
+yantai,multi,8,4,2,0,0,4,0,0,0

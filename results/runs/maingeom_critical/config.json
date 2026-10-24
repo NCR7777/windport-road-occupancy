@@ -1,0 +1,82 @@
+{
+ "geometry_params": {
+  "gate_cradle_m": 170.0,
+  "quay_edge_m": 20.0,
+  "turn_open_m": 60.0
+ },
+ "grid": {
+  "ell_max": 6000.0,
+  "modes": [
+   "on_road",
+   "pull_in"
+  ],
+  "named": {
+   "K": 10,
+   "kinds": [
+    "A1",
+    "A2",
+    "A3"
+   ],
+   "p": [
+    1.0,
+    0.5
+   ],
+   "scen": [
+    "base",
+    "slow",
+    "longslow",
+    "lane"
+   ],
+   "site_scen": [
+    "base",
+    "slow"
+   ],
+   "sites": [
+    "okpo",
+    "yantai"
+   ]
+  },
+  "p": [
+   0.5,
+   1.0,
+   1.5
+  ],
+  "v": [
+   0.5,
+   0.75,
+   1.0,
+   1.25,
+   1.5,
+   2.0,
+   2.5,
+   3.0,
+   4.0,
+   5.0
+  ],
+  "wide_m": 200.0,
+  "win": {
+   "G": 24,
+   "K": 10,
+   "Lp": [
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24
+   ],
+   "S": [
+    0,
+    1,
+    3
+   ],
+   "p": 1.0,
+   "v": [
+    1.0,
+    2.5
+   ]
+  }
+ },
+ "part": "critical"
+}

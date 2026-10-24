@@ -32,6 +32,7 @@ authors:
 license:
   - MIT          # code (LICENSE)
   - CC-BY-4.0    # derived road networks, parameter register and result data (LICENSE-data)
+  - ODbL-1.0     # OpenStreetMap extracts in data/osm/ (data/osm/README.md)
 repository-code: "https://github.com/NCR7777/windport-road-occupancy"
 # doi: the DOI of the Zenodo archive of the accompanying version, on acceptance of the paper
 keywords:
@@ -42,8 +43,10 @@ keywords:
   - road occupancy
   - capacity bounds
   - discrete-event simulation
+  - load-out window
+  - site screening
 preferred-citation:
-  type: article
+  type: unpublished
   title: "Road-occupancy capacity of offshore wind marshalling ports: transporter fleet, quayside staging and access-road co-design under load-out windows"
   authors:
     - family-names: Na
@@ -66,5 +69,5 @@ preferred-citation:
     - family-names: Song
       given-names: Chengjing
       orcid: "https://orcid.org/0009-0003-9279-437X"
-  journal: "submitted to Ocean Engineering"
+  notes: "manuscript in preparation (Ocean Engineering)"
   year: 2026

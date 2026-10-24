@@ -140,3 +140,4 @@ road_trace_130,road091,node_ba52319f-a3f6-405c-82dd-859fb7c12b89,node_trace_090,
 road_trace_131,road081,node_trace_091,node_trace_083,199.78670820285652,25.0,known
 road_trace_132,road001,node_3ae8b0e5-3951-4995-9e8f-c6428b5a7d13,node_trace_091,15.00436049098649,,unrestricted
 pocket_stub,pocket_stub,node_trace_066,pocket,30.0,20.0,known
+pocket2_stub,pocket2_stub,node_trace_082,pocket2,30.0,20.0,known

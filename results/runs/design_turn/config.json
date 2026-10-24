@@ -1,0 +1,53 @@
+{
+ "clear_m": 1.0,
+ "fine": {
+  "ds": 0.5,
+  "nt": 11,
+  "step": 0.5
+ },
+ "geometry_params": {
+  "gate_cradle_m": 170.0,
+  "loop_open_m": 60.0,
+  "quay_edge_m": 20.0,
+  "ramp_axis": "along",
+  "turn_open_m": 60.0
+ },
+ "grid": {
+  "fine": 2.5,
+  "lam": [
+   -160.0,
+   160.0,
+   10.0
+  ],
+  "s": [
+   -110.0,
+   110.0,
+   10.0
+  ],
+  "u": [
+   -110.0,
+   110.0,
+   10.0
+  ]
+ },
+ "half": 260.0,
+ "networks": {
+  "okpo": "okpo/rev1833",
+  "yantai": "yantai/rev396"
+ },
+ "max_try": 40,
+ "part": "turn",
+ "res": 1.0,
+ "speeds": {
+  "base": 0.6944444444444444,
+  "slow": 0.2777777777777778
+ },
+ "step": [
+  2.0,
+  3
+ ],
+ "tsw": [
+  30.0,
+  300.0
+ ]
+}

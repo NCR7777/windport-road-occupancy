@@ -1,0 +1,13 @@
+site,scen,mode,n,tie_w1,tie_w1g,over,interface,staging,flow,cut,tl_s,te_s,c_s,k_dagger,chain,plat_L12_S1,sum_fcfs,sum_convoy,checks
+okpo,base,on_road,320,89.1%,89.1%,0,312,3,5,"S = 0: 087; S = 1,2,3,4: 206",1961.424,52.956,4333.329,2.151197,road_trace_021|road_trace_203,K=2 (12),3565,3565,640
+okpo,base,pull_in,320,89.1%,89.1%,0,312,3,5,"S = 0,2,3,4: 087; S = 1: 206",327.024,52.956,4333.329,11.404097,road_trace_021|road_trace_203,K=2 (12),3565,3565,640
+okpo,slow,on_road,320,80.6%,80.6%,0,304,7,9,"S = 0: 087; S = 1,2,3,4: 206",2203.56,52.956,5066.657,2.245345,road_trace_021|road_trace_203,K=3 (12),3457,3457,640
+okpo,slow,pull_in,320,80.9%,80.9%,0,304,7,9,"S = 0,2,3,4: 087; S = 1: 206",817.56,52.956,5066.657,5.820292,road_trace_021|road_trace_203,K=3 (12),3463,3463,640
+okpo,fastcrane,on_road,320,15.9%,15.9%,0,231,76,13,"S = 0: 087; S = 1,2,3,4: 206",1961.424,52.956,4333.329,2.151197,road_trace_021|road_trace_203,K=3 (15),5400,5400,640
+okpo,fastcrane,pull_in,320,44.4%,44.4%,0,267,40,13,"S = 0,2,3,4: 087; S = 1: 206",327.024,52.956,4333.329,11.404097,road_trace_021|road_trace_203,K=3 (15),5944,5944,640
+yantai,base,on_road,128,82.8%,82.8%,0,124,3,1,S = 0: 049; S = 1: 072,1842.818,23.305,4113.696,2.204408,road_trace_082|road_trace_076|road_trace_086|road_trace_055|road_trace_060,K=3 (12),1420,1420,256
+yantai,base,pull_in,128,82.8%,82.8%,0,124,3,1,"S = 0,1: 049",280.908,41.427,4113.696,12.762183,road_trace_082|road_trace_076|road_trace_086|road_trace_055|road_trace_060,K=3 (12),1420,1420,256
+yantai,slow,on_road,128,77.3%,77.3%,0,122,5,1,S = 0: 049; S = 1: 072,1907.045,23.305,4627.391,2.397178,road_trace_082|road_trace_076|road_trace_086|road_trace_055|road_trace_060,K=3 (12),1372,1372,256
+yantai,slow,pull_in,128,77.3%,77.3%,0,122,5,1,"S = 0,1: 049",702.27,41.427,4627.391,6.22215,road_trace_082|road_trace_076|road_trace_086|road_trace_055|road_trace_060,K=3 (12),1368,1368,256
+yantai,fastcrane,on_road,128,25.0%,25.0%,0,82,44,2,S = 0: 049; S = 1: 072,1842.818,23.305,4113.696,2.204408,road_trace_082|road_trace_076|road_trace_086|road_trace_055|road_trace_060,K=4 (19),2332,2332,256
+yantai,fastcrane,pull_in,128,25.0%,25.0%,0,106,20,2,"S = 0,1: 049",280.908,41.427,4113.696,12.762183,road_trace_082|road_trace_076|road_trace_086|road_trace_055|road_trace_060,K=4 (19),2330,2330,256

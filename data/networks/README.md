@@ -1,7 +1,9 @@
 # Road networks of the two shipyards (derived graphs)
 
-The shipyard case of the paper (Section 5, experiment E6) places a load-out berth, a monopile storage area and an off-road
-waiting area on the road networks of two shipyards. The networks are released as derived graphs: the topology and the
+The shipyard case of the paper (Section 5: Tables 5 and 6, Supplementary Tables S8 and S9) places a load-out berth, a
+monopile storage area and an off-road waiting area on the road networks of two shipyards: a storage area for one voyage
+(`windport.shipyard.SITES`), a storage area for three voyages (`windport.sim4.SITES_MULTI`), and both together as the two
+levels of storage, with transfers from the far to the near one (`experiments/windport_design_lib.py`). The networks are released as derived graphs: the topology and the
 quantities the model uses, with no coordinates. They were derived from vector maps digitised from Google Earth imagery
 (Google Earth Pro; Okpo dated 15 November 2023: Google, Airbus, TMap Mobility; Yantai dated 11 March 2025: Google, Airbus).
 Neither the imagery nor the centre-line geometry traced from it is released. Map lines delineate study areas and do not
@@ -16,10 +18,19 @@ necessarily depict accepted national boundaries.
 the cradles and the gate of `SITES` and returns the network the simulation runs on (`windport.sim2.build_map` with
 `geo = dict(kind="map", site=..., cradle_mode=..., n_cradles=...)`).
 
-Each graph holds the yard's road network as mapped, plus the off-road waiting area of this study: a stub road
-`pocket_stub` (30 m long, 20 m wide) from the junction `SITES[site]["near"]` beside the storage area to the end node
-`pocket`, laid in the direction farthest from the roads at that junction, with movements between the stub and every other
-road at the junction (one-way roads only in their direction). Idle vehicles park at `pocket`.
+Each graph holds the yard's road network as mapped, plus the two off-road waiting areas of this study: a stub road (30 m
+long, 20 m wide) from a junction beside a storage area to an end node, laid in the direction farthest from the roads at
+that junction, with movements between the stub and every other road at the junction (one-way roads only in their
+direction). Idle vehicles park at the end node.
+
+| Stub road, end node | Junction | Used with |
+|---|---|---|
+| `pocket_stub`, `pocket` | `windport.shipyard.SITES[site]["near"]` (Okpo `node_trace_021`, Yantai `node_trace_066`) | the storage area for one voyage |
+| `pocket2_stub`, `pocket2` | `windport.sim4.SITES_MULTI[site]["near"]` (Okpo `node_trace_055`, Yantai `node_trace_082`) | the storage area for three voyages; the far storage area of the two-level transfer |
+
+A network has one waiting area: `windport.shipyard.build` keeps the stub at the junction of the storage area in use, under the
+names `pocket_stub` / `pocket` (its rows stay last), and drops the other one with its movements. Both stubs attach at
+existing junctions.
 
 Names (of roads, nodes, buildings, zones) are the map's names translated from Chinese; identifiers (`road_…`, `node_…`,
 `facility_…`, `zone_…`) are those of the maps and appear in the result files. All files are UTF-8 CSV with a header row;
@@ -73,7 +84,12 @@ storage area, the cradles and the waiting area of the study take part in the flo
 
 ## Checks
 
-The graphs were derived from the maps with the simulation's own code: for both yards and both cradle modes, the network
-built from a graph and the network built from the map are identical in every road length and width, every arc, permitted
-movement and turn angle (bit for bit), every stop, entrance and resource capacity (RECOMPUTE.md); the simulated points of
-`results/runs/e6` rerun from the graphs to every column of `points.csv`.
+The graphs were derived from the maps with the simulation's own code. For both yards, the network built from a graph and
+the network built from the map are identical in every road length and width, every arc, permitted movement and turn angle
+(bit for bit), every stop, entrance and resource capacity, for each storage arrangement the paper uses: one voyage and
+three voyages with roadside and with pull-in cradles, and the two-level transfer (ten networks; RECOMPUTE.md).
+
+The turns of the loaded routes that need an alternative manoeuvre (reversing or crab steering, re-orientation before the
+junction) were found on the map geometry (buildings, water); they are released as results:
+`results/runs/spatial_turn_sweep/turn_extra.json` (the turns) and `results/runs/design_turn/turn_alt.json` (class and duration
+of each), keyed by `node|in road|out road` of these graphs.

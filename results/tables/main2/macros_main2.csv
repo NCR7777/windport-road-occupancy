@@ -1,0 +1,79 @@
+macro,manuscript,legacy,main,main2,changed,source
+ClearPull,,,414,414,0,"main geometry: time o from reaching the first cradle position to the vehicle body clearing the road (s, pull-in)"
+ClearRoad,,,0,0,0,"main geometry: time o from reaching the first cradle position to the vehicle body clearing the road (s, roadside)"
+CoreCradleFirstOneFifty,,,19.83,19.83,0,first cradle 150 m (same value in the conservative lifting rule sens)
+CoreCradleHoldInf,,,14.65,14.65,0,"main geometry, unlimited holding places (pull-in)"
+CoreCradleHoldOne,,,18.25,18.25,0,"main geometry, one gate holding place (pull-in)"
+CoreCradleLegacy,,,18.64,18.64,0,core case cradle S = 1 on the old 40 m geometry (violates the first-cradle rule)
+CoreCradleLegacyGate,,,20.48,20.48,0,"old 40 m geometry, load extent counted to the gate (conservative lifting rule span)"
+CorePlainCradle,,,19.67,19.67,0,main geometry: cradle S = 1 under the original lifting rule (appendix comparison)
+CoreSideCradle,,,21.19,20.78,1,"main geometry, side-by-side cradle S = 1 (side by side abstracts short pull-in spurs)"
+CoreSideDirect,,,,18.22,1,main2 geometry: core case: rebuilt side-by-side direct lift S = 0 (= L″_lift*)
+CoreSideHoldInf,,,,13.70,1,"main2 geometry: core case: rebuilt side-by-side cradle S = 1, unlimited holding places"
+CoreSideHoldOne,,,,17.54,1,"main2 geometry: core case: rebuilt side-by-side cradle S = 1, one gate holding place"
+CoreSideMixed,,,,17.09,1,main2 geometry: core case: rebuilt side-by-side mixed lifting S = 1
+CoreSideThree,,,,15.86,1,main2 geometry: core case: rebuilt side-by-side cradle S = 3 (first-come-first-served)
+CoreSideThreeConvoy,,,,14.86,1,"main2 geometry: core case: rebuilt side-by-side cradle S = 3, convoy dispatch"
+CoreSideThreeMixedConvoy,,,,11.90,1,"main2 geometry: core case: rebuilt side-by-side mixed lifting S = 3, convoy dispatch"
+EOneTieLaneAOneW,,95.0\%,90.6\%,90.6\%,0,E1 manuscript setting vs unified W″_lift (480 points)
+EOneTieLaneAThreeW,,73.3\%,67.7\%,67.7\%,0,E1 manuscript setting vs unified W″_lift (480 points)
+EOneTieLaneATwoW,,73.8\%,72.9\%,72.9\%,0,E1 manuscript setting vs unified W″_lift (480 points)
+EOneTieLanePullW,,57.1\%,52.9\%,52.9\%,0,E1 manuscript setting vs unified W″_lift (480 points)
+EOneTieW,,79.5\%,77.2\%,77.4\%,1,"E1 all 31,680 points"
+ETwoOptN,,521,523,523,0,E2 number of proven-optimal cases
+ETwoTieWpp,,,455,455,0,E2: = W″_lift in the 523 proven-optimal cases
+EpsU,,,148,148,0,"main geometry: time ε_U for the delivery vehicle to leave the area under the load (s, core case)"
+FirstCradleM,,,170,170,0,main geometry: first cradle position from the gate (m)
+LStarCradle,,,20.05,20.05,0,"main geometry core: L″_lift* for cradle S = 1, Q_h = 0 (minimum over K; = first-come-first-served)"
+LStarDirPull,,,18.42,18.42,0,main geometry core: direct lift pull-in (L″_lift* minimum over K)
+LStarDirRoad,,,17.39,17.39,0,main geometry core: direct lift roadside (L″_lift* minimum over K)
+OkpoMultiPullFcfsRange,,,20.42–24.42,20.42–24.42,0,"three-voyage first-come-first-served range: turn feasible → substitute 1,800 s (main-text figure)"
+OkpoMultiPullFcfsTurnEighteen,,,24.42,24.42,0,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 1800 s"
+OkpoMultiPullFcfsTurnSix,,,21.76,21.76,0,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 600 s"
+OkpoMultiPullHoldOneRange,,,15.13–18.72,15.13–18.72,0,"one gate holding place: turn feasible → substitute 1,800 s"
+OkpoMultiPullLStarTurnEighteen,,,14.38,14.38,0,"three-voyage L″_lift* (K = 2–8), turn substitute 1800 s"
+OkpoMultiPullLStarTurnSix,,,14.38,14.38,0,"three-voyage L″_lift* (K = 2–8), turn substitute 600 s"
+OkpoMultiRoadFcfsRange,,,20.42–24.42,20.42–24.42,0,"three-voyage first-come-first-served range: turn feasible → substitute 1,800 s (main-text figure)"
+OkpoMultiRoadFcfsTurnEighteen,,,24.42,24.42,0,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 1800 s"
+OkpoMultiRoadFcfsTurnSix,,,21.76,21.76,0,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 600 s"
+OkpoMultiRoadHoldOneRange,,,16.25–19.63,16.25–19.63,0,"one gate holding place: turn feasible → substitute 1,800 s"
+OkpoMultiRoadLStarTurnEighteen,,,14.38,14.38,0,"three-voyage L″_lift* (K = 2–8), turn substitute 1800 s"
+OkpoMultiRoadLStarTurnSix,,,14.38,14.38,0,"three-voyage L″_lift* (K = 2–8), turn substitute 600 s"
+OkpoMultiTurnOk,,,0/204,0/204,0,spatial additions sweep check: the Okpo three-voyage route is feasible throughout
+QuayEdgeM,,,20,20,0,"main geometry: shoreline from the quay-front road centreline (m, in series; used only in geometry checks and plots)"
+QuayEdgeSideM,,,45,85.05,1,main2 geometry: side by side (rebuilt rows): northward distance of the shoreline from the gate (m) = centreline of the row nearest the shore + 8.25 m; used only in geometry checks and plots
+RandUnifiedN,,,"24{,}000","24{,}000",0,main geometry random regression cases (two lifting rules per case)
+RandUnifiedPiles,,,"340{,}811","340{,}718",1,number of piles checked one by one
+RecheckLiftOver,,0,0,0,0,rows with simulation / CP-SAT > W″_lift
+RecheckLiftRows,,,"141{,}772","140{,}291",1,"main geometry recheck rows (main geometry, conservative lifting rule, using W″_lift; plus 160 rows under the original lifting rule using W″, 140,451 rows in total)"
+RecheckLiftTie,,,67.1\%,67.1\%,0,share of window forms at equality
+RecheckOrigSensRows,,,160,160,0,"main geometry recheck rows under the original lifting rule (orig group of the t_u sensitivity, using W″)"
+RegimeLaneCrane,,,225,225,0,"points per class of the five case classes (long single lane, main geometry)"
+RegimeLaneFleet,,,96,96,0,"points per class of the five case classes (long single lane, main geometry)"
+RegimeLanePrep,,,436,436,0,"points per class of the five case classes (long single lane, main geometry)"
+RegimeLaneRoad,,,395,395,0,"points per class of the five case classes (long single lane, main geometry)"
+RegimeRoadTie,,,76.5\%,76.5\%,0,"share at the bound for the road class (main geometry, 1291 points)"
+RowDistFar,,,,85.05,1,main2 geometry: rebuilt side by side: pile centreline of cradle position 5 from the shoreline (m)
+RowDistNear,,,,8.25,1,main2 geometry: rebuilt side by side: pile centreline of cradle position 0 from the shoreline (m)
+RowDistThree,,,,38.97,1,main2 geometry: rebuilt side by side: pile centreline of cradle position 2 from the shoreline (m)
+RowDistTwo,,,,23.61,1,main2 geometry: rebuilt side by side: pile centreline of cradle position 1 from the shoreline (m)
+RowHeadM,,,,170,1,main2 geometry: rebuilt side by side: vehicle front from the branch road when the delivery vehicle is parked (m) = x0 + L_v
+RowPitchM,,,,15.36,1,main2 geometry: rebuilt side by side: row pitch B + w_e + c (m)
+RowStartM,,,,60,1,main2 geometry: rebuilt side by side: west end of the pile from the branch road (m) = L_v/2 + δ
+TuRangeCradle,,,19.67–20.10,19.67–20.10,0,main geometry: cradle S = 1 at t_u = 0–0.1 p (roadside)
+TuRangeDirect,,,16.94–17.84,16.94–17.84,0,main geometry: direct lift S = 0 at t_u = 0–0.1 p (roadside)
+TurnOpenM,,,60,60,0,main geometry: gate turning area radius (m)
+XThreshPull,,,830,830,0,"main geometry: release-time threshold x·p beyond which direct lift S = 0 is slower than cradle S = 1 (s, pull-in, xscan linear interpolation)"
+XThreshRoad,,,1244,1244,0,"main geometry: release-time threshold x·p beyond which direct lift S = 0 is slower than cradle S = 1 (s, roadside, xscan linear interpolation)"
+YantaiMultiPullFcfsRange,,,10.90–22.90,10.90–22.90,0,"three-voyage first-come-first-served range: turn feasible → substitute 1,800 s (main-text figure)"
+YantaiMultiPullFcfsTurnEighteen,,,22.90,22.90,0,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 1800 s"
+YantaiMultiPullFcfsTurnSix,,,14.90,14.90,0,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 600 s"
+YantaiMultiPullHoldOneRange,,,10.55–22.52,10.55–22.52,0,"one gate holding place: turn feasible → substitute 1,800 s"
+YantaiMultiPullLStarTurnEighteen,,,10.00,10.00,0,"three-voyage L″_lift* (K = 2–8), turn substitute 1800 s"
+YantaiMultiPullLStarTurnSix,,,10.00,10.00,0,"three-voyage L″_lift* (K = 2–8), turn substitute 600 s"
+YantaiMultiRoadFcfsRange,,,10.90–22.90,10.90–22.90,0,"three-voyage first-come-first-served range: turn feasible → substitute 1,800 s (main-text figure)"
+YantaiMultiRoadFcfsTurnEighteen,,,22.90,22.90,0,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 1800 s"
+YantaiMultiRoadFcfsTurnSix,,,14.90,14.90,0,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 600 s"
+YantaiMultiRoadHoldOneRange,,,10.55–22.52,10.55–22.52,0,"one gate holding place: turn feasible → substitute 1,800 s"
+YantaiMultiRoadLStarTurnEighteen,,,10.00,10.00,0,"three-voyage L″_lift* (K = 2–8), turn substitute 1800 s"
+YantaiMultiRoadLStarTurnSix,,,10.00,10.00,0,"three-voyage L″_lift* (K = 2–8), turn substitute 600 s"

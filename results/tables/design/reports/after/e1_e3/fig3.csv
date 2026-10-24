@@ -1,0 +1,321 @@
+scen,mode,series,S,n_v,K,port_h
+base,on_road,road occupancy Q_h = 0,1,10,1,15.049144
+base,on_road,road occupancy Q_h = 0,1,10,2,10.0
+base,on_road,road occupancy Q_h = 0,1,10,3,10.0
+base,on_road,road occupancy Q_h = 0,1,10,4,10.0
+base,on_road,road occupancy Q_h = 0,1,10,5,10.0
+base,on_road,road occupancy Q_h = 0,1,10,6,10.0
+base,on_road,road occupancy Q_h = 0,1,10,7,10.0
+base,on_road,road occupancy Q_h = 0,1,10,8,10.0
+base,on_road,road occupancy Q_h unlimited,1,10,1,15.049144
+base,on_road,road occupancy Q_h unlimited,1,10,2,10.0
+base,on_road,road occupancy Q_h unlimited,1,10,3,10.0
+base,on_road,road occupancy Q_h unlimited,1,10,4,10.0
+base,on_road,road occupancy Q_h unlimited,1,10,5,10.0
+base,on_road,road occupancy Q_h unlimited,1,10,6,10.0
+base,on_road,road occupancy Q_h unlimited,1,10,7,10.0
+base,on_road,road occupancy Q_h unlimited,1,10,8,10.0
+base,on_road,fixed duration K_ref = 1,1,10,1,15.049143
+base,on_road,fixed duration K_ref = 1,1,10,2,10.0
+base,on_road,fixed duration K_ref = 1,1,10,3,10.0
+base,on_road,fixed duration K_ref = 1,1,10,4,10.0
+base,on_road,fixed duration K_ref = 1,1,10,5,10.0
+base,on_road,fixed duration K_ref = 1,1,10,6,10.0
+base,on_road,fixed duration K_ref = 1,1,10,7,10.0
+base,on_road,fixed duration K_ref = 1,1,10,8,10.0
+base,on_road,fixed duration K_ref = 3,1,10,1,14.822254
+base,on_road,fixed duration K_ref = 3,1,10,2,10.0
+base,on_road,fixed duration K_ref = 3,1,10,3,10.0
+base,on_road,fixed duration K_ref = 3,1,10,4,10.0
+base,on_road,fixed duration K_ref = 3,1,10,5,10.0
+base,on_road,fixed duration K_ref = 3,1,10,6,10.0
+base,on_road,fixed duration K_ref = 3,1,10,7,10.0
+base,on_road,fixed duration K_ref = 3,1,10,8,10.0
+slow,on_road,road occupancy Q_h = 0,1,10,1,20.268361
+slow,on_road,road occupancy Q_h = 0,1,10,2,12.366544
+slow,on_road,road occupancy Q_h = 0,1,10,3,12.366544
+slow,on_road,road occupancy Q_h = 0,1,10,4,12.366544
+slow,on_road,road occupancy Q_h = 0,1,10,5,12.366544
+slow,on_road,road occupancy Q_h = 0,1,10,6,12.366544
+slow,on_road,road occupancy Q_h = 0,1,10,7,12.366544
+slow,on_road,road occupancy Q_h = 0,1,10,8,12.366544
+slow,on_road,road occupancy Q_h unlimited,1,10,1,20.268361
+slow,on_road,road occupancy Q_h unlimited,1,10,2,12.396726
+slow,on_road,road occupancy Q_h unlimited,1,10,3,10.0
+slow,on_road,road occupancy Q_h unlimited,1,10,4,10.0
+slow,on_road,road occupancy Q_h unlimited,1,10,5,10.0
+slow,on_road,road occupancy Q_h unlimited,1,10,6,10.0
+slow,on_road,road occupancy Q_h unlimited,1,10,7,10.0
+slow,on_road,road occupancy Q_h unlimited,1,10,8,10.0
+slow,on_road,fixed duration K_ref = 1,1,10,1,20.26836
+slow,on_road,fixed duration K_ref = 1,1,10,2,10.921571
+slow,on_road,fixed duration K_ref = 1,1,10,3,10.0
+slow,on_road,fixed duration K_ref = 1,1,10,4,10.0
+slow,on_road,fixed duration K_ref = 1,1,10,5,10.0
+slow,on_road,fixed duration K_ref = 1,1,10,6,10.0
+slow,on_road,fixed duration K_ref = 1,1,10,7,10.0
+slow,on_road,fixed duration K_ref = 1,1,10,8,10.0
+slow,on_road,fixed duration K_ref = 3,1,10,1,36.20139
+slow,on_road,fixed duration K_ref = 3,1,10,2,18.946293
+slow,on_road,fixed duration K_ref = 3,1,10,3,12.366543
+slow,on_road,fixed duration K_ref = 3,1,10,4,10.127549
+slow,on_road,fixed duration K_ref = 3,1,10,5,10.0
+slow,on_road,fixed duration K_ref = 3,1,10,6,10.0
+slow,on_road,fixed duration K_ref = 3,1,10,7,10.0
+slow,on_road,fixed duration K_ref = 3,1,10,8,10.0
+longslow,on_road,road occupancy Q_h = 0,1,10,1,28.908361
+longslow,on_road,road occupancy Q_h = 0,1,10,2,20.046544
+longslow,on_road,road occupancy Q_h = 0,1,10,3,20.046544
+longslow,on_road,road occupancy Q_h = 0,1,10,4,20.046544
+longslow,on_road,road occupancy Q_h = 0,1,10,5,20.046544
+longslow,on_road,road occupancy Q_h = 0,1,10,6,20.046544
+longslow,on_road,road occupancy Q_h = 0,1,10,7,20.046544
+longslow,on_road,road occupancy Q_h = 0,1,10,8,20.046544
+longslow,on_road,road occupancy Q_h unlimited,1,10,1,28.908361
+longslow,on_road,road occupancy Q_h unlimited,1,10,2,16.716726
+longslow,on_road,road occupancy Q_h unlimited,1,10,3,13.412363
+longslow,on_road,road occupancy Q_h unlimited,1,10,4,13.322363
+longslow,on_road,road occupancy Q_h unlimited,1,10,5,11.715181
+longslow,on_road,road occupancy Q_h unlimited,1,10,6,11.733181
+longslow,on_road,road occupancy Q_h unlimited,1,10,7,11.607181
+longslow,on_road,road occupancy Q_h unlimited,1,10,8,11.625181
+longslow,on_road,fixed duration K_ref = 1,1,10,1,28.90836
+longslow,on_road,fixed duration K_ref = 1,1,10,2,15.240921
+longslow,on_road,fixed duration K_ref = 1,1,10,3,10.425572
+longslow,on_road,fixed duration K_ref = 1,1,10,4,10.0
+longslow,on_road,fixed duration K_ref = 1,1,10,5,10.0
+longslow,on_road,fixed duration K_ref = 1,1,10,6,10.0
+longslow,on_road,fixed duration K_ref = 1,1,10,7,10.0
+longslow,on_road,fixed duration K_ref = 1,1,10,8,10.0
+longslow,on_road,fixed duration K_ref = 3,1,10,1,66.802148
+longslow,on_road,fixed duration K_ref = 3,1,10,2,34.261577
+longslow,on_road,fixed duration K_ref = 3,1,10,3,20.046543
+longslow,on_road,fixed duration K_ref = 3,1,10,4,17.770285
+longslow,on_road,fixed duration K_ref = 3,1,10,5,12.856149
+longslow,on_road,fixed duration K_ref = 3,1,10,6,11.856149
+longslow,on_road,fixed duration K_ref = 3,1,10,7,10.52464
+longslow,on_road,fixed duration K_ref = 3,1,10,8,10.0
+lane,on_road,road occupancy Q_h = 0,1,10,1,28.908361
+lane,on_road,road occupancy Q_h = 0,1,10,2,20.046544
+lane,on_road,road occupancy Q_h = 0,1,10,3,20.046544
+lane,on_road,road occupancy Q_h = 0,1,10,4,20.046544
+lane,on_road,road occupancy Q_h = 0,1,10,5,20.046544
+lane,on_road,road occupancy Q_h = 0,1,10,6,20.046544
+lane,on_road,road occupancy Q_h = 0,1,10,7,20.046544
+lane,on_road,road occupancy Q_h = 0,1,10,8,20.046544
+lane,on_road,road occupancy Q_h unlimited,1,10,1,28.908361
+lane,on_road,road occupancy Q_h unlimited,1,10,2,18.813453
+lane,on_road,road occupancy Q_h unlimited,1,10,3,16.139998
+lane,on_road,road occupancy Q_h unlimited,1,10,4,16.049998
+lane,on_road,road occupancy Q_h unlimited,1,10,5,14.758271
+lane,on_road,road occupancy Q_h unlimited,1,10,6,14.776271
+lane,on_road,road occupancy Q_h unlimited,1,10,7,14.650271
+lane,on_road,road occupancy Q_h unlimited,1,10,8,14.668271
+lane,on_road,fixed duration K_ref = 1,1,10,1,28.90836
+lane,on_road,fixed duration K_ref = 1,1,10,2,15.240921
+lane,on_road,fixed duration K_ref = 1,1,10,3,10.425572
+lane,on_road,fixed duration K_ref = 1,1,10,4,10.0
+lane,on_road,fixed duration K_ref = 1,1,10,5,10.0
+lane,on_road,fixed duration K_ref = 1,1,10,6,10.0
+lane,on_road,fixed duration K_ref = 1,1,10,7,10.0
+lane,on_road,fixed duration K_ref = 1,1,10,8,10.0
+lane,on_road,fixed duration K_ref = 3,1,10,1,66.802148
+lane,on_road,fixed duration K_ref = 3,1,10,2,34.261577
+lane,on_road,fixed duration K_ref = 3,1,10,3,20.046543
+lane,on_road,fixed duration K_ref = 3,1,10,4,17.770285
+lane,on_road,fixed duration K_ref = 3,1,10,5,12.856149
+lane,on_road,fixed duration K_ref = 3,1,10,6,11.856149
+lane,on_road,fixed duration K_ref = 3,1,10,7,10.52464
+lane,on_road,fixed duration K_ref = 3,1,10,8,10.0
+fastcrane,on_road,road occupancy Q_h = 0,1,10,1,14.524144
+fastcrane,on_road,road occupancy Q_h = 0,1,10,2,8.537018
+fastcrane,on_road,road occupancy Q_h = 0,1,10,3,8.537018
+fastcrane,on_road,road occupancy Q_h = 0,1,10,4,8.537018
+fastcrane,on_road,road occupancy Q_h = 0,1,10,5,8.537018
+fastcrane,on_road,road occupancy Q_h = 0,1,10,6,8.537018
+fastcrane,on_road,road occupancy Q_h = 0,1,10,7,8.537018
+fastcrane,on_road,road occupancy Q_h = 0,1,10,8,8.537018
+fastcrane,on_road,road occupancy Q_h unlimited,1,10,1,14.524144
+fastcrane,on_road,road occupancy Q_h unlimited,1,10,2,8.464581
+fastcrane,on_road,road occupancy Q_h unlimited,1,10,3,6.817018
+fastcrane,on_road,road occupancy Q_h unlimited,1,10,4,6.817018
+fastcrane,on_road,road occupancy Q_h unlimited,1,10,5,6.817018
+fastcrane,on_road,road occupancy Q_h unlimited,1,10,6,6.817018
+fastcrane,on_road,road occupancy Q_h unlimited,1,10,7,6.817018
+fastcrane,on_road,road occupancy Q_h unlimited,1,10,8,6.817018
+fastcrane,on_road,fixed duration K_ref = 1,1,10,1,14.524143
+fastcrane,on_road,fixed duration K_ref = 1,1,10,2,7.780831
+fastcrane,on_road,fixed duration K_ref = 1,1,10,3,5.418554
+fastcrane,on_road,fixed duration K_ref = 1,1,10,4,5.0
+fastcrane,on_road,fixed duration K_ref = 1,1,10,5,5.0
+fastcrane,on_road,fixed duration K_ref = 1,1,10,6,5.0
+fastcrane,on_road,fixed duration K_ref = 1,1,10,7,5.0
+fastcrane,on_road,fixed duration K_ref = 1,1,10,8,5.0
+fastcrane,on_road,fixed duration K_ref = 3,1,10,1,26.633864
+fastcrane,on_road,fixed duration K_ref = 3,1,10,2,13.881207
+fastcrane,on_road,fixed duration K_ref = 3,1,10,3,8.537017
+fastcrane,on_road,fixed duration K_ref = 3,1,10,4,7.376328
+fastcrane,on_road,fixed duration K_ref = 3,1,10,5,5.816715
+fastcrane,on_road,fixed duration K_ref = 3,1,10,6,5.316715
+fastcrane,on_road,fixed duration K_ref = 3,1,10,7,5.0
+fastcrane,on_road,fixed duration K_ref = 3,1,10,8,5.0
+base,pull_in,road occupancy Q_h = 0,1,10,1,15.049144
+base,pull_in,road occupancy Q_h = 0,1,10,2,10.0
+base,pull_in,road occupancy Q_h = 0,1,10,3,10.0
+base,pull_in,road occupancy Q_h = 0,1,10,4,10.0
+base,pull_in,road occupancy Q_h = 0,1,10,5,10.0
+base,pull_in,road occupancy Q_h = 0,1,10,6,10.0
+base,pull_in,road occupancy Q_h = 0,1,10,7,10.0
+base,pull_in,road occupancy Q_h = 0,1,10,8,10.0
+base,pull_in,road occupancy Q_h unlimited,1,10,1,15.049144
+base,pull_in,road occupancy Q_h unlimited,1,10,2,10.0
+base,pull_in,road occupancy Q_h unlimited,1,10,3,10.0
+base,pull_in,road occupancy Q_h unlimited,1,10,4,10.0
+base,pull_in,road occupancy Q_h unlimited,1,10,5,10.0
+base,pull_in,road occupancy Q_h unlimited,1,10,6,10.0
+base,pull_in,road occupancy Q_h unlimited,1,10,7,10.0
+base,pull_in,road occupancy Q_h unlimited,1,10,8,10.0
+base,pull_in,fixed duration K_ref = 1,1,10,1,15.049143
+base,pull_in,fixed duration K_ref = 1,1,10,2,10.0
+base,pull_in,fixed duration K_ref = 1,1,10,3,10.0
+base,pull_in,fixed duration K_ref = 1,1,10,4,10.0
+base,pull_in,fixed duration K_ref = 1,1,10,5,10.0
+base,pull_in,fixed duration K_ref = 1,1,10,6,10.0
+base,pull_in,fixed duration K_ref = 1,1,10,7,10.0
+base,pull_in,fixed duration K_ref = 1,1,10,8,10.0
+base,pull_in,fixed duration K_ref = 3,1,10,1,14.822254
+base,pull_in,fixed duration K_ref = 3,1,10,2,10.0
+base,pull_in,fixed duration K_ref = 3,1,10,3,10.0
+base,pull_in,fixed duration K_ref = 3,1,10,4,10.0
+base,pull_in,fixed duration K_ref = 3,1,10,5,10.0
+base,pull_in,fixed duration K_ref = 3,1,10,6,10.0
+base,pull_in,fixed duration K_ref = 3,1,10,7,10.0
+base,pull_in,fixed duration K_ref = 3,1,10,8,10.0
+slow,pull_in,road occupancy Q_h = 0,1,10,1,20.268361
+slow,pull_in,road occupancy Q_h = 0,1,10,2,12.366544
+slow,pull_in,road occupancy Q_h = 0,1,10,3,12.366544
+slow,pull_in,road occupancy Q_h = 0,1,10,4,12.366544
+slow,pull_in,road occupancy Q_h = 0,1,10,5,12.366544
+slow,pull_in,road occupancy Q_h = 0,1,10,6,12.366544
+slow,pull_in,road occupancy Q_h = 0,1,10,7,12.366544
+slow,pull_in,road occupancy Q_h = 0,1,10,8,12.366544
+slow,pull_in,road occupancy Q_h unlimited,1,10,1,20.268361
+slow,pull_in,road occupancy Q_h unlimited,1,10,2,12.396726
+slow,pull_in,road occupancy Q_h unlimited,1,10,3,10.0
+slow,pull_in,road occupancy Q_h unlimited,1,10,4,10.0
+slow,pull_in,road occupancy Q_h unlimited,1,10,5,10.0
+slow,pull_in,road occupancy Q_h unlimited,1,10,6,10.0
+slow,pull_in,road occupancy Q_h unlimited,1,10,7,10.0
+slow,pull_in,road occupancy Q_h unlimited,1,10,8,10.0
+slow,pull_in,fixed duration K_ref = 1,1,10,1,20.26836
+slow,pull_in,fixed duration K_ref = 1,1,10,2,10.921571
+slow,pull_in,fixed duration K_ref = 1,1,10,3,10.0
+slow,pull_in,fixed duration K_ref = 1,1,10,4,10.0
+slow,pull_in,fixed duration K_ref = 1,1,10,5,10.0
+slow,pull_in,fixed duration K_ref = 1,1,10,6,10.0
+slow,pull_in,fixed duration K_ref = 1,1,10,7,10.0
+slow,pull_in,fixed duration K_ref = 1,1,10,8,10.0
+slow,pull_in,fixed duration K_ref = 3,1,10,1,34.703311
+slow,pull_in,fixed duration K_ref = 3,1,10,2,18.191781
+slow,pull_in,fixed duration K_ref = 3,1,10,3,12.366543
+slow,pull_in,fixed duration K_ref = 3,1,10,4,11.041861
+slow,pull_in,fixed duration K_ref = 3,1,10,5,11.041861
+slow,pull_in,fixed duration K_ref = 3,1,10,6,11.041861
+slow,pull_in,fixed duration K_ref = 3,1,10,7,11.041861
+slow,pull_in,fixed duration K_ref = 3,1,10,8,11.041861
+longslow,pull_in,road occupancy Q_h = 0,1,10,1,28.908361
+longslow,pull_in,road occupancy Q_h = 0,1,10,2,20.046544
+longslow,pull_in,road occupancy Q_h = 0,1,10,3,20.046544
+longslow,pull_in,road occupancy Q_h = 0,1,10,4,20.046544
+longslow,pull_in,road occupancy Q_h = 0,1,10,5,20.046544
+longslow,pull_in,road occupancy Q_h = 0,1,10,6,20.046544
+longslow,pull_in,road occupancy Q_h = 0,1,10,7,20.046544
+longslow,pull_in,road occupancy Q_h = 0,1,10,8,20.046544
+longslow,pull_in,road occupancy Q_h unlimited,1,10,1,28.908361
+longslow,pull_in,road occupancy Q_h unlimited,1,10,2,16.716726
+longslow,pull_in,road occupancy Q_h unlimited,1,10,3,13.412363
+longslow,pull_in,road occupancy Q_h unlimited,1,10,4,13.322363
+longslow,pull_in,road occupancy Q_h unlimited,1,10,5,11.715181
+longslow,pull_in,road occupancy Q_h unlimited,1,10,6,11.733181
+longslow,pull_in,road occupancy Q_h unlimited,1,10,7,11.607181
+longslow,pull_in,road occupancy Q_h unlimited,1,10,8,11.625181
+longslow,pull_in,fixed duration K_ref = 1,1,10,1,28.90836
+longslow,pull_in,fixed duration K_ref = 1,1,10,2,15.240921
+longslow,pull_in,fixed duration K_ref = 1,1,10,3,10.425572
+longslow,pull_in,fixed duration K_ref = 1,1,10,4,10.0
+longslow,pull_in,fixed duration K_ref = 1,1,10,5,10.0
+longslow,pull_in,fixed duration K_ref = 1,1,10,6,10.0
+longslow,pull_in,fixed duration K_ref = 1,1,10,7,10.0
+longslow,pull_in,fixed duration K_ref = 1,1,10,8,10.0
+longslow,pull_in,fixed duration K_ref = 3,1,10,1,64.381068
+longslow,pull_in,fixed duration K_ref = 3,1,10,2,33.046324
+longslow,pull_in,fixed duration K_ref = 3,1,10,3,20.046543
+longslow,pull_in,fixed duration K_ref = 3,1,10,4,17.167372
+longslow,pull_in,fixed duration K_ref = 3,1,10,5,13.46731
+longslow,pull_in,fixed duration K_ref = 3,1,10,6,12.159962
+longslow,pull_in,fixed duration K_ref = 3,1,10,7,11.958782
+longslow,pull_in,fixed duration K_ref = 3,1,10,8,11.958782
+lane,pull_in,road occupancy Q_h = 0,1,10,1,28.908361
+lane,pull_in,road occupancy Q_h = 0,1,10,2,20.046544
+lane,pull_in,road occupancy Q_h = 0,1,10,3,20.046544
+lane,pull_in,road occupancy Q_h = 0,1,10,4,20.046544
+lane,pull_in,road occupancy Q_h = 0,1,10,5,20.046544
+lane,pull_in,road occupancy Q_h = 0,1,10,6,20.046544
+lane,pull_in,road occupancy Q_h = 0,1,10,7,20.046544
+lane,pull_in,road occupancy Q_h = 0,1,10,8,20.046544
+lane,pull_in,road occupancy Q_h unlimited,1,10,1,28.908361
+lane,pull_in,road occupancy Q_h unlimited,1,10,2,18.813453
+lane,pull_in,road occupancy Q_h unlimited,1,10,3,16.139998
+lane,pull_in,road occupancy Q_h unlimited,1,10,4,16.049998
+lane,pull_in,road occupancy Q_h unlimited,1,10,5,14.758271
+lane,pull_in,road occupancy Q_h unlimited,1,10,6,14.776271
+lane,pull_in,road occupancy Q_h unlimited,1,10,7,14.650271
+lane,pull_in,road occupancy Q_h unlimited,1,10,8,14.668271
+lane,pull_in,fixed duration K_ref = 1,1,10,1,28.90836
+lane,pull_in,fixed duration K_ref = 1,1,10,2,15.240921
+lane,pull_in,fixed duration K_ref = 1,1,10,3,10.425572
+lane,pull_in,fixed duration K_ref = 1,1,10,4,10.0
+lane,pull_in,fixed duration K_ref = 1,1,10,5,10.0
+lane,pull_in,fixed duration K_ref = 1,1,10,6,10.0
+lane,pull_in,fixed duration K_ref = 1,1,10,7,10.0
+lane,pull_in,fixed duration K_ref = 1,1,10,8,10.0
+lane,pull_in,fixed duration K_ref = 3,1,10,1,64.381068
+lane,pull_in,fixed duration K_ref = 3,1,10,2,33.046324
+lane,pull_in,fixed duration K_ref = 3,1,10,3,20.046543
+lane,pull_in,fixed duration K_ref = 3,1,10,4,17.167372
+lane,pull_in,fixed duration K_ref = 3,1,10,5,13.46731
+lane,pull_in,fixed duration K_ref = 3,1,10,6,12.159962
+lane,pull_in,fixed duration K_ref = 3,1,10,7,11.958782
+lane,pull_in,fixed duration K_ref = 3,1,10,8,11.958782
+fastcrane,pull_in,road occupancy Q_h = 0,1,10,1,14.524144
+fastcrane,pull_in,road occupancy Q_h = 0,1,10,2,8.537018
+fastcrane,pull_in,road occupancy Q_h = 0,1,10,3,8.537018
+fastcrane,pull_in,road occupancy Q_h = 0,1,10,4,8.537018
+fastcrane,pull_in,road occupancy Q_h = 0,1,10,5,8.537018
+fastcrane,pull_in,road occupancy Q_h = 0,1,10,6,8.537018
+fastcrane,pull_in,road occupancy Q_h = 0,1,10,7,8.537018
+fastcrane,pull_in,road occupancy Q_h = 0,1,10,8,8.537018
+fastcrane,pull_in,road occupancy Q_h unlimited,1,10,1,14.524144
+fastcrane,pull_in,road occupancy Q_h unlimited,1,10,2,8.464581
+fastcrane,pull_in,road occupancy Q_h unlimited,1,10,3,6.817018
+fastcrane,pull_in,road occupancy Q_h unlimited,1,10,4,6.817018
+fastcrane,pull_in,road occupancy Q_h unlimited,1,10,5,6.817018
+fastcrane,pull_in,road occupancy Q_h unlimited,1,10,6,6.817018
+fastcrane,pull_in,road occupancy Q_h unlimited,1,10,7,6.817018
+fastcrane,pull_in,road occupancy Q_h unlimited,1,10,8,6.817018
+fastcrane,pull_in,fixed duration K_ref = 1,1,10,1,14.524143
+fastcrane,pull_in,fixed duration K_ref = 1,1,10,2,7.780831
+fastcrane,pull_in,fixed duration K_ref = 1,1,10,3,6.180076
+fastcrane,pull_in,fixed duration K_ref = 1,1,10,4,6.180076
+fastcrane,pull_in,fixed duration K_ref = 1,1,10,5,6.180076
+fastcrane,pull_in,fixed duration K_ref = 1,1,10,6,6.180076
+fastcrane,pull_in,fixed duration K_ref = 1,1,10,7,6.180076
+fastcrane,pull_in,fixed duration K_ref = 1,1,10,8,6.180076
+fastcrane,pull_in,fixed duration K_ref = 3,1,10,1,23.834085
+fastcrane,pull_in,fixed duration K_ref = 3,1,10,2,12.470795
+fastcrane,pull_in,fixed duration K_ref = 3,1,10,3,8.537017
+fastcrane,pull_in,fixed duration K_ref = 3,1,10,4,7.883966
+fastcrane,pull_in,fixed duration K_ref = 3,1,10,5,7.883966
+fastcrane,pull_in,fixed duration K_ref = 3,1,10,6,7.883966
+fastcrane,pull_in,fixed duration K_ref = 3,1,10,7,7.883966
+fastcrane,pull_in,fixed duration K_ref = 3,1,10,8,7.883966

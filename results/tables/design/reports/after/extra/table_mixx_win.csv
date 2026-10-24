@@ -1,0 +1,16 @@
+x,what,more,same,fewer
+0.0,S = 1 mixed lifting − cradle,20,20,0
+0.0,S = 3 mixed lifting − cradle,13,27,0
+0.0,S = 0 direct lift − S = 1 cradle,11,27,2
+0.25,S = 1 mixed lifting − cradle,11,29,0
+0.25,S = 3 mixed lifting − cradle,3,37,0
+0.25,S = 0 direct lift − S = 1 cradle,0,38,2
+0.5,S = 1 mixed lifting − cradle,0,40,0
+0.5,S = 3 mixed lifting − cradle,2,38,0
+0.5,S = 0 direct lift − S = 1 cradle,0,18,22
+0.75,S = 1 mixed lifting − cradle,0,37,3
+0.75,S = 3 mixed lifting − cradle,0,40,0
+0.75,S = 0 direct lift − S = 1 cradle,0,0,40
+1.0,S = 1 mixed lifting − cradle,0,27,13
+1.0,S = 3 mixed lifting − cradle,0,30,10
+1.0,S = 0 direct lift − S = 1 cradle,0,0,40

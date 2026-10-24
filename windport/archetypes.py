@@ -24,6 +24,13 @@ runs east-west along y = dist_m with the cradles on it; the corridor runs north-
       bypass = True, loaded vehicles coming down the ramp must take the bypass (one-way south) straight back to the yard.
 Ramp (ramp_at): for A1 and A2 "end" (east end of the quay front, unloading flow passes the cradles), "gate" (inside the
 gate, before the cradles) or None; for A3 it is fixed between the cradles and gate 2.
+Main geometry parameters (GEOMETRIES): gate_cradle_m, distance of the first cradle slot from the gate (a cradle slot is
+where the front of the delivering vehicle stops); quay_edge_m, distance of the quay edge from the centre line of the
+quay-front road (None: the road edge, apron_w/2); turn_open_m, radius of the turning zone at the gate (no water, no
+monopile on a cradle and no corridor-side constraint inside it). The last two enter only the geometry check
+(windport/geomcheck.py) and do not change the road network. The default geometry is GEOMETRY (legacy40, the geometry of
+the earlier batches, maps unchanged byte for byte); use("main") switches to the main geometry; keyword arguments of build
+take precedence.
 """
 import hashlib
 import json
@@ -38,6 +45,19 @@ DEFAULTS = dict(dist_m=600.0, corridor_m=400.0, n_cradles=3, ramp_at="end", n_ju
                 corridor_w=10.0, yard_w=20.0, apron_w=12.0, ramp_m=40.0, ramp_w=12.0,
                 n_rows=8, row_spacing=15.0, yard_off=60.0, cradle_spacing=110.0, cradle_mode="on_road",
                 loop_off=60.0, stub_m=30.0, bypass=True)
+GEOMETRIES = dict(legacy40=dict(gate_cradle_m=40.0, quay_edge_m=None, turn_open_m=0.0),
+                  main=dict(gate_cradle_m=170.0, quay_edge_m=20.0, turn_open_m=60.0))
+GEOMETRY = GEOMETRIES["legacy40"]
+
+
+def use(name):
+    """Make GEOMETRIES[name] the default geometry (process-wide; called in the initializer of the worker processes). The
+    network caches have no geometry in their keys and are cleared."""
+    global GEOMETRY
+    from windport import sim, sim2
+    GEOMETRY = GEOMETRIES[name]
+    sim._NETS.clear()
+    sim2._NETS.clear()
 
 
 class _Map:
@@ -104,8 +124,9 @@ class _Map:
 
 
 def build(kind, **kw):
-    """Map dict of archetype kind (A1, A2, A3); parameters as in DEFAULTS."""
+    """Map dict of archetype kind (A1, A2, A3); parameters as in DEFAULTS and GEOMETRIES."""
     assert kind in KINDS, kind
+    g = dict(GEOMETRY, **{k: kw.pop(k) for k in list(kw) if k in GEOMETRY})
     q = dict(DEFAULTS, **kw)
     unknown = set(kw) - set(DEFAULTS)
     assert not unknown, f"unknown parameters: {unknown}"
@@ -114,7 +135,9 @@ def build(kind, **kw):
     m = _Map()
     m.access, m.facilities, m.zones = {}, {}, {}
     meta = dict(kind=kind, params=q, corridor=[], loop=[], gates=[])
-    yc = D - Lc                                   # southern end of the single-lane section
+    if g != GEOMETRIES["legacy40"]:
+        meta["geometry"] = g
+    yc = D - Lc                                  # southern end of the single-lane section
 
     def access_road(rid, x, north, oneway, stub_dir):
         """North-south corridor at x, from the southern end (x, 0) to the northern end (x, D); returns (southern node,
@@ -135,7 +158,7 @@ def build(kind, **kw):
         return s0, n1, c0, lane, wide
 
     # ---- quay front, cradles and ramp
-    x_cr = [40.0 + k * q["cradle_spacing"] for k in range(S)]      # cradle centres (distance from the gate)
+    x_cr = [float(g["gate_cradle_m"]) + k * q["cradle_spacing"] for k in range(S)]      # cradle slots (distance from the gate)
     if kind == "A3":
         ramp_x = x_cr[-1] + q["cradle_spacing"] / 2
         apron_end = ramp_x + 60.0

@@ -1,0 +1,33 @@
+site,key,v,p_h,K_rate,K_w2,K_min
+Rotterdam Maasvlakte 2 (Sif),maasvlakte,1.0,1.0,2,2,3
+Rotterdam Maasvlakte 2 (Sif),maasvlakte,2.5,1.0,2,2,2
+Ferrol / Fene (Navantia Seanergies-Windar),fene,1.0,1.0,2,2,2
+Ferrol / Fene (Navantia Seanergies-Windar),fene,2.5,1.0,2,2,2
+Nordenham-Blexen (Steelwind),nordenham,1.0,1.0,2,3,3
+Nordenham-Blexen (Steelwind),nordenham,2.5,1.0,2,2,2
+Rostock Überseehafen (EEW SPC),rostock,1.0,1.0,2,2,2
+Rostock Überseehafen (EEW SPC),rostock,2.5,1.0,2,2,2
+Rønne (Bornholm),ronne,1.0,1.0,2,2,2
+Rønne (Bornholm),ronne,2.5,1.0,2,2,2
+Vlissingen (Verbrugge Scaldia Terminals),vlissingen_scaldia,1.0,1.0,2,2,2
+Vlissingen (Verbrugge Scaldia Terminals),vlissingen_scaldia,2.5,1.0,2,2,2
+Vlissingen (Verbrugge Zeeland Terminals),vlissingen_zeeland,1.0,1.0,2,2,2
+Vlissingen (Verbrugge Zeeland Terminals),vlissingen_zeeland,2.5,1.0,2,2,2
+Eemshaven (Gode Wind 3: BOW storage area → Wagenborg quay),eemshaven_gw3,1.0,1.0,3,,
+Eemshaven (Gode Wind 3: BOW storage area → Wagenborg quay),eemshaven_gw3,2.5,1.0,2,,
+Rotterdam Maasvlakte 2 (Sif),maasvlakte,1.0,0.5,4,,
+Rotterdam Maasvlakte 2 (Sif),maasvlakte,2.5,0.5,3,,
+Ferrol / Fene (Navantia Seanergies-Windar),fene,1.0,0.5,3,,
+Ferrol / Fene (Navantia Seanergies-Windar),fene,2.5,0.5,3,,
+Nordenham-Blexen (Steelwind),nordenham,1.0,0.5,4,,
+Nordenham-Blexen (Steelwind),nordenham,2.5,0.5,3,,
+Rostock Überseehafen (EEW SPC),rostock,1.0,0.5,3,,
+Rostock Überseehafen (EEW SPC),rostock,2.5,0.5,3,,
+Rønne (Bornholm),ronne,1.0,0.5,3,,
+Rønne (Bornholm),ronne,2.5,0.5,3,,
+Vlissingen (Verbrugge Scaldia Terminals),vlissingen_scaldia,1.0,0.5,3,,
+Vlissingen (Verbrugge Scaldia Terminals),vlissingen_scaldia,2.5,0.5,3,,
+Vlissingen (Verbrugge Zeeland Terminals),vlissingen_zeeland,1.0,0.5,3,,
+Vlissingen (Verbrugge Zeeland Terminals),vlissingen_zeeland,2.5,0.5,3,,
+Eemshaven (Gode Wind 3: BOW storage area → Wagenborg quay),eemshaven_gw3,1.0,0.5,5,,
+Eemshaven (Gode Wind 3: BOW storage area → Wagenborg quay),eemshaven_gw3,2.5,0.5,4,,

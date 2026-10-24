@@ -1,4 +1,4 @@
-"""Parameters of the road-occupancy model of block and component transport (the defaults that the port simulation builds on).
+"""Parameters of the road-occupancy core (the defaults that the port simulation builds on).
 
 The port simulation (windport/sim.py) takes these defaults and overrides them with its base case (windport.sim.BASE) and the
 parameters of each point; every batch of results stores the full parameter set it ran with (results/runs/*/config.json).

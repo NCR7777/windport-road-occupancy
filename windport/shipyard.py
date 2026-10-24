@@ -3,10 +3,13 @@ overlaid on the road networks of two yards, Okpo (Hanwha Ocean, Geoje) and Yanta
 
 The networks are the derived graphs of data/networks/ (no coordinates; see data/networks/README.md): nodes, roads with
 their lengths and widths, junctions with the allowed movements and their turn angles, entrances, facilities and zones with
-their frontage stretches. Each graph already holds the off-road waiting area of this study: a 30 m stub road `pocket_stub`,
-20 m wide, from the junction SITES[site]["near"] to the end node `pocket`, in the direction farthest from the roads at that
-junction, with movements between the stub and every other road there (one-way roads only in their direction); idle vehicles
-park at the end of the stub, and entering and leaving count as road occupancy.
+their frontage stretches. Each graph already holds the off-road waiting areas of this study: a 30 m stub road, 20 m wide,
+from a junction to an end node, in the direction farthest from the roads at that junction, with movements between the stub
+and every other road there (one-way roads only in their direction); idle vehicles park at the end of the stub, and entering
+and leaving count as road occupancy. `pocket_stub` / `pocket` is attached at SITES[site]["near"] (one-voyage storage area),
+`pocket2_stub` / `pocket2` at windport.sim4.SITES_MULTI[site]["near"] (multi-voyage storage area, and the far storage area
+of the two-level transfer). build() keeps the stub at S["near"] under the names `pocket_stub` / `pocket` and drops the other
+one, so that the network is the one the simulation builds when it attaches a single waiting area at S["near"].
 build() returns the map dict that the simulation reads (windport.sim2.build_map):
   - the classes of the yard's zones and facilities are renamed map_<class> (background only: no longer origins or
     destinations, they do not split roads);
@@ -98,11 +101,34 @@ def build(site, cradle_mode="on_road", n_cradles=None, S=None):
             classId=cls, defaultStopMode=mode, frontage=[dict(roadId=r, sStartM=a, sEndM=b) for r, a, b in rs])})
     zone("z_storage", "wf_storage", fr, "monopile storage (derived)", "pull_in")
     zone("z_cradle", "wf_cradle" if cradle_mode == "on_road" else "wf_cradle_bay", runs, "quay cradles (derived)", cradle_mode)
-    assert "pocket" in D["nodes"] and S["near"] in (D["roads"]["pocket_stub"]["fromNodeId"], D["roads"]["pocket_stub"]["toNodeId"])
+    _one_pocket(D, S["near"])
     D["windport"] = dict(kind="map", site=site, params=dict(S, cradle_mode=cradle_mode, n_cradles=n), source=dict(network=how),
                          gates=[g], storage=[f"z_storage#{k}" for k in range(len(fr))], cradles=[f"z_cradle#{k}" for k in range(n)],
                          ramp=[], corridor=[], loop=[], apron=list(roads), pocket="pocket")
     return D
+
+
+def _one_pocket(D, near):
+    """Keep the waiting-area stub of the graph that starts at junction `near`, renamed pocket / pocket_stub, and drop the
+    others (their node, stub road and movements); dict order is kept, so the stub's rows stay last."""
+    stubs = {D["roads"][r]["fromNodeId"]: r[:-len("_stub")] for r in ("pocket_stub", "pocket2_stub") if r in D["roads"]}
+    keep = stubs[near]
+    drop = {f"{pid}_stub" for pid in stubs.values() if pid != keep}
+    for pid in stubs.values():
+        if pid != keep:
+            del D["nodes"][pid]
+    ren = lambda s: "pocket_stub" if s == f"{keep}_stub" else s
+    D["nodes"] = {("pocket" if k == keep else k): (dict(v, name="pocket") if k == keep else v) for k, v in D["nodes"].items()}
+    D["roads"] = {ren(k): (dict(v, name="pocket_stub", toNodeId="pocket") if k == f"{keep}_stub" else v)
+                  for k, v in D["roads"].items() if k not in drop}
+    mv = {}
+    for k, v in D["movements"].items():
+        a, b = v["incomingArc"]["roadId"], v["outgoingArc"]["roadId"]
+        if a in drop or b in drop:
+            continue
+        mv[k.replace(f"{keep}_stub", "pocket_stub")] = dict(v, incomingArc=dict(v["incomingArc"], roadId=ren(a)),
+                                                            outgoingArc=dict(v["outgoingArc"], roadId=ren(b)))
+    D["movements"] = mv
 
 
 def dumps(D):

@@ -1,0 +1,25 @@
+{
+ "geometry_params": {
+  "gate_cradle_m": 170.0,
+  "quay_edge_m": 20.0,
+  "turn_open_m": 60.0
+ },
+ "grid": {
+  "G": 24,
+  "K": [
+   1,
+   2
+  ],
+  "L": 12,
+  "S": 1,
+  "modes": [
+   "on_road",
+   "pull_in"
+  ],
+  "scen": [
+   "base",
+   "lane"
+  ]
+ },
+ "part": "example"
+}

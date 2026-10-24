@@ -1,0 +1,5 @@
+site,st,road,f0,f0.1,f0.25,f0.5,tight,n
+okpo,runs,"[('r|road_trace_021', '246.994'), ('r|road_trace_203', '250.668')]",566,566,544,472,0,144
+okpo,multi,"[('r|road_trace_044', '651.701')]",338,337,334,301,0,144
+yantai,runs,"[('r|road_trace_049', '280.908')]",376,376,356,330,0,96
+yantai,multi,"[('r|road_trace_041', '900.705')]",318,292,242,186,0,96

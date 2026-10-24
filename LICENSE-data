@@ -5,9 +5,13 @@ data/register/ and the result data in results/, are licensed under the Creative 
 License (CC BY 4.0), whose full legal text follows (from https://creativecommons.org/licenses/by/4.0/legalcode.txt). When
 you use the data, please cite the paper (CITATION.cff).
 
+The OpenStreetMap extracts in data/osm/ are not covered by this licence: they are (c) OpenStreetMap contributors and are
+available under the Open Data Commons Open Database License (ODbL) 1.0, https://opendatacommons.org/licenses/odbl/1-0/
+(data/osm/README.md).
+
 The code (occupancy/, bounds/, exact/, windport/, experiments/, tests/) is licensed under the MIT License (LICENSE). The
-satellite imagery from which the shipyard road networks were digitised is not part of this repository and is not covered
-by either license.
+satellite imagery from which the shipyard road networks were digitised and on which the haul paths of the public load-out
+sites were measured is not part of this repository and is not covered by any of these licences.
 
 Attribution 4.0 International
 

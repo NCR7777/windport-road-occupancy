@@ -1,0 +1,13 @@
+site,scen,rule,n,sim_runs,sim_multi,change,lower,higher,tie_multi,road_multi,prep_multi
+okpo,base,fcfs,640,7228,4431,-38.7%,527,0,24.5%,223,75
+okpo,base,convoy,640,7228,4458,-38.3%,524,0,25.0%,223,75
+okpo,slow,fcfs,640,7076,2546,-64.0%,594,0,30.3%,172,210
+okpo,slow,convoy,640,7076,2562,-63.8%,592,0,30.6%,172,210
+okpo,fastcrane,fcfs,640,12417,4757,-61.7%,640,0,13.4%,223,128
+okpo,fastcrane,convoy,640,12417,4823,-61.2%,639,0,13.8%,223,128
+yantai,base,fcfs,256,2882,2456,-14.8%,148,0,54.7%,0,6
+yantai,base,convoy,256,2882,2456,-14.8%,148,0,54.7%,0,6
+yantai,slow,fcfs,256,2802,1362,-51.4%,256,0,17.6%,0,57
+yantai,slow,convoy,256,2802,1362,-51.4%,256,0,17.6%,0,57
+yantai,fastcrane,fcfs,256,4874,2394,-50.9%,256,0,14.1%,88,12
+yantai,fastcrane,convoy,256,4874,2394,-50.9%,256,0,14.1%,88,12

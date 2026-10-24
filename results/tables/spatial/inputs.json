@@ -1,0 +1,31 @@
+{
+ "fixed": {
+  "crit136": "runs/critical",
+  "e4": "runs/e4",
+  "e6": "runs/e6",
+  "e7": "runs/e7",
+  "mix6": "runs/mixed_e4",
+  "port": "runs/port_time",
+  "rep134": "tables/e4_e7",
+  "rep136": "tables/extra",
+  "sens": "runs/sens"
+ },
+ "new": {
+  "ablate": "results/runs/spatial_ablate/points.csv",
+  "campaign": "results/runs/spatial_campaign/campaign.csv",
+  "cdv": "results/runs/spatial_cdv/points.csv",
+  "codesign": "results/runs/spatial_codesign/best.csv",
+  "critical": "results/runs/spatial_critical/critical_points.csv",
+  "hphd": "results/runs/spatial_hphd/points.csv",
+  "random0": "results/runs/spatial_random/summary.json",
+  "random1": "results/runs/spatial_random/summary.json",
+  "reach": "results/runs/spatial_reach/points.csv",
+  "regime5": "results/runs/spatial_regime5/regime5.csv",
+  "reserve": "results/runs/spatial_reserve/points.csv",
+  "siteport": "results/runs/spatial_siteport/points.csv",
+  "sites": "results/runs/spatial_sites/points.csv",
+  "turn": "results/runs/spatial_turn/points.csv",
+  "turngeo": "results/runs/spatial_turn_sweep/turn.csv",
+  "upsize": "results/runs/spatial_upsize/points.csv"
+ }
+}

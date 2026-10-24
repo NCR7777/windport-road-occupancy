@@ -1,0 +1,29 @@
+{
+ "okpo|multi": [
+  "node_trace_014|road_trace_615|road_trace_617",
+  "node_trace_016|road_trace_039|road_trace_619",
+  "node_trace_056|road_trace_065|road_trace_059",
+  "node_trace_062|road_trace_684|road_trace_070",
+  "node_trace_171|road_trace_203|road_trace_207"
+ ],
+ "okpo|runs": [
+  "node_trace_021|road_trace_450|road_trace_021",
+  "node_trace_075|road_trace_023|road_trace_087",
+  "node_trace_096|road_trace_107|road_trace_109",
+  "node_trace_171|road_trace_203|road_trace_207"
+ ],
+ "yantai|multi": [
+  "node_8fed6000-40b2-4147-a289-69110235e4ad|road_trace_114|road_trace_022",
+  "node_trace_002|road_trace_041|road_trace_111",
+  "node_trace_010|road_87e75350-42c2-4af3-b3f4-24257dfe2d6d|road_trace_096",
+  "node_trace_022|road_trace_022|road_trace_023",
+  "node_trace_025|road_trace_088|road_trace_026",
+  "node_trace_082|road_ed7a39c9-d8ff-4bc5-8877-87f904bd71c2|road_trace_120"
+ ],
+ "yantai|runs": [
+  "node_8fed6000-40b2-4147-a289-69110235e4ad|road_trace_024|road_trace_022",
+  "node_trace_022|road_trace_022|road_trace_023",
+  "node_trace_024|road_trace_027|road_trace_049",
+  "node_trace_025|road_trace_088|road_trace_026"
+ ]
+}

@@ -31,18 +31,15 @@ and bound3 work as usual; setup4 builds the network first and then calls windpor
 (net, p, sim, result); the result is that of windport.sim2.simulate2 plus w4 (windport/bound4.py).
 Independent check in windport/check4.py."""
 import copy
-import hashlib
 import json
 import math
-import os
-import tempfile
-from pathlib import Path
 
 from occupancy.network import EPS, Net
 from windport import archetypes as A
 from windport import shipyard as SY
 from windport import sim as WS
 from windport import sim2 as S2
+from windport.mapcache import map_file
 
 SITES_MULTI = dict(
     okpo=dict(SY.SITES["okpo"], storage_zone="zone_trace_001", near="node_trace_055"),
@@ -183,12 +180,7 @@ def get_net4(geo, p):
     hit = S2._NETS.get(key)
     if hit is None or not isinstance(hit[1], TurnNet):
         D = build_map4(geo)
-        raw = A.dumps(D)
-        d = Path(tempfile.gettempdir()) / "windport_maps"
-        d.mkdir(exist_ok=True)
-        sha = hashlib.sha256(raw).hexdigest()
-        f = d / f"{sha[:16]}_{os.getpid()}.json"
-        f.write_bytes(raw)
+        f, sha = map_file(A.dumps(D))
         net = TurnNet(str(f), sha, p, roles=A.ROLES)
         net.map_sha256 = sha
         S2._NETS[key] = (D, net)

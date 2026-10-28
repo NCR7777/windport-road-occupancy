@@ -2,13 +2,12 @@
 
 Code, data and results of the paper
 
-> **Road-occupancy capacity of offshore wind marshalling ports: transporter fleet, quayside staging and access-road
-> co-design under load-out windows**
-> Chunrui Na, Qing Wang, Xiao Han, Jingzheng Yao, Yuntao Zhang, Kun Ma, Chengjing Song
+> **Road occupancy in offshore wind monopile load-out: capacity bounds and fleet–infrastructure co-design**
+> Chunrui Na, Qing Wang, Jingzheng Yao, Xiao Han, Yuntao Zhang, Kun Ma, Chengjing Song
 > College of Shipbuilding Engineering, Harbin Engineering University; School of Civil and Environmental Engineering,
 > Nanyang Technological University; Yantai Research Institute, Harbin Engineering University; College of Computer Science
 > and Technology, Harbin Engineering University; Department of Electronics and Telecommunications, Politecnico di Torino.
-> Manuscript prepared for submission to *Ocean Engineering*.
+> Manuscript submitted to *Ocean Engineering*.
 
 At an offshore wind marshalling port, self-propelled modular transporters (SPMT sets) carry monopiles from the storage area
 to the quay, where the installation vessel's crane lifts them on board within a load-out window. Where the haul path
@@ -71,7 +70,7 @@ Python 3.13.5 (64-bit).
 python -m venv .venv
 .venv\Scripts\activate            (Linux/macOS: source .venv/bin/activate)
 pip install -r requirements.txt
-python -m pytest tests            (180 tests, about 3 minutes; 13 are skipped, see RECOMPUTE.md)
+python -m pytest tests            (192 tests, about 3 minutes; 18 are skipped, see RECOMPUTE.md)
 ```
 
 OR-Tools (CP-SAT) 9.15.6755 is needed for the small-instance experiments and their tests; matplotlib only for the draft
@@ -81,60 +80,63 @@ figures that some report scripts draw next to their tables.
 
 Every batch script builds its configuration, writes it to `results/windport_<stage>_<part>_<hash>/config.json` (the hash is
 that of the configuration) and computes the points into that directory (`points/` holds one JSON per point and lets an
-interrupted run resume; `points.csv` is the per-point table). The scripts accept `--procs N`; `--slots DIR` (optional)
-shares the machine with other jobs through a directory of CPU slots, and without it an ordinary process pool is used. The
-released directories carry the names of `results/runs/` and `results/tables/`, which are also the names the scripts read
-their inputs from (RECOMPUTE.md). Python 3.13.5 throughout; the solver column names where OR-Tools CP-SAT 9.15.6755 is used,
-everything else is simulation or closed-form evaluation. The configuration of each item is the `config.json` of its run
-directories (`inputs.json` for report tables); `results/MANIFEST.csv` gives, for every file, the place in the paper where it
-is used.
+interrupted run resume; `points.csv` is the per-point table). `windport_revision_r1.py` and `windport_revision.py` write
+the batches they rerun into `splice/<batch>/` subdirectories of their run directory, with the columns of the earlier
+tables. The scripts accept `--procs N`; `--slots DIR` (optional) shares the machine with other jobs through a directory of
+CPU slots, and without it an ordinary process pool is used. The released directories carry the names of `results/runs/`
+and `results/tables/`, which are also the names the scripts read their inputs from (RECOMPUTE.md). Python 3.13.5
+throughout; the solver column names where OR-Tools CP-SAT 9.15.6755 is used, everything else is simulation or closed-form
+evaluation. The configuration of each item is the `config.json` of its run directories (`inputs.json` for report tables);
+`results/MANIFEST.csv` gives, for every file, the place in the paper where it is used. Below, `hrep/` stands for
+`tables/revision/hrep/` and `reports/` for `tables/revision/reports/after/`.
 
 | Item | Result files (under `results/`) | Script and command | Solver |
 |---|---|---|---|
-| Table 3, base parameters and scenarios | `data/register/parameters.csv`; sensitivity ranges `runs/maingeom_extra_sens/points.csv` | parameters in `windport/sim.py` (`BASE`), `occupancy/params.py`, `windport/archetypes.py`; `python experiments/windport_maingeom.py --part rerun` | - |
-| Table 4, public load-out sites and their screen | `runs/survey/critical_points.csv`, `runs/survey/segments_public.csv`; `tables/design/screen.md`, `screen_kmin.csv`, `numbers.json` (`screen`) | `python experiments/windport_survey.py` (needs the haul paths measured on imagery, not released); `python experiments/windport_design_analytic.py`; `python experiments/windport_report_design.py` | - |
-| Table 5, shipyards as monopile bases (one voyage) | `runs/design_e6_hi/points.csv`; `tables/design/reports/after/e4_e7/table4.csv`; `tables/design/compat/e_recheck_rows_part1.csv`, `_part2.csv`, `compat/yards.csv`, `compat/spatial/table_turn.csv`; `tables/sites/` | `python experiments/windport_design.py --part e6:lo,e6:hi`; `python experiments/windport_report_design.py` | - |
-| Table 6, two-level storage at the shipyards | `tables/design/twolevel.md`, `tables/design/numbers.json` (`twolevel`); inputs `runs/design_turn/turn_alt.json` | `python experiments/windport_design.py --part near,transfer`; `python experiments/windport_report_design.py` | - |
-| Table 7, small instances: CP-SAT optima, W″ and simulation | `runs/maingeom_e2/points.csv`, `runs/maingeom_e2/e2long/points.csv`; `tables/design/reports/after/e4_e7/table2b.csv`; `tables/main2/recheck/rows.csv` | `python experiments/windport_maingeom.py --part e2` (60 s per instance, 600 s for the instances only proven feasible) | CP-SAT |
-| Table 8, representations of port transport (core case: long single lane, 1 km/h, ten monopiles) | `tables/design/reports/after/e1_e3/table3.csv`, `fig3.csv`, `reports/after/extra/table5x.csv`; `runs/maingeom_extra_port/points.csv`; `tables/main2/core.csv`, `core.md` | `python experiments/windport_maingeom.py --part rerun,core`; `python experiments/windport_main2_runs.py --part core`; `python experiments/windport_report_main2.py`; `python experiments/windport_report_design.py` | - |
-| Table 9, model elements removed in turn | `tables/main2/spatial/table_ablate.csv` | `python experiments/windport_maingeom.py --part spatial`; `python experiments/windport_report_main2.py` | - |
-| Table 10, cradle-vehicle rates | `tables/design/compat/spatial/table7_rate.csv`, `tables/design/numbers.json` (`rate`); `tables/design/reports/after/e4_e7/table_e4_rate.csv`; `runs/maingeom_runs_e4/points.csv`; `tables/main2/recheck/rows.csv` | `python experiments/windport_maingeom.py --part rerun,spatial`; `python experiments/windport_main2_runs.py --part reachdist`; `python experiments/windport_rows_exclusion.py --part rowsx`; `python experiments/windport_rows_finish.py`; `python experiments/windport_report_design.py` | - |
-| Table 11, price of a second set | `tables/design/reports/after/extra/table_cost.csv`, `table_cost.md`, `table_cost_best.csv` | `python experiments/windport_maingeom.py --part rerun`; `python experiments/windport_report_design.py` | - |
-| Table 12, joint design | `runs/main2_codesign/codesign.csv`; `tables/design/numbers.json` (`codesign`) | `python experiments/windport_design.py --part codesign`; `python experiments/windport_codesign_blocks.py`; `windport_codesign_blocks2.py`; `windport_codesign_finish.py`; `python experiments/windport_report_design.py` | - |
-| Table B.1, dimensions of the layouts | `data/register/parameters.csv`; `runs/survey/critical_points.csv` | `windport/archetypes.py` (`DEFAULTS`, `GEOMETRIES`), `windport/main2.py` | - |
+| Table 3, base parameters and scenarios | `data/register/parameters.csv`; sensitivity ranges `runs/revision_r1_x/splice/extra_sens5/points.csv` | parameters in `windport/sim.py` (`BASE`), `occupancy/params.py`, `windport/archetypes.py`; `python experiments/windport_revision_r1.py --part x` | - |
+| Table 4, haul paths of public load-out sites | `runs/survey/critical_points.csv`, `runs/survey/segments_public.csv`; `tables/revision/numbers.json`, `tables/revision/compat/numbers.json` | `python experiments/windport_survey.py` (needs the haul paths measured on imagery, not released); `python experiments/windport_revision_analytic.py`; `python experiments/windport_report_revision.py` | - |
+| Table 5, two-level storage at the shipyards | `runs/detour/numbers.json`; inputs `runs/revision_bturn/turn_alt.json` | `python experiments/windport_detour.py` | - |
+| Table 6, small instances: CP-SAT optima, W″ and simulation | `runs/revision_r1_e2/splice/e1e3_e2/points.csv`, `e1e3_e2/e2long/points.csv`; `hrep/recheck/rows.csv` | `python experiments/windport_revision_r1.py --part e2` (60 s per instance, 600 s for the instances only proven feasible; up to 4 threads) | CP-SAT |
+| Table 7, crane limit and shortest port time, road-occupancy and fixed-time representations | `hrep/core.csv`, `core.md` | `python experiments/windport_revision_r1.py --part x` (`maingeom:core`); `python experiments/windport_report_revision.py` | - |
+| Table 8, model elements removed in turn | `hrep/spatial/table_ablate.csv`, `hrep/spatial/numbers.json` | `python experiments/windport_revision_r1.py --part x` (`unified:ablate`); `python experiments/windport_report_revision.py` | - |
+| Table 9, exchange rates | `tables/revision/compat/spatial/table7_rate.csv`, `tables/revision/compat/numbers.json`; `reports/e4_e7/table_e4_rate.csv` | `python experiments/windport_revision_r1.py --part x`; `python experiments/windport_revision.py --group a`; `python experiments/windport_report_revision.py` | - |
+| Table 10, joint design | `runs/main2_codesign/codesign.csv`; `tables/revision/numbers.json` (`codesign`) | `python experiments/windport_main2_runs.py --part codesign`; `python experiments/windport_revision.py --group b`; `python experiments/windport_report_revision.py` | - |
+| Table B.1, dimensions of the parametric layouts | `data/register/parameters.csv` | `windport/archetypes.py` (`DEFAULTS`, `GEOMETRIES`), `windport/main2.py` | - |
 | Table B.2, replication of public cases | `tables/conservative/reports/after/extra/table_pub.md`, `tables/conservative/kassels.md` | `python experiments/windport_rerun_conservative.py --batch extra:pub`; `python experiments/windport_report_conservative.py` | - |
-| Fig. 4, critical single-lane length | `runs/maingeom_critical/critical.csv`; `tables/design/reports/after/extra/table_critical.md`, `table_critical_check.csv`; `runs/survey/critical_points.csv`; `tables/spatial/table_critical_points.md` | `python experiments/windport_maingeom.py --part critical` | - |
-| Fig. 5, haul paths of the public sites | `runs/survey/segments_public.csv`; `data/register/parameters.csv` (public sites) | `python experiments/windport_survey.py` (as Table 4) | - |
-| Fig. 6, regime map | `tables/main2/fig_regime_main.csv`, `tables/main2/regime.csv` | `python experiments/windport_main2_runs.py --part splice`; `python experiments/windport_recheck_main2.py`; `python experiments/windport_report_main2.py` | - |
-| Fig. 7, port time of the two representations | `tables/design/reports/after/e1_e3/fig3.csv` | as Table 8 | - |
-| Fig. 8, fleet plateau | `tables/design/reports/after/e4_e7/fig4.csv`, `table_e4_plateau.csv`; `tables/main2/recheck/rows.csv` | `python experiments/windport_maingeom.py --part rerun`; `python experiments/windport_recheck_main2.py`; `python experiments/windport_report_design.py` | - |
-| Fig. 9, upsizing | `tables/main2/spatial/table_upsize.csv`; `tables/design/reports/after/e4_e7/table_e7.csv` | `python experiments/windport_maingeom.py --part rerun,spatial`; `python experiments/windport_report_main2.py` | - |
-| Supplementary Tables S1-S21, Figs. S1-S5 | `runs/w1_grid` (S1); `tables/design/numbers.json` (S2 checks, S3 crane reach, S9 alternative turns, S10 joint-design dispatch); `runs/maingeom_example`, `reports/after/extra/table_example.csv` (S4); `reports/after/e4_e7/table_e4_plateau.csv`, `reports/after/extra/table6x.csv` (S5); `reports/after/extra/table_mixx*.csv` (S6); `tables/sites_multi`, `tables/main2/spatial/table_sites.csv`, `table_siteport.csv`, `compat/yards.csv` (S7-S8); `tables/design/campaign.md`, `tables/main2/spatial/table_campaign.md` (S11); `tables/main2/spatial/table_upsize.csv` (S12); `reports/after/e4_e7/tableC_e*.csv`, `reports/after/extra/tableC3x.csv`, `tableC4x.csv` (S13-S18); `reports/after/extra/table5x.csv` (S19); `runs/maingeom_e2` (S20); `data/register/parameters.csv` (S21); `reports/after/e1_e3/fig2.csv` (Fig. S1); `runs/maingeom_runs_e4` (Fig. S2); `reports/after/e4_e7/table_e5.csv` (Fig. S3); `reports/after/e4_e7/fig6.csv` (Fig. S4); sensitivity tables (Fig. S5) | the scripts of the corresponding main items; RECOMPUTE.md | CP-SAT for S20 |
-| Verification counts of the text (exhaustive checks, random regression, recheck of every simulated point) | `runs/theorems`, `runs/chain`, `runs/deadend_exact`, `runs/deadend_chain2`, `runs/conservative_exact`, `runs/random_bound`, `runs/random_lift_1`-`4`, `runs/main2_random_a`, `runs/main2_random_dead`, `runs/recheck`, `runs/facts`, `runs/main2_splice`, `runs/maingeom_e1e3_e1h`, `runs/maingeom_runs_conv`, `runs/maingeom_sens`, `runs/maingeom_xscan`; `tables/main2/recheck/rows.csv`, `tables/main2/macros*.csv`, `tables/main2/geom_compat/` | RECOMPUTE.md | CP-SAT for the small instances |
+| Fig. 4, haul paths of public sites | `runs/survey/segments_public.csv`; `data/register/parameters.csv` (public sites) | as Table 4 | - |
+| Fig. 5, critical single-lane length | `runs/revision_r1_ex/critical/critical.csv`; `reports/extra/table_critical.md`, `table_critical_check.csv`; `tables/spatial/table_critical_points.md` | `python experiments/windport_revision_r1.py --part ex` | - |
+| Fig. 6, speed certificate | as Table 4 | as Table 4 | - |
+| Fig. 7, two-level storage, near-buffer layouts | `runs/gode/numbers.json`; inputs `runs/revision_bturn/turn_alt.json`, `runs/design_turn/turn_alt.json` | `python experiments/windport_gode.py` | - |
+| Fig. 8, regime map | `hrep/fig_regime_main.csv`, `hrep/regime.csv` | `python experiments/windport_revision_r1.py --part x,recheck`; `python experiments/windport_report_revision.py` | - |
+| Fig. 9, W″ against the exact optima | `hrep/recheck/rows.csv`; `runs/revision_r1_e2/` | as Table 6; `python experiments/windport_revision_r1.py --part recheck` | CP-SAT |
+| Fig. 10, port time of the two representations | `reports/e1_e3/fig3.csv`, `reports/e1_e3/table3.csv` | `python experiments/windport_revision_r1.py --part x`; `python experiments/windport_report_revision.py` | - |
+| Fig. 11, fleet plateau | `reports/e4_e7/fig4.csv`, `table_e4_plateau.csv`; `hrep/recheck/rows.csv` | as Fig. 10 | - |
+| Fig. 12, road changes on the long single lane | `reports/extra/table_cost.csv`, `table_cost.md`, `table_cost_best.csv` | as Fig. 10 | - |
+| Supplementary Tables S1-S24, Figs. S1-S9 | `runs/w1_grid` (S1); `hrep/core.md` (S2, S3); `runs/revision_r1_ex/example`, `reports/extra/table_example.csv` (S4); `reports/extra/table6x.csv` (S5); `reports/extra/table_mixx*.csv` (S6); `runs/facts` (S7); `runs/detour`, `tables/sites`, `tables/sites_multi`, `hrep/spatial/table_sites.csv`, `table_siteport.csv` (S8, S9); `runs/revision_bmulti`, `tables/design/compat/yards.csv` (S10); `tables/design/screen.md`, `screen_kmin.csv`, `runs/design_turn`, `runs/spatial_turn_sweep` (S11, S12); `reports/extra/table_cost*` (S13); `tables/design/campaign.md`, `hrep/spatial/table_campaign.md` (S14); `reports/e4_e7/table_e7.csv`, `hrep/spatial/table_upsize.csv` (S15); `reports/e4_e7/tableC_e*.csv`, `reports/extra/tableC3x.csv`, `tableC4x.csv`, `runs/revision_r1_sens` (S16-S21); `hrep/core.csv` (S22); `runs/revision_r1_e2` (S23); `data/register/parameters.csv` (S24); `reports/e1_e3/fig2.csv` (Fig. S1); `hrep/fig_regime_main.csv` (Fig. S2); `hrep/recheck/rows.csv`, `reports/e4_e7/table_e4_plateau.csv` (Fig. S3); `runs/revision_r1_x/splice/runs_e4` (Fig. S4); `reports/e4_e7/table_e5.csv` (Fig. S5); `tables/design/compat/e_recheck_rows_part1.csv`, `_part2.csv`, `reports/e4_e7/fig6.csv` (Fig. S6); `hrep/spatial/table_upsize.csv` (Fig. S8); sensitivity tables (Fig. S9) | the scripts of the corresponding main items; RECOMPUTE.md | CP-SAT for S23 |
+| Verification counts of the text (exhaustive checks, random regression, recheck of every simulated point) | `runs/theorems`, `runs/chain`, `runs/deadend_exact`, `runs/deadend_chain2`, `runs/conservative_exact`, `runs/random_bound`, `runs/random_lift_1`-`4`, `runs/main2_random_a`, `runs/main2_random_dead`, `runs/recheck`, `runs/w1_grid`, `runs/revision_r1_x/splice/`; `hrep/recheck/rows.csv`, `hrep/macros*.csv`, `hrep/geom_compat/` | RECOMPUTE.md | CP-SAT for the small instances |
 
-`tables/design/reports/after/e1_e3/`, `e4_e7/` and `extra/` are the report tables that `experiments/windport_report.py`,
-`windport_report2.py` and `windport_report3.py` write when run on the batches of the main2 geometry
-(`windport_report_design.py` runs them); `tables/conservative/reports/after/extra/` the same for the conservative-rule
+`tables/revision/reports/after/e1_e3/`, `e4_e7/` and `extra/` are the report tables that `experiments/windport_report.py`,
+`windport_report2.py` and `windport_report3.py` write when run on the `runs/revision_r1_*` batches
+(`windport_report_revision.py` runs them); `tables/conservative/reports/after/extra/` the same for the conservative-rule
 batches.
 
 ## Rerunning stored points
 
 Every point is determined by its configuration (a layout or shipyard, parameters, fleet, cradles, windows); there is no
 random seed outside the random regressions, whose cases are drawn from fixed seeds. For example, two rows of the E4 batch
-on the main geometry (conservative lifting rule):
+on the main geometry (conservative lifting rule, cradle spacing 115 m):
 
 ```python
-import csv, io, sys
+import csv, sys
 sys.path[:0] = [".", "experiments"]
-import windport_maingeom as F, windport_rerun_conservative as RR
-F.init_rerun({})                    # conservative lifting rule, main geometry, as in the worker processes of the batch
+import windport_revision_r1 as R1
+R1.install()                        # main geometry, conservative lifting rule, cradle spacing 115 m, as in the worker processes
 batch = "runs:e4"
-lines = open("results/runs/maingeom_runs_e4/points.csv", encoding="utf-8").read().splitlines()
+lines = open("results/runs/revision_r1_x/splice/runs_e4/points.csv", encoding="utf-8").read().splitlines()
+cols = next(csv.reader([lines[0]]))
 for line in (lines[1], lines[len(lines) // 2]):
     key = next(csv.DictReader([lines[0], line]))["key"]
-    buf = io.StringIO()
-    csv.DictWriter(buf, RR.cols(batch), lineterminator="\n").writerow(RR.rows(batch, key, RR.compute(batch, key))[0])
-    print(key, buf.getvalue().rstrip("\n") == line)          # True: identical row
+    row = R1.rows_of(batch, key, R1.compute(batch, key))[0]
+    print(key, R1.row_line(cols, row) == line)             # True: identical row
 ```
 
 ## Data sources and what is not released
@@ -148,19 +150,22 @@ The shipyard road networks were digitised from Google Earth imagery (Google Eart
 Airbus, TMap Mobility; Yantai dated 11 March 2025: Google, Airbus). Neither the imagery nor the centre-line geometry traced
 from it is released: the networks are released as derived graphs (`data/networks/`), which hold everything the model uses;
 the turns that need an alternative manoeuvre, found on the map geometry, are released as results
-(`results/runs/spatial_turn_sweep/`, `results/runs/design_turn/`). Map lines delineate study areas and do not necessarily
-depict accepted national boundaries.
+(`results/runs/spatial_turn_sweep/`, `results/runs/design_turn/`, `results/runs/revision_bturn/`,
+`results/runs/revision_plans/`). Map lines delineate study areas and do not necessarily depict accepted national
+boundaries.
 
 The haul paths of the public load-out sites were measured on public satellite imagery (Esri World Imagery); their lengths,
 widths and width classes are released without coordinates (`results/runs/survey/`, `data/register/parameters.csv`). The
 imagery, the measured polylines and measurement lines and their coordinates are not released. The OpenStreetMap extracts of
 `data/osm/` serve only as a comparison (© OpenStreetMap contributors, ODbL 1.0, https://opendatacommons.org/licenses/odbl/1-0/).
 
-Not released: the imagery, the yard maps and their geometry, the measured haul paths; the site selection on the yard maps
-(its results are `results/tables/sites/` and `results/tables/sites_multi/`, and `windport/shipyard.py` and
-`windport/sim4.py` state the rules); the per-point caches of the runs (`points/`); the progress files, figure images and
-comparison files of the runs; the batches that the report scripts read but the paper does not; and the scripts that typeset
-the paper's text, tables and figures.
+Not released: the imagery, the yard maps and their geometry (map JSON files), the measured haul paths (`haulpaths.json`)
+and every polyline, measurement line or coordinate taken from the imagery; the site selection on the yard maps (its results
+are `results/tables/sites/` and `results/tables/sites_multi/`, and `windport/shipyard.py` and `windport/sim4.py` state the
+rules); the per-point caches of the runs (`points/`); the progress files, figure images and comparison files of the runs;
+the batches that the report scripts read but the paper does not; and the scripts that typeset the paper's text, tables and
+figures. Where a script needs one of these inputs, it reads the released result instead when the input is absent, or the
+corresponding test is skipped (RECOMPUTE.md).
 
 ## License and citation
 

@@ -1,141 +1,144 @@
 path,sha256,bytes,source_commit,export,used_for
-results/README.md,74f07ba06c2c78236643a68399729b30f142d6feda66c1d10f5329c07ff3e1ce,6813,,written for the release,description of the result files (layout and fields)
+results/README.md,649806b5152c76e131ab4e356d5f27569906ed5321dd95776dcf427196e7e9a7,8408,,written for the release,description of the result files (layout and fields)
 results/runs/chain/config.json,1244b21c87afa1a6d4322c8214aeabd01c03a1e5d415f250332675f5acf5dec8,342,0f50c3d,"configuration: internal fields removed, text translated",configuration of results/runs/chain
-results/runs/chain/summary.md,640aabff2468d3910003f7ed4ac52381013bc3ecb0ff4d11a94274c56dd7a6b6,687,0f50c3d,translated,verification counts (two-block chains)
+results/runs/chain/summary.md,640aabff2468d3910003f7ed4ac52381013bc3ecb0ff4d11a94274c56dd7a6b6,687,0f50c3d,translated,Section A.4; verification counts (two-block chains)
 results/runs/conservative_exact/config.json,34a6e43a4644108c948526b8a162b20084c2d5384c48956789619edb7551b724,398,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/conservative_exact
-results/runs/conservative_exact/summary.md,a885e4a62da8785b09b2ca15e0f18f7a5161ca3942e07c82bf9ff3c281816fcc,956,f1aebb7,translated,"verification counts (exhaustive two-block chains, conservative lifting rule)"
+results/runs/conservative_exact/summary.md,a885e4a62da8785b09b2ca15e0f18f7a5161ca3942e07c82bf9ff3c281816fcc,956,f1aebb7,translated,"Section S4; verification counts (exhaustive two-block chains, conservative lifting rule)"
 results/runs/deadend_chain2/config.json,7c4d51d5b864d6e8d3209947b4ebfb38cb67e071b86a037e5831a9492596f1ef,552,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/deadend_chain2
-results/runs/deadend_chain2/summary.md,18ff3b954a40f5636b5386a5193c3cf0c72b48e101e2342a5ae4c0f3b0b2320e,945,f1aebb7,translated,verification counts (exhaustive two-block chains against W'')
+results/runs/deadend_chain2/summary.md,18ff3b954a40f5636b5386a5193c3cf0c72b48e101e2342a5ae4c0f3b0b2320e,945,f1aebb7,translated,Section S4; verification counts (exhaustive two-block chains)
 results/runs/deadend_exact/config.json,3bcd273fb836e142179c52b3d49e9821492cf29039616106937af4a6382e6bb8,241,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/deadend_exact
-results/runs/deadend_exact/summary.md,b3dd7e2399653ac76a6a71f70088568504bfabaa46de7eed9a8174dcb3b15f70,3443,f1aebb7,translated,verification counts (exhaustive small instances against W'')
+results/runs/deadend_exact/summary.md,b3dd7e2399653ac76a6a71f70088568504bfabaa46de7eed9a8174dcb3b15f70,3443,f1aebb7,translated,Section S4; verification counts (exhaustive small instances)
 results/runs/design_e6_hi/config.json,1305b913d4c032df339c84892da3aba9a381c629fc1106cf10c576645585dfb4,344,73a7a42,"configuration: internal fields removed, text translated",configuration of results/runs/design_e6_hi
-results/runs/design_e6_hi/points.csv,16df0ef874364e791b4740e731f367624e52a6284b6ecc4bd35d1165df155deb,1736102,73a7a42,as committed,"Table 5 (shipyards, one voyage, alternative turns)"
+results/runs/design_e6_hi/points.csv,16df0ef874364e791b4740e731f367624e52a6284b6ecc4bd35d1165df155deb,1736102,73a7a42,as committed,"Sections 4.3, 4.5 and S13 (shipyards, one voyage, alternative turns)"
 results/runs/design_turn/config.json,f35471b3d2f3c6f16a45b5a38f9df37f008b0368fbca2da7f3edc981f12f7a0b,644,73a7a42,"configuration: internal fields removed, text translated",configuration of results/runs/design_turn
-results/runs/design_turn/turn_alt.json,b3f89ebf5c16eeb018a538cf7e5cd753faffef1bdcdb5e27480f1d83933dc4b7,5864,73a7a42,"text translated, internal names renamed","input of the shipyard batches: classes and durations of the alternative turns (Table S9; Tables 5, 6)"
+results/runs/design_turn/turn_alt.json,b3f89ebf5c16eeb018a538cf7e5cd753faffef1bdcdb5e27480f1d83933dc4b7,5864,73a7a42,"text translated, internal names renamed",input of the shipyard batches: classes and durations of the alternative turns (Table S11; Section S13.1)
+results/runs/detour/config.json,e918e4da26f8d9994e354dfc38bd7fa2c098b802ee762e15d5a0e1e17b29d7e6,201,ef75a56,"configuration: internal fields removed, text translated",configuration of results/runs/detour
+results/runs/detour/numbers.json,294d69549fc32801a95e09e057b25b985e45dc91f8913f42b1352013fc0be5b9,6442,ef75a56,as committed,Table 5; Table S8; Section 4.2 (bounds with detours)
 results/runs/facts/config.json,67093be16af5d10c80c649aa6b9a68c9f6f5714cd72924609863247dca8aae84,617,f5288b0,"configuration: internal fields removed, text translated",configuration of results/runs/facts
-results/runs/facts/facts.json,98440848b341fb5a6a160cfe1024f49dd7ddfcf457340d9593ccd86a3faf73a2,48005,f5288b0,notes translated,"Section 2 (set composition, widths)"
-results/runs/main2_codesign/codesign.csv,d84d3654f6e3260bcdc3bbacac9bb364a2a26979aba7c02621836c2c55273dfc,2101000,73a7a42,as committed,Table 12 (joint design)
+results/runs/facts/facts.json,98440848b341fb5a6a160cfe1024f49dd7ddfcf457340d9593ccd86a3faf73a2,48005,f5288b0,notes translated,"Table S7; Section 2.2 (set composition, widths)"
+results/runs/gode/config.json,7bec321aea915f3311e6e7f01577c915be792e19fa0fe1c9c2713e8e0c187277,621,7fdfe0d,"configuration: internal fields removed, text translated",configuration of results/runs/gode
+results/runs/gode/numbers.json,c078e010d37eeeb3e5f070ac5db1e2bdb96d83b635645cd48f6de8a08416c447,4075,7fdfe0d,"text translated, internal names renamed",Fig. 7; Sections 4.6 and S13 (two-level storage bounds)
+results/runs/main2_codesign/codesign.csv,d84d3654f6e3260bcdc3bbacac9bb364a2a26979aba7c02621836c2c55273dfc,2101000,73a7a42,as committed,Table 10; Section S15 (fleet-infrastructure co-design)
 results/runs/main2_codesign/config.json,7f9e2eb5bae08065d6aabe00ca19481d24ee56b3bc0615ffb070c2cc25d1da18,631,73a7a42,"configuration: internal fields removed, text translated",configuration of results/runs/main2_codesign
 results/runs/main2_random_a/config.json,a8c25d9a2e4e1590bc3a47295046290ed199db85a56b9eb28f676b0b1f892355,278,73a7a42,"configuration: internal fields removed, text translated",configuration of results/runs/main2_random_a
-results/runs/main2_random_a/summary.json,a74effb6395afca29cf42683ce2c69e44b107ab478f0f6bff3087b94c9ea1414,927,73a7a42,as committed,"verification counts (random layouts, main2 geometry)"
+results/runs/main2_random_a/summary.json,a74effb6395afca29cf42683ce2c69e44b107ab478f0f6bff3087b94c9ea1414,927,73a7a42,as committed,Section S4; verification counts (random layouts)
 results/runs/main2_random_dead/config.json,ce09655e542dc21d31743a120af20ea45d0068ada8472de4ae99e0d6daecc1e2,281,73a7a42,"configuration: internal fields removed, text translated",configuration of results/runs/main2_random_dead
-results/runs/main2_random_dead/summary.json,840c4e6a08ce7a9e0c5b0a2356f3623213220600831f54ebcae5efd40e0fbed6,912,73a7a42,as committed,"verification counts (random layouts, main2 geometry)"
-results/runs/main2_splice/config.json,99b8b2e26b425f09fea9c04aca48d43ef677037ad3dd2ad0f5a1b6252c5822fc,310,73a7a42,"configuration: internal fields removed, text translated",configuration of results/runs/main2_splice
-results/runs/main2_splice/e1e3_e1/points.csv,127f9ae3a2013b1c789a7f91ea057640f07c6a50a94b7941f2bc380a28f5f5e8,6655392,73a7a42,as committed,verification counts; Sections 4 and 5 (rerun points of the main2 geometry)
-results/runs/main2_splice/extra_sens5/points.csv,271c50ec77a73cd08791fa958ff431d7ae1d25c58745592458654c85d75c0b54,73006,73a7a42,as committed,verification counts; Sections 4 and 5 (rerun points of the main2 geometry)
-results/runs/main2_splice/runs_pocket/points.csv,1ef10f5babc736f861b881db76b695334ee85502f03287d7181c0907eafcc550,3971241,73a7a42,as committed,verification counts; Sections 4 and 5 (rerun points of the main2 geometry)
-results/runs/maingeom_critical/config.json,9497340bdb5be2b69f4058d51a3b86d00b2044474fbbfb7152434dc80b7d8c5f,813,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_critical
-results/runs/maingeom_critical/critical.csv,f9323eba8bf671d6e0554cf1bfa63a56ddbdf18c2836e50fe48c44d9a04823a7,15447,f1aebb7,as committed,Fig. 4 (critical single-lane length)
-results/runs/maingeom_e1e3_e1h/config.json,aac614068d9b797fcc6ae665db77e480ab4b581480407dd81a6a58e5528536c4,178,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_e1e3_e1h
-results/runs/maingeom_e1e3_e1h/points.csv,feb877efc77ae07d8bb974852e8fc42e222a9df6c10d0c831e112c6f43eb9948,3641438,f1aebb7,as committed,verification counts (gate holding places)
-results/runs/maingeom_e2/config.json,1d06a82794268c4cf79196e15e88f3f2e6d4d4d047435c4d87b8fdf18bb342e1,603,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_e2
-results/runs/maingeom_e2/e2long/points.csv,9b0ee4ea72ece6febf26cc6d4435e505a9f6d944adae481559d37e37d9a3ad5a,1321,f1aebb7,as committed,Table 7; Table S20
-results/runs/maingeom_e2/points.csv,bd27ea59a0c8c1a994494af2c2d0e89ab6194fa9251b57fe613cf46c88c811fb,48900,f1aebb7,as committed,Table 7; Table S20
-results/runs/maingeom_example/config.json,6247c86e1989e32644433fa226909dffb73781dbc050c3dcd037730b0d2476f2,273,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_example
-results/runs/maingeom_example/example.csv,9e84f66de9cabcf0bd6f5e1b183c7f1985b21d5aa1e2936dba729097949a1687,1888,f1aebb7,as committed,Table S4 (worked example)
-results/runs/maingeom_extra_port/config.json,488b80c7fbf56dd780d70cdcd2235aca209eb34a604488c6dbb9e292982b267b,182,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_extra_port
-results/runs/maingeom_extra_port/points.csv,73e0cae53e07405e7104ba0dbd301f4c97612eccc991f7aa85886d3871b3cadb,1090048,f1aebb7,as committed,Table 8; Table S19 (port times)
-results/runs/maingeom_extra_sens/config.json,ae92be9aa3970baf1376655cab105399083566dcf34a5c51fceacc11370d0558,183,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_extra_sens
-results/runs/maingeom_extra_sens/points.csv,bbb5d74e17dbc3f098b6b8b4f2590e67c4689bfba95a66c061db001454d70503,1038873,f1aebb7,as committed,Table 3 (sensitivity ranges)
-results/runs/maingeom_runs_conv/config.json,fc9b29848d04c050ade1970267128dae814464988d61708ac8a424e41c48bfb7,183,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_runs_conv
-results/runs/maingeom_runs_conv/points.csv,1825ef414344392fcbdf5328f5b687a6bba3502af767d2751ce8b1005303c036,7040691,f1aebb7,as committed,verification counts (convoy dispatch with gate holding places)
-results/runs/maingeom_runs_e4/config.json,333a0d747b23b6c038975e0e211ec700d863b5b6ff1335febd4720a204e10580,172,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_runs_e4
-results/runs/maingeom_runs_e4/points.csv,378b6519209ba7d6f9dc22a45ac03ce621cfb23ee8ce892c9672a5990b68c600,2864868,f1aebb7,as committed,Table 10; Fig. S2
-results/runs/maingeom_sens/config.json,9428d457f68cee48a8d5a21910cb0578f90f5ab1c582fef874aa3e1c9c491071,628,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_sens
-results/runs/maingeom_sens/points.csv,ece823855aad6a26992b66c357ecab876878f40870d31918aba834445e80906a,28785,f1aebb7,as committed,"Section 4 (closure under the load, t_u)"
-results/runs/maingeom_xscan/config.json,ca1b370476f1c30a93eb49e31979306830039b76d1bbf038aadf58802e1ce65b,117,f1aebb7,"configuration: internal fields removed, text translated",configuration of results/runs/maingeom_xscan
-results/runs/maingeom_xscan/points.csv,bcad9c0973f3e4050cf9683ee2805d0c8a129c74ba03cc3db86dfd644e5190dc,26649,f1aebb7,as committed,Section 4 (release threshold of direct lifting)
+results/runs/main2_random_dead/summary.json,840c4e6a08ce7a9e0c5b0a2356f3623213220600831f54ebcae5efd40e0fbed6,912,73a7a42,as committed,Section S4; verification counts (random layouts)
 results/runs/random_bound/config.json,60f0894be9e5ed6d24091dfdba9611062389e4245b488540508915bd5349abfa,47,0f50c3d,"configuration: internal fields removed, text translated",configuration of results/runs/random_bound
-results/runs/random_bound/summary.json,2ffc0cceaadc1edeeca5d9431a1bddc2af00c8c5ab6bbecaf043f5e298b16ca3,408,0f50c3d,as committed,verification counts (random layouts)
+results/runs/random_bound/summary.json,2ffc0cceaadc1edeeca5d9431a1bddc2af00c8c5ab6bbecaf043f5e298b16ca3,408,0f50c3d,as committed,Section S4; verification counts (random layouts)
 results/runs/random_lift_1/config.json,c1e791f79eff92e36964a2d284e81b2805061b0661f44e2fd6e1d0768d198734,63,f5288b0,"configuration: internal fields removed, text translated",configuration of results/runs/random_lift_1
-results/runs/random_lift_1/summary.json,f8da559cd0bc95379d84620aa8d2dcf7becb3f721228bda464ce2c396fa90ed9,330,f5288b0,as committed,"verification counts (random layouts, lift by lift)"
+results/runs/random_lift_1/summary.json,f8da559cd0bc95379d84620aa8d2dcf7becb3f721228bda464ce2c396fa90ed9,330,f5288b0,as committed,"Section S4; verification counts (random layouts, lift by lift)"
 results/runs/random_lift_2/config.json,e0acfec3c5b76efb842e802e8c7d93de72a085c1e3b9ea140a2888a2fb0d37e9,67,f5288b0,"configuration: internal fields removed, text translated",configuration of results/runs/random_lift_2
-results/runs/random_lift_2/summary.json,d125ddbd27622d760026226b5ad978e07bf50cb099b5b5228cf3647e6a5e818d,329,f5288b0,as committed,"verification counts (random layouts, lift by lift)"
+results/runs/random_lift_2/summary.json,d125ddbd27622d760026226b5ad978e07bf50cb099b5b5228cf3647e6a5e818d,329,f5288b0,as committed,"Section S4; verification counts (random layouts, lift by lift)"
 results/runs/random_lift_3/config.json,8168834aee521037198a61c86022e6e78b201236dc31f71a68d4cb366b2359fd,63,f5288b0,"configuration: internal fields removed, text translated",configuration of results/runs/random_lift_3
-results/runs/random_lift_3/summary.json,85518f4b465b143ca32304601ee55e84d3b1058453bb7f2ed9c01dea41e85285,331,f5288b0,as committed,"verification counts (random layouts, lift by lift)"
+results/runs/random_lift_3/summary.json,85518f4b465b143ca32304601ee55e84d3b1058453bb7f2ed9c01dea41e85285,331,f5288b0,as committed,"Section S4; verification counts (random layouts, lift by lift)"
 results/runs/random_lift_4/config.json,4760317b344ce3a98be3f2dacd556e7c37b81ebcc8d1545182f394c66960dcd6,62,f5288b0,"configuration: internal fields removed, text translated",configuration of results/runs/random_lift_4
-results/runs/random_lift_4/summary.json,221c0e824979579e6f47ffc4889f9b3e5e25093bb0b3b6ecdb3b213bc83e80dd,328,f5288b0,as committed,"verification counts (random layouts, lift by lift)"
-results/runs/recheck/changed.csv,3e1f8a05d45ec9ece4d185eac64804fc2ce12fd716cb9f049387a03511130387,142,f5288b0,internal labels renamed,verification counts (recheck of the return correction)
+results/runs/random_lift_4/summary.json,221c0e824979579e6f47ffc4889f9b3e5e25093bb0b3b6ecdb3b213bc83e80dd,328,f5288b0,as committed,"Section S4; verification counts (random layouts, lift by lift)"
+results/runs/recheck/changed.csv,3e1f8a05d45ec9ece4d185eac64804fc2ce12fd716cb9f049387a03511130387,142,f5288b0,internal labels renamed,Section S4; verification counts (recheck of the return correction)
 results/runs/recheck/config.json,8f6a535fa606dd8820fbdaa6eac73b3eb7883824f2a13de4b7382771a92fc00b,497,f5288b0,"configuration: internal fields removed, text translated; internal labels renamed",configuration of results/runs/recheck
-results/runs/recheck/summary.md,5e28d9c9b727f0599c368c8b6b365f188da94cdf4cc2a3bbbf49842eb284d73b,2530,f5288b0,translated,verification counts (recheck of the return correction)
+results/runs/recheck/summary.md,5e28d9c9b727f0599c368c8b6b365f188da94cdf4cc2a3bbbf49842eb284d73b,2530,f5288b0,translated,Section S4; verification counts (recheck of the return correction)
+results/runs/revision_bmulti/config.json,bb9fe0d0cce78ada2321c398222500b5113f8d741932d7759c3fba1187a6dec2,480,b2f384e,"configuration: internal fields removed, text translated",configuration of results/runs/revision_bmulti
+results/runs/revision_bmulti/points.csv,413588f59f8015223c1bb2abd6f7172c7669c47fdaf6ecf40477539e1a9e5c60,7795,b2f384e,as committed,"Sections 4.6 and S13 (bounds, several storage areas)"
+results/runs/revision_bturn/config.json,a253b43966fc73f81e14e63a32cf90a626860a1e13569009bd6e97a888713cbb,423,9aaa194,"configuration: internal fields removed, text translated",configuration of results/runs/revision_bturn
+results/runs/revision_bturn/turn_alt.json,41b20affd0c65e00bd56f4d10b2201dcda6248841afe40911462ebc07b3441d7,4451,9aaa194,"text translated, internal names renamed",input of the two-level storage bounds (runs/gode): classes and durations of the alternative turns on the storage routes
+results/runs/revision_plans/config.json,9230fb67bb031b578cb74931c70de0c48a06853364f001ad0491c3ced74b71e9,307,9aaa194,"configuration: internal fields removed, text translated",configuration of results/runs/revision_plans
+results/runs/revision_plans/plans.json,9de38f445b0e18b61fb9c5e2ba00e7d74cea356bc46375d11e452bd59597ffbc,2413,9aaa194,as committed,"input of the shipyard buffer batches: near-yard slot layouts (road section, position along it, crab distances; no coordinates)"
+results/runs/revision_r1_e2/config.json,955e00f2043c89fee5f362ce0e3e620bb71cc1f5b7093d42393843d60022cc73,7306,b2f384e,"configuration: internal fields removed, text translated",configuration of results/runs/revision_r1_e2
+results/runs/revision_r1_e2/splice/e1e3_e2/e2long/points.csv,b796b3dc46a22beb610a2e153c58cabfcf4f16d2d315c59b3a7d1e09ea07c786,1321,b2f384e,as committed,Table 6; Table S23; Section 5.2 (exact solutions)
+results/runs/revision_r1_e2/splice/e1e3_e2/points.csv,7deb08edbd7cefc094e6ae5d37e564d2f0bd68eafd04d75b603182a79bedd087,48902,b2f384e,as committed,"Table S23; Section 5.3 (exact solutions, fixed order)"
+results/runs/revision_r1_ex/config.json,e93fe56a67489e13c20ce7c5cd5918cfc061f0c5ef07d8596139daeaf2d1492e,1186,b2f384e,"configuration: internal fields removed, text translated",configuration of results/runs/revision_r1_ex
+results/runs/revision_r1_ex/critical/critical.csv,c080d2a93c318eb107b11bcffbe0a7670537018cf04fcb7e3018a44d5f7437cd,15451,b2f384e,as committed,Fig. 5 (critical single-lane length)
+results/runs/revision_r1_ex/example/example.csv,5322ac575d6a5a72468abd17809d657ad3a5e3a70f2c382e2f66b50f746aaeb2,1888,b2f384e,as committed,Table S4 (worked example)
+results/runs/revision_r1_sens/config.json,92192f3b9987c673f99351893daedc2e544e6a9c86c6a28b54c5677b4e07d540,327,b2f384e,"configuration: internal fields removed, text translated",configuration of results/runs/revision_r1_sens
+results/runs/revision_r1_sens/splice/conservative_sens/points.csv,727d593f1a319615b8a39c9749a47e32caa5d0e8ce5e4964c474e4218da7454c,28785,b2f384e,as committed,"Section S17 (closure under the load, t_u)"
+results/runs/revision_r1_x/config.json,8a630db4c868edf0e4f3821277655dca32332692bc54c27f4af4c55501b68811,1708,b2f384e,"configuration: internal fields removed, text translated",configuration of results/runs/revision_r1_x
+results/runs/revision_r1_x/splice/conservative_xscan/points.csv,bcad9c0973f3e4050cf9683ee2805d0c8a129c74ba03cc3db86dfd644e5190dc,26649,b2f384e,as committed,Sections 5.1 and S14 (release threshold of direct lifting)
+results/runs/revision_r1_x/splice/e1e3_e1/points.csv,abaa0706e75a0af05321641c24c7bfe0eea07fc8cf64b58e4f1ee9f99a319b73,6656394,b2f384e,as committed,Sections 5.6 and S20 (port runs)
+results/runs/revision_r1_x/splice/e1e3_e1h/points.csv,fa76d0b4ec7fd2a350078afffc825be5499f4cee65624877c7bf5088d7f30ecd,3641426,b2f384e,as committed,Sections 5.6 and S20 (gate holding places)
+results/runs/revision_r1_x/splice/extra_port/points.csv,424046e2de9bc14ac0d378db9fd1ba7d160f1ba5daf237ee090554c99e39e1e4,1090071,b2f384e,as committed,Sections 5.6 and S20 (port times)
+results/runs/revision_r1_x/splice/extra_sens/points.csv,5164f32572133228bb6a7838fa8938bc1c99f566d15b470ffece410a915cfbd5,1038869,b2f384e,as committed,Sections 5.1 and S14 (sensitivity ranges)
+results/runs/revision_r1_x/splice/extra_sens5/points.csv,d17da1785e22ddfcd74081cf660c01136d25643ce7976dfacf40425808135465,73004,b2f384e,as committed,Table 3 (parameter ranges)
+results/runs/revision_r1_x/splice/runs_conv/points.csv,7c3ac4efde1a48ad9b888e6aeca940f03b246e0911cc983dc4c6900334e79318,7040657,b2f384e,as committed,Sections 5.6 and S20 (convoy dispatch)
+results/runs/revision_r1_x/splice/runs_e4/points.csv,d49b9aeb4b793fba6adf1dcc6c3784037fc320c47bfcf991ea05a86466cc968b,2865052,b2f384e,as committed,Fig. S4 (iso-capacity lines)
+results/runs/revision_r1_x/splice/runs_pocket/points.csv,54b7e9885b9e650853ed21a69935509f6284d3cf57de13c42e08d1343a0095cb,3971797,b2f384e,as committed,Sections 5.6 and S20 (waiting pockets)
 results/runs/spatial_turn_sweep/config.json,64652a0edaaccd4c84559f6c8fb9bf34f41ed2bd798411030487c1f0099a8fc3,1619,73a7a42,"configuration: internal fields removed, text translated",configuration of results/runs/spatial_turn_sweep
 results/runs/spatial_turn_sweep/turn_extra.json,2161a0b5306268bd61e26f404b5fd6e1d8d10aa11c26758b1f209dbae50b309c,1143,73a7a42,"text translated, internal names renamed",input of the shipyard batches: turns that need an alternative manoeuvre (sweep check on the yard maps)
-results/runs/survey/critical_points.csv,7c374684b69813d948668012eee06cdfcd186624eb3a5bffd78fae99aa728eeb,6385,35ed462,"labels translated, internal names renamed",Table 4; Fig. 4 (public sites)
-results/runs/survey/segments_public.csv,e943edfdb3980ebb9a8802c30a99bba5ee12ae1cfcf06dae616283731c527f0d,15037,35ed462,"labels translated, internal names renamed",Fig. 5 (haul paths of the public sites)
+results/runs/survey/critical_points.csv,7c374684b69813d948668012eee06cdfcd186624eb3a5bffd78fae99aa728eeb,6385,35ed462,"labels translated, internal names renamed",Table 4; Section 4.2 (public sites)
+results/runs/survey/segments_public.csv,e943edfdb3980ebb9a8802c30a99bba5ee12ae1cfcf06dae616283731c527f0d,15037,35ed462,"labels translated, internal names renamed",Fig. 4 (haul paths of the public sites)
 results/runs/theorems/config.json,8bcd01781fa2ea023425cd9ae3d8ba1fc7f0061973401ea722c640adb0457378,1325,259b363,"configuration: internal fields removed, text translated",configuration of results/runs/theorems
-results/runs/theorems/summary.md,23d9d0697e68234f6c7b8c915391e0cfa702c9646ad0c5c1b45c7dc93c474ee8,721,259b363,translated,Section 3 (exhaustive check of Theorems 3 and 4)
+results/runs/theorems/summary.md,23d9d0697e68234f6c7b8c915391e0cfa702c9646ad0c5c1b45c7dc93c474ee8,721,259b363,translated,Section S4 (exhaustive check of the theorems)
 results/runs/w1_grid/config.json,18113ef133a6d12329280f16051cb47996e57e16eeb3e14dedbae3721c418596,1309,259b363,"configuration: internal fields removed, text translated",configuration of results/runs/w1_grid
-results/runs/w1_grid/points.csv,a275a15c04b109272b42306a992fbfb85fed31a4849eaeb2669b4f59f060a9f4,1072465,259b363,as committed,Table S1; Section 3 (exhaustive check of W)
-results/runs/w1_grid/summary.md,a7187d87264f8678c8efdc8b354a63479058a070aa362fbc1aede35ec4e606ee,3874,259b363,translated,Table S1; Section 3 (exhaustive check of W)
+results/runs/w1_grid/points.csv,a275a15c04b109272b42306a992fbfb85fed31a4849eaeb2669b4f59f060a9f4,1072465,259b363,as committed,Table S1; Section S4 (exhaustive check of W)
+results/runs/w1_grid/summary.md,a7187d87264f8678c8efdc8b354a63479058a070aa362fbc1aede35ec4e606ee,3874,259b363,translated,Table S1; Section S4 (exhaustive check of W)
 results/tables/conservative/inputs.json,b861559780bad8b366347893d777564b6a32131c87a025f306b1c1e48d252577,2434,f1aebb7,paths renamed,inputs of results/tables/conservative
-results/tables/conservative/kassels.md,0ab0262809d165abf9fabad33a0ef9c86d8c305358c7fad5959ee5e6003d24b6,13315,f1aebb7,translated,Table B.2 (replication of the Ronne case model)
-results/tables/conservative/reports/after/extra/table_pub.md,97ae064155d99a8b84550ab3237fdb2b40b91fc1253e1437caf77c975f859eef,18505,f1aebb7,translated,Table B.2 (replication of public cases)
-results/tables/design/campaign.md,26dc5d60e0c5b228b755129d0387db83a8603f67f46707044776505a03f9a953,4150,73a7a42,translated,Table S11 (campaign)
-results/tables/design/compat/e_recheck_rows_part1.csv,a97c854218bbc1138d6dd7efc455a982feecb828ec35e5415a61ddf6dacb7702,27631124,73a7a42,"labels translated, internal names renamed; split in two parts at data row 158654 (each with the header row)",Table 5; Fig. S4 (recheck of the shipyard grid)
-results/tables/design/compat/e_recheck_rows_part2.csv,0564c6e4b75d0041bec33a9b1116eb20242bc716630f98d8b5d1be80f0c571ba,30464286,73a7a42,"labels translated, internal names renamed; split in two parts at data row 158654 (each with the header row)",Table 5; Fig. S4 (recheck of the shipyard grid)
-results/tables/design/compat/spatial/table7_rate.csv,4eef7c34f63009ab02996c5474db277fed7b528d179ab3398b8e330f7aee1423,12476,73a7a42,as committed,Table 10 (cradle-vehicle rates)
-results/tables/design/compat/spatial/table_turn.csv,82869b3331777636009a1af604a3cdf2f3c021b6d69f1350fbe5d4ef2b1e1c61,186,73a7a42,"labels translated, internal names renamed",Table 5; Table S9
-results/tables/design/compat/yards.csv,842867af4569aa8c96a63268f60b46b46fcad83f90bb4fc57ba65c86d88848b0,1058,73a7a42,as committed,Table 5; Table S8
+results/tables/conservative/kassels.md,0ab0262809d165abf9fabad33a0ef9c86d8c305358c7fad5959ee5e6003d24b6,13315,f1aebb7,translated,Table B.2; Section S21 (replication of public cases)
+results/tables/conservative/reports/after/extra/table_pub.md,97ae064155d99a8b84550ab3237fdb2b40b91fc1253e1437caf77c975f859eef,18505,f1aebb7,translated,Table B.2; Section S21 (replication of public cases)
+results/tables/design/campaign.md,26dc5d60e0c5b228b755129d0387db83a8603f67f46707044776505a03f9a953,4150,73a7a42,translated,Table S14; Section 6.3 (campaign model)
+results/tables/design/compat/e_recheck_rows_part1.csv,a97c854218bbc1138d6dd7efc455a982feecb828ec35e5415a61ddf6dacb7702,27631124,73a7a42,"labels translated, internal names renamed; split in two parts at data row 158654 (each with the header row)",Fig. S6; Section 4.5 (recheck of the shipyard grid)
+results/tables/design/compat/e_recheck_rows_part2.csv,0564c6e4b75d0041bec33a9b1116eb20242bc716630f98d8b5d1be80f0c571ba,30464286,73a7a42,"labels translated, internal names renamed; split in two parts at data row 158654 (each with the header row)",Fig. S6; Section 4.5 (recheck of the shipyard grid)
+results/tables/design/compat/spatial/table_turn.csv,82869b3331777636009a1af604a3cdf2f3c021b6d69f1350fbe5d4ef2b1e1c61,186,73a7a42,"labels translated, internal names renamed",Sections 4.4 and S13.1 (turns of the shipyards)
+results/tables/design/compat/yards.csv,842867af4569aa8c96a63268f60b46b46fcad83f90bb4fc57ba65c86d88848b0,1058,73a7a42,as committed,Sections 4.6 and S13 (shipyard rows)
 results/tables/design/inputs.json,4274215a509345a51f89e91b8f2158f4f2705e5ba186c00aa78f6b4a418692de,1164,73a7a42,paths renamed,inputs of results/tables/design
-results/tables/design/numbers.json,df307dd176361b8e5609c6e58ece6748871e7b90f02c7e39c7108ad8b3a3e88a,154799,73a7a42,"text translated, internal names renamed","Tables 4, 6, 10, S2, S3, S9, S10 (design analyses)"
-results/tables/design/reports/after/e1_e3/fig2.csv,a9ddc514de961a78e4312f1b25f14649f21e76ee4ca136f6b8c5804ed244be54,16677,73a7a42,as committed,Fig. S1
-results/tables/design/reports/after/e1_e3/fig3.csv,46cc6f61cc0b24e7d2401c3fdb3ac656b19841a0a28ee5bf2e4b87cc95166055,18059,73a7a42,"labels translated, internal names renamed",Fig. 7; Table 8
-results/tables/design/reports/after/e1_e3/summary.md,5be62407e426ec283f40e56121c9be9cb7865367c3c15017365d02d19ed9bcf4,16557,73a7a42,translated,"Section 4 (E1 summary, gate holding places, release time); Table 7"
-results/tables/design/reports/after/e1_e3/table3.csv,80d0d429a3dd4832cec01a0f83fbc3e79218f6841d1c68dddb76fc0ad5af47c7,7292,73a7a42,as committed,Table 8
-results/tables/design/reports/after/e1_e3/table_hold.md,4cb049ec8a292d85fe5e2ba24717279a3a73e444eab3c1309dbe640ad128002f,3655,73a7a42,translated,"Section 4 (E1 summary, gate holding places, release time); Table 7"
-results/tables/design/reports/after/e1_e3/table_rel.md,a056157342cda8701b43814139db522f01e4f7144e5998c310aa5967cc782168,1379,73a7a42,translated,"Section 4 (E1 summary, gate holding places, release time); Table 7"
-results/tables/design/reports/after/e4_e7/fig4.csv,e81c4f2dfb9c891b051e5f4ee0c28d35bd116d0dc4da5d58797e1e6ed8e324fd,5132,73a7a42,as committed,Fig. 8
-results/tables/design/reports/after/e4_e7/fig6.csv,daa56b460658550c550c4636613b9a736d59eb4c2f26236c6db7e867fb6f2bb5,3371,73a7a42,as committed,Fig. S4
-results/tables/design/reports/after/e4_e7/summary.md,aec825347d62e76228d4d4adab307ee364d7089f56e289c8381ba35d0a3adf49,3666,73a7a42,translated,"Section 4; verification counts (E4-E7 summary, waiting area, gate holding places)"
-results/tables/design/reports/after/e4_e7/table2b.csv,2e548284c04c048ab13ea1eacd127ea6c5adf6b5aadb41b6f6177fa7b8a91886,1372,73a7a42,as committed,Table 7
-results/tables/design/reports/after/e4_e7/table4.csv,24aaa16f1770e8da70ceb5c4dc5a46fa7fa1f6ceb1986f7ce1e58325e0693cdc,2318,73a7a42,"labels translated, internal names renamed",Table 5; Fig. S4
-results/tables/design/reports/after/e4_e7/tableC_e1.csv,2315500acc0b2550d63b8143c10619f46e5fc2418893df310fd301041d4b4d18,1509,73a7a42,as committed,Fig. S5; Tables S13-S18 (sensitivity)
-results/tables/design/reports/after/e4_e7/tableC_e3.csv,93625983ff76446237c4ba98cd249e0163a9371b3e4ab9943e1b0ef328b8310e,3332,73a7a42,as committed,Fig. S5; Tables S13-S18 (sensitivity)
-results/tables/design/reports/after/e4_e7/tableC_e4.csv,abd4e72e60b8814d019cc716ee3f6ae0b70f156ad05f85cc97761a8a8be4f2c0,3156,73a7a42,as committed,Fig. S5; Tables S13-S18 (sensitivity)
-results/tables/design/reports/after/e4_e7/tableC_e5.csv,053adbde5737a55619333d96000fc9165da22169ba5a6a31110efc8ce1e37a1e,685,73a7a42,as committed,Fig. S5; Tables S13-S18 (sensitivity)
-results/tables/design/reports/after/e4_e7/tableC_e7.csv,bb8485dd12b63670c3f0d53a11e18d99c2d3b21df8ce7a14de2b5e5abe6d6cd8,1853,73a7a42,as committed,Fig. S5; Tables S13-S18 (sensitivity)
-results/tables/design/reports/after/e4_e7/table_e4_plateau.csv,adfdcd20e77d6767a6cd41412e0c07b124dfc3444fdff33e57ab7c3273e48a9e,36176,73a7a42,as committed,Fig. 8; Table S5
-results/tables/design/reports/after/e4_e7/table_e4_rate.csv,6af8dc146cf17f1ee423354ee8d47b66f50c0c4376f1da381fcee06ebff4496f,3183,73a7a42,as committed,Table 10
-results/tables/design/reports/after/e4_e7/table_e5.csv,71550090dd173b3f1894544cdb17dea11e3f47f56d5d31902ff1478643b2e7be,148635,73a7a42,as committed,Fig. S3; Section 4 (overlap of unloading and load-out)
-results/tables/design/reports/after/e4_e7/table_e7.csv,c212e5a0a472392d3257ee5447dc519318d39ab5ea970fb503bfb936b54b7c99,8199,73a7a42,as committed,Fig. 9; Table S12
-results/tables/design/reports/after/e4_e7/table_hold2.md,284900beb3821fd2fca55dc9ed6de6cfa384891cb933e7263da7f51b96728522,3889,73a7a42,translated,"Section 4; verification counts (E4-E7 summary, waiting area, gate holding places)"
-results/tables/design/reports/after/e4_e7/table_pocket.md,8acfa21ae775c3b967a4eac5d7affa7c0233c357e37479259420882d9497d241,3480,73a7a42,translated,"Section 4; verification counts (E4-E7 summary, waiting area, gate holding places)"
-results/tables/design/reports/after/extra/table5x.csv,279a294e70842b767dbd12abc6126cc2fa46fbb7377ef04af2ea26bbbdc7991b,6125,73a7a42,as committed,Table 8; Table S19
-results/tables/design/reports/after/extra/table6x.csv,51c8e5ab5cf61374cc748e01760a46011d742a485c1a3728fc11175cec5ebac4,2194,73a7a42,as committed,Table S5
-results/tables/design/reports/after/extra/tableC3x.csv,51449bb61e51b681d44c0ebc1ee82043664ad02d37c7aa84e8fd1358adab19a2,3459,73a7a42,as committed,Fig. S5; Tables S13-S18 (sensitivity)
-results/tables/design/reports/after/extra/tableC4x.csv,26260abade190469c1be21d0b14ddf7f08ddf8b9af9c543f4443a33eb59830b8,1477,73a7a42,as committed,Fig. S5; Tables S13-S18 (sensitivity)
-results/tables/design/reports/after/extra/table_cost.csv,36222bc20190e2ba1fa58d865ab107f44b37db2cff28825d72658bbd1bdb9545,80661,73a7a42,as committed,Table 11 (price of a second set)
-results/tables/design/reports/after/extra/table_cost.md,61dba4966f1c23ae300fb7896320bc7b9e9d2f021afb772d2b1928fe2f982bfc,19049,73a7a42,translated,Table 11 (price of a second set)
-results/tables/design/reports/after/extra/table_cost_best.csv,951951c1740cc27167010449d3d99edb27e4b1b4fe7aefbfb66ef9c1bc4a31e1,27292,73a7a42,"labels translated, internal names renamed",Table 11 (price of a second set)
-results/tables/design/reports/after/extra/table_critical.md,5f91644c85ed6c11a84ab0a06f605b3ef151108feaca8c41872491e5ad086f1d,11648,73a7a42,translated,Fig. 4 (critical single-lane length)
-results/tables/design/reports/after/extra/table_critical_check.csv,f79e64feda9003ba02ea457999adf324667fcabfc3475825c8ebd95367cbfac5,1397,73a7a42,"labels translated, internal names renamed",Fig. 4 (critical single-lane length)
-results/tables/design/reports/after/extra/table_example.csv,e24a26312e05541be2fbd7ca34133efcacdb825805e3ac317fe73261d129bd95,1944,73a7a42,as committed,Table S4 (worked example)
-results/tables/design/reports/after/extra/table_mixx.csv,f4814440909da6a78ec8ce814f186895982cdef1c416e66b40d46eccbb09900b,3607,73a7a42,"labels translated, internal names renamed",Table S6 (mixed lifting and release time)
-results/tables/design/reports/after/extra/table_mixx_win.csv,0cd2f22597e9bf701725af550bedb218f2df31b12eb0ba0d0cb7265e55ec5255,702,73a7a42,"labels translated, internal names renamed",Table S6 (mixed lifting and release time)
-results/tables/design/screen.md,459fe48e211c6bc3fe76b8a0b672e38ffe47cc45c6163d8ba57e8b8174ca3f22,6823,73a7a42,translated,Table 4 (screening of the public sites)
-results/tables/design/screen_kmin.csv,5b35abeee82434f35212e28357c8e7eb9c0016db20305edbfa028d3e70268154,2022,73a7a42,"labels translated, internal names renamed",Table 4 (screening of the public sites)
-results/tables/design/twolevel.md,1af476cde0ecc7c40508cab2dda779a886a8db4be1cfdd75bba2b66e2b3ccc72,6521,73a7a42,translated,Table 6 (two-level storage)
-results/tables/main2/core.csv,4d3422abe5fea48908834d60fb1546dab496ae179556e3f1f9ee5c8485ef7f4c,6832,73a7a42,as committed,Table 8; Section 4 (core case)
-results/tables/main2/core.md,f929fadbfa4993752627401d7074851023aa845862b5b3458688f5ca78c8149a,7544,fbe4d7d,translated,Table 8; Section 4 (core case)
-results/tables/main2/fig_regime_main.csv,0d2206559541e03e5ada66ad297ec7d5e29012aa3f410714e5bc965ec92af2b0,17645,73a7a42,as committed,Fig. 6
-results/tables/main2/geom_compat/summary.csv,457b72732849f2614e07084c220991d26af408ec90a74daf894dd32e19735710,3625,73a7a42,as committed,Fig. 2; Section 2 (geometry check)
-results/tables/main2/geom_compat/turns.csv,802154e5a44c3ce375b1e420a45ea57c25ce8e427aae9bdd09d3a1bdccbfcdaa,32125,73a7a42,"labels translated, internal names renamed",Fig. 2; Section 2 (geometry check)
-results/tables/main2/inputs.json,7769819b0ba4e11bf687429e96f89732efd64db9042dba934660f248b0348f5c,1720,73a7a42,paths renamed,inputs of results/tables/main2
-results/tables/main2/macros.csv,eba24485bfbe8bc303c8f7004c02a2279c7372b9ca85c607a1c92c78059b93cb,64008,73a7a42,"labels translated, internal names renamed",Section 4 (rebuilt side-by-side rows; consistency of the macros)
-results/tables/main2/macros_main2.csv,11fd5394b1deb9e30b8e542f1274a917f36a4da9c17108892250fd9000d2b7b3,9171,fbe4d7d,"labels translated, internal names renamed",Section 4 (rebuilt side-by-side rows; consistency of the macros)
-results/tables/main2/recheck/rows.csv,de5c83d7c77699b2a755cbfaf67e6e5b1c5de4fed05055e65d6b2bdf017ece51,26165185,73a7a42,"labels translated, internal names renamed",Tables 7 and 10; Fig. 8; verification counts (recheck of every point)
-results/tables/main2/regime.csv,9ac75e8682453fc75a248386ed59211b8da350ee8f9a81fecb5d05de34855693,1401527,73a7a42,as committed,Fig. 6; Section 4 (binding regimes)
-results/tables/main2/spatial/numbers.json,655874eb6e475e3a704cd2a0f5dc152af1176c5be026d990cfad0f2b28bfbaa5,64315,73a7a42,"text translated, internal names renamed","Table 5; Table S8; Section 5 (shipyards, three-voyage storage)"
-results/tables/main2/spatial/table_ablate.csv,89b4458a1791e13650c663c73c79b1f84a81534495b2f4dbf934ada9d752e86f,1089,73a7a42,"labels translated, internal names renamed",Table 9 (element ablation)
-results/tables/main2/spatial/table_campaign.md,273757deffbfa1e35f3d90dd76da9aa58a9dc3ef0a7a458fa945988c87c1ae59,2335,73a7a42,translated,Table S11 (campaign)
-results/tables/main2/spatial/table_hphd.md,530f378121b8d04b68fee264039981d293ec0ffc790dfab5ac10a6194bcabf49,2267,73a7a42,translated,Section 4 (pick-up and set-down)
-results/tables/main2/spatial/table_p15.md,d2cd7b07dcf4fff3f2109472dbf01ea3f09522c44c2b1a0193e8fa38b2fcd046,4241,73a7a42,translated,Table S11; Section 5
-results/tables/main2/spatial/table_reserve.csv,8804a74ae59a1db28d8d0ae797b44d34c851fb5d6d7ef11307780d24264eecb9,354,73a7a42,"labels translated, internal names renamed","Table 5; Table S8; Section 5 (shipyards, three-voyage storage)"
-results/tables/main2/spatial/table_siteport.csv,40c5daf2c36a291b798068544dc5893d05b75329db25a903b9e4c48384175fb5,42923,73a7a42,"labels translated, internal names renamed","Table 5; Table S8; Section 5 (shipyards, three-voyage storage)"
-results/tables/main2/spatial/table_sites.csv,56ef919947fa770bb302d1e74bc4f19345eef9be1eb13da6068b5584b8c42eeb,799,73a7a42,"labels translated, internal names renamed","Table 5; Table S8; Section 5 (shipyards, three-voyage storage)"
-results/tables/main2/spatial/table_upsize.csv,11dd174c105b70157634daa1889dded9f539a2fae000c7990ee605be3920b683,2034,73a7a42,as committed,Fig. 9; Table S12
-results/tables/sites/sites.json,6144885b34cd1fa73c3b029e4fb040723971ecb6672bc919d78f400de4442553,11472,0f50c3d,as committed,Table 5; Section 5 (shipyard sites)
-results/tables/sites/sites.md,9c8f651c5348ba432d6961d3587368689cc3fd02c0218dbb4a7ae6e7a1ea040a,4246,0f50c3d,translated,Table 5; Section 5 (shipyard sites)
-results/tables/sites_multi/sites.md,d3a26d439f35d1d5fdad74355234949ca78a92cf08427649fed14e659acab90b,1281,f1aebb7,translated,Table S8; Section 5 (three-voyage storage areas)
+results/tables/design/screen.md,459fe48e211c6bc3fe76b8a0b672e38ffe47cc45c6163d8ba57e8b8174ca3f22,6823,73a7a42,translated,Tables S11 and S12; Section S13.1 (screening of alternative turns)
+results/tables/design/screen_kmin.csv,5b35abeee82434f35212e28357c8e7eb9c0016db20305edbfa028d3e70268154,2022,73a7a42,"labels translated, internal names renamed",Tables S11 and S12; Section S13.1 (screening of alternative turns)
+results/tables/revision/compat/numbers.json,3203a939d72f3210a6f19a59325f73bc97b75129e3f23be3aac766359ac06b68,136710,b2f384e,"text translated, internal names renamed",Tables 4 and 9; Sections 4.4 and S13.1
+results/tables/revision/compat/spatial/table7_rate.csv,2dcc7aed4bd3a5f81402fde81633f016693974f93a2adeab1698e3cc4046c9e8,12476,b2f384e,as committed,Table 9; Section 5.4 (cradle-vehicle rates)
+results/tables/revision/hrep/core.csv,50d4640cb7af4103cdf2249f4b49a7dc485c51eab29c2119bc089d740db58ac2,6832,b2f384e,as committed,Table 7; Table S22 (fixed-duration reference)
+results/tables/revision/hrep/core.md,dce86a5b9aea63eba947836e10cfc26c7dfcf3d08f9c4929765446e109682b88,7544,b2f384e,translated,Tables S2 and S3; Sections 4.6 and 5.4 (core case)
+results/tables/revision/hrep/fig_regime_main.csv,18a238d26cbcb6cc000820c0877e6baa3c52346c774c4f04a2068a25673b3452,17645,b2f384e,as committed,Figs. 8 and S2 (binding regimes)
+results/tables/revision/hrep/geom_compat/summary.csv,457b72732849f2614e07084c220991d26af408ec90a74daf894dd32e19735710,3625,b2f384e,as committed,Sections 2.3 and S12 (geometry check)
+results/tables/revision/hrep/geom_compat/turns.csv,c9b257b12745a73abd1d5014ae029ade23f4c273c6e123a4f667e86ff937f1b5,32129,b2f384e,"labels translated, internal names renamed",Sections 5.3 and S17 (turns of the geometry check)
+results/tables/revision/hrep/macros.csv,2c28d91e096ba4da71805f7e0b12daa90037635658cb9a815b7cec5b094cfc69,46941,b2f384e,"labels translated, internal names renamed","Sections 5.1, 5.2, 5.4 and S14 (rebuilt side-by-side rows)"
+results/tables/revision/hrep/macros_main2.csv,11fd5394b1deb9e30b8e542f1274a917f36a4da9c17108892250fd9000d2b7b3,9171,b2f384e,"labels translated, internal names renamed","Sections 5.1, 5.2, 5.4 and S14 (rebuilt side-by-side rows)"
+results/tables/revision/hrep/recheck/rows.csv,a3c7346f9d7c479ed3d6a59a44fc02f764d14640f70edf06b6264e2c207035c5,26165249,b2f384e,"labels translated, internal names renamed","Figs. 9, 11 and S3; Section 5.5; verification counts (recheck of every point)"
+results/tables/revision/hrep/regime.csv,758b228721500b68dd2fef9a12922ae59de2664631fe93ebc06a2de38d8f09b2,1401527,b2f384e,as committed,Sections 5.1 and S14 (binding regimes)
+results/tables/revision/hrep/spatial/numbers.json,524c29c8a2af8daab7123419d7eec732350a9a6ef2dac31f6f2f01364d5dba5f,64313,b2f384e,"text translated, internal names renamed",Table 8; Section S14.1
+results/tables/revision/hrep/spatial/table_ablate.csv,38cfeea6ebefad5659c6b00b220835bee846f67011dd9c89c8831654432e92e4,1087,b2f384e,"labels translated, internal names renamed",Table 8; Section S14.1 (element ablation)
+results/tables/revision/hrep/spatial/table_campaign.md,58ea983420a0ae1ac461820a0afd9a05d5aa6f36f2fb9bbbbf674a32757f5067,2323,b2f384e,translated,Sections 6.3 and S15 (installation campaign)
+results/tables/revision/hrep/spatial/table_hphd.md,592b48a20220a6fbe6cc42a43834e2454bbcb87455a7b08a2acc52309dab3c4f,2267,b2f384e,translated,Sections 5.3 and S14.1 (pick-up and set-down)
+results/tables/revision/hrep/spatial/table_p15.md,bab9d2f350b95864a6e8cbe6451a8da640fc5a9d2b8c7c9f936671f2e560c22d,4241,b2f384e,translated,Sections 4.4 and S15
+results/tables/revision/hrep/spatial/table_reserve.csv,8804a74ae59a1db28d8d0ae797b44d34c851fb5d6d7ef11307780d24264eecb9,354,b2f384e,"labels translated, internal names renamed",Sections 6.2 and S10 (reserve)
+results/tables/revision/hrep/spatial/table_siteport.csv,40c5daf2c36a291b798068544dc5893d05b75329db25a903b9e4c48384175fb5,42923,b2f384e,"labels translated, internal names renamed","Sections 4.6 and S9 (shipyards, three-voyage storage)"
+results/tables/revision/hrep/spatial/table_sites.csv,56ef919947fa770bb302d1e74bc4f19345eef9be1eb13da6068b5584b8c42eeb,799,b2f384e,"labels translated, internal names renamed","Sections 4.6 and S9 (shipyards, three-voyage storage)"
+results/tables/revision/hrep/spatial/table_upsize.csv,11dd174c105b70157634daa1889dded9f539a2fae000c7990ee605be3920b683,2034,b2f384e,as committed,Fig. S8; Section 5.5 (upsizing)
+results/tables/revision/inputs.json,89669ded65a2a33575ac352ace5be666dd36f4ecb9ac2f5958b892be04f44645,1017,b2f384e,paths renamed,inputs of results/tables/revision
+results/tables/revision/numbers.json,096e01736b2d2fb944dce6c0e1d4cdba8efb0385db63c64928315d4d27a1f6c0,213923,b2f384e,"text translated, internal names renamed",Table 4; Table S8; Section S13
+results/tables/revision/reports/after/e1_e3/fig2.csv,a9ddc514de961a78e4312f1b25f14649f21e76ee4ca136f6b8c5804ed244be54,16677,b2f384e,as committed,Fig. S1
+results/tables/revision/reports/after/e1_e3/fig3.csv,46cc6f61cc0b24e7d2401c3fdb3ac656b19841a0a28ee5bf2e4b87cc95166055,18059,b2f384e,"labels translated, internal names renamed",Fig. 10
+results/tables/revision/reports/after/e1_e3/summary.md,459497f903453389294d151b40fb76cc9bc5ef44fdc2de68c6b4ab4478a8f551,16555,b2f384e,translated,Sections 5.1 and S14 (E1 summary)
+results/tables/revision/reports/after/e1_e3/table3.csv,c6334edc325c3ad524676a116599a9c04bf5d41a77a615d8efebce5936dcf0fa,7290,b2f384e,as committed,Section 5.3
+results/tables/revision/reports/after/e1_e3/table_hold.md,ef2c84497e6f99104b53e9bc443fe38ba2dedc290bc45ec4065901620aba3d27,3655,b2f384e,translated,Section 5.4 (gate holding places)
+results/tables/revision/reports/after/e1_e3/table_rel.md,904f4e6dc9735af1133622bd5b3c2f7beb184ebe0f0297834933b014343adec8,1393,b2f384e,translated,Section 5.2 (release time)
+results/tables/revision/reports/after/e4_e7/fig4.csv,81006ccb66fb6a59a0844194df2f254af89ad6de89db13dffd6647eeea30f76c,5131,b2f384e,as committed,Figs. 11 and S3
+results/tables/revision/reports/after/e4_e7/fig6.csv,daa56b460658550c550c4636613b9a736d59eb4c2f26236c6db7e867fb6f2bb5,3371,b2f384e,as committed,Fig. S6
+results/tables/revision/reports/after/e4_e7/summary.md,7c939b5705854252c0f688d86cbf20d50a7e41a2f9fea52df54ffe8cc83cfda1,3666,b2f384e,translated,Section 4.5 (E4-E7 summary)
+results/tables/revision/reports/after/e4_e7/table2b.csv,2e548284c04c048ab13ea1eacd127ea6c5adf6b5aadb41b6f6177fa7b8a91886,1372,b2f384e,as committed,Section 5.2
+results/tables/revision/reports/after/e4_e7/table4.csv,24aaa16f1770e8da70ceb5c4dc5a46fa7fa1f6ceb1986f7ce1e58325e0693cdc,2318,b2f384e,"labels translated, internal names renamed",Sections 4.3 and 4.5
+results/tables/revision/reports/after/e4_e7/tableC_e1.csv,635ca996b164dde3cd03c255220e3609106fc8f0afba855df07b59ab0891a59a,1509,b2f384e,as committed,Fig. S9; Tables S16-S21 (sensitivity)
+results/tables/revision/reports/after/e4_e7/tableC_e3.csv,93625983ff76446237c4ba98cd249e0163a9371b3e4ab9943e1b0ef328b8310e,3332,b2f384e,as committed,Fig. S9; Tables S16-S21 (sensitivity)
+results/tables/revision/reports/after/e4_e7/tableC_e4.csv,b13597fe0e0870a8347825d0dd85b30dbe791d966f21f20b30d63f987a6d1381,3156,b2f384e,as committed,Fig. S9; Tables S16-S21 (sensitivity)
+results/tables/revision/reports/after/e4_e7/tableC_e5.csv,50c68d92dd517c71f152da0cefd9bd2678e4bcbf25558cfc733e6888bceba6ef,685,b2f384e,as committed,Fig. S9; Tables S16-S21 and S24 (sensitivity)
+results/tables/revision/reports/after/e4_e7/tableC_e7.csv,bb8485dd12b63670c3f0d53a11e18d99c2d3b21df8ce7a14de2b5e5abe6d6cd8,1853,b2f384e,as committed,Fig. S9; Tables S16-S21 (sensitivity)
+results/tables/revision/reports/after/e4_e7/table_e4_plateau.csv,4562f03cd7d37c80d4241bdfbc7183748c94edc8e031185edea2f602147a2b14,36194,b2f384e,as committed,Figs. 11 and S3 (plateaus)
+results/tables/revision/reports/after/e4_e7/table_e4_rate.csv,5f0f87dbcf0d34d3e545ec054b6f0aed99d8de63d88223edcffdcdb49a727682,3183,b2f384e,as committed,Table 9; Section S14
+results/tables/revision/reports/after/e4_e7/table_e5.csv,210cb420aa63e5f15c1b1e817ed2b8919b4f5aa00645846898a47de587719eb8,148635,b2f384e,as committed,Fig. S5; Section S8 (overlap of unloading and load-out)
+results/tables/revision/reports/after/e4_e7/table_e7.csv,c212e5a0a472392d3257ee5447dc519318d39ab5ea970fb503bfb936b54b7c99,8199,b2f384e,as committed,Table S15; Fig. S8
+results/tables/revision/reports/after/e4_e7/table_hold2.md,eb5c6ee5ef66ca3e5d66e58aa2a3a55a215a4437ea471d54eda28a3e0278aec3,3889,b2f384e,translated,"Sections A.4 and S20 (gate holding places, waiting pockets)"
+results/tables/revision/reports/after/e4_e7/table_pocket.md,3adcb077b8e6a683586da7e82730e40079943bf695156b8c2a61941aa8489323,3480,b2f384e,translated,"Sections A.4 and S20 (gate holding places, waiting pockets)"
+results/tables/revision/reports/after/extra/table5x.csv,af2ba377ccc065e3463d8fa4c4b6321a7222f9a79444424184bc0ec017a2e621,6125,b2f384e,as committed,Sections 5.6 and S20 (port times)
+results/tables/revision/reports/after/extra/table6x.csv,40d74b20bd2a63d4853c9eab982386a6a3d23e4dcefe94ab9604c1a0ab470df5,2194,b2f384e,as committed,Table S5
+results/tables/revision/reports/after/extra/tableC3x.csv,643ee22aa9e5a9242c0d80b341063b50e29fa8440d23446cdd8493e25ae00ef8,3459,b2f384e,as committed,Fig. S9 (sensitivity)
+results/tables/revision/reports/after/extra/tableC4x.csv,b60bef9509808b1b1318db08b08cc2912ef5b323b226abff8ab167b2b60bd539,1477,b2f384e,as committed,Table S21 (sensitivity)
+results/tables/revision/reports/after/extra/table_cost.csv,ed4977dda3797e53fa15e0294a33005e67a3dc2d0c229591449d1d5be53bcb1d,80685,b2f384e,as committed,Table S13; Fig. 12 (road cost)
+results/tables/revision/reports/after/extra/table_cost.md,f1cf89d3b0dfe13be370db27fb1ae2be6ec2d0b472490f7ca06966785d0c0d0a,19049,b2f384e,translated,Table S13; Fig. 12 (road cost)
+results/tables/revision/reports/after/extra/table_cost_best.csv,ac5f411749fa264527fbed1d2cbce4d7ec0edf08eb7ffc9ceeca0b82bf73e384,27292,b2f384e,"labels translated, internal names renamed",Table S13; Fig. 12 (road cost)
+results/tables/revision/reports/after/extra/table_critical.md,3584f4989f86fe905289337ab94c6ed2e0ac498b77d070ce62ba3a80ba2b0a14,11652,b2f384e,translated,Sections 4.2 and S15 (critical single-lane length)
+results/tables/revision/reports/after/extra/table_critical_check.csv,f79e64feda9003ba02ea457999adf324667fcabfc3475825c8ebd95367cbfac5,1397,b2f384e,"labels translated, internal names renamed",Section S7 (check of the critical length)
+results/tables/revision/reports/after/extra/table_example.csv,606add7b20b629625acda31124ca69ef8d942d3eb44070fdcc3cbfad3a418987,1944,b2f384e,as committed,Table S4 (worked example)
+results/tables/revision/reports/after/extra/table_mixx.csv,5e121780740e26ab805a0c2aa3038b293940f4c6eae1ab2eb3907cb52bd8e476,3606,b2f384e,"labels translated, internal names renamed",Table S6 (mixed lifting and release time)
+results/tables/revision/reports/after/extra/table_mixx_win.csv,0cd2f22597e9bf701725af550bedb218f2df31b12eb0ba0d0cb7265e55ec5255,702,b2f384e,"labels translated, internal names renamed",Section S21 (mixed lifting)
+results/tables/sites/sites.json,6144885b34cd1fa73c3b029e4fb040723971ecb6672bc919d78f400de4442553,11472,0f50c3d,as committed,"Table S8; Sections 4.3, 4.5 and S13 (shipyard sites)"
+results/tables/sites/sites.md,9c8f651c5348ba432d6961d3587368689cc3fd02c0218dbb4a7ae6e7a1ea040a,4246,0f50c3d,translated,"Table S8; Sections 4.3, 4.5 and S13 (shipyard sites)"
+results/tables/sites_multi/sites.md,d3a26d439f35d1d5fdad74355234949ca78a92cf08427649fed14e659acab90b,1281,f1aebb7,translated,Tables S8 and S9 (three-voyage storage areas)
 results/tables/spatial/inputs.json,33c22684ecb7de2dd189aeb9250e9098720c57198119fd1cb3e50af991f7135d,1137,f1aebb7,paths renamed,inputs of results/tables/spatial
-results/tables/spatial/table_critical_points.md,da2fb73f92449954ade12a3b354d6c83740f47d1a6c33201d36548aa4ecc49aa,9433,f1aebb7,translated,Table 5; Fig. 4 (critical points of the shipyards)
+results/tables/spatial/table_critical_points.md,da2fb73f92449954ade12a3b354d6c83740f47d1a6c33201d36548aa4ecc49aa,9433,f1aebb7,translated,Sections 4.4 and S13.1 (critical points of the shipyards)

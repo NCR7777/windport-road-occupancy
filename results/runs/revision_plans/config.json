@@ -1,0 +1,23 @@
+{
+ "extra": {
+  "okpo": [],
+  "yantai": [
+   "zone_trace_022",
+   "zone_trace_024"
+  ]
+ },
+ "networks": {
+  "okpo": "okpo/rev1833",
+  "yantai": "yantai/rev396"
+ },
+ "params": {
+  "Lv": 110.0,
+  "clear": 1.0,
+  "delta": 5.0,
+  "dm": 9.5,
+  "pitch": 15.36,
+  "res": 0.5,
+  "verge": 10.0
+ },
+ "part": "plans"
+}

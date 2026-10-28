@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper."
-title: "windport-road-occupancy: code and data of 'Road-occupancy capacity of offshore wind marshalling ports: transporter fleet, quayside staging and access-road co-design under load-out windows'"
+title: "windport-road-occupancy: code and data of 'Road occupancy in offshore wind monopile load-out: capacity bounds and fleet–infrastructure co-design'"
 authors:
   - family-names: Na
     given-names: Chunrui
@@ -10,12 +10,12 @@ authors:
     given-names: Qing
     orcid: "https://orcid.org/0000-0002-3265-4127"
     affiliation: "College of Shipbuilding Engineering, Harbin Engineering University"
-  - family-names: Han
-    given-names: Xiao
-    affiliation: "Yantai Research Institute, Harbin Engineering University"
   - family-names: Yao
     given-names: Jingzheng
     orcid: "https://orcid.org/0009-0003-8656-0091"
+    affiliation: "Yantai Research Institute, Harbin Engineering University"
+  - family-names: Han
+    given-names: Xiao
     affiliation: "Yantai Research Institute, Harbin Engineering University"
   - family-names: Zhang
     given-names: Yuntao
@@ -47,7 +47,7 @@ keywords:
   - site screening
 preferred-citation:
   type: unpublished
-  title: "Road-occupancy capacity of offshore wind marshalling ports: transporter fleet, quayside staging and access-road co-design under load-out windows"
+  title: "Road occupancy in offshore wind monopile load-out: capacity bounds and fleet–infrastructure co-design"
   authors:
     - family-names: Na
       given-names: Chunrui
@@ -55,11 +55,11 @@ preferred-citation:
     - family-names: Wang
       given-names: Qing
       orcid: "https://orcid.org/0000-0002-3265-4127"
-    - family-names: Han
-      given-names: Xiao
     - family-names: Yao
       given-names: Jingzheng
       orcid: "https://orcid.org/0009-0003-8656-0091"
+    - family-names: Han
+      given-names: Xiao
     - family-names: Zhang
       given-names: Yuntao
       orcid: "https://orcid.org/0009-0001-8015-8275"
@@ -69,5 +69,5 @@ preferred-citation:
     - family-names: Song
       given-names: Chengjing
       orcid: "https://orcid.org/0009-0003-9279-437X"
-  notes: "manuscript in preparation (Ocean Engineering)"
+  notes: "manuscript submitted to Ocean Engineering"
   year: 2026

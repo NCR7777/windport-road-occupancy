@@ -23,19 +23,16 @@ With geo["kind"] = "map" the derived graph is built by windport.shipyard (geo = 
 simulate2(cfg) returns (net, p, sim, result); the result is as windport.sim.result plus w1g, joint_ub, the rule and the idle
 locations."""
 import copy
-import hashlib
 import json
 import math
-import os
-import tempfile
 from dataclasses import replace
-from pathlib import Path
 
 from occupancy.network import EPS
 from windport import archetypes as A
 from windport import bound as WB
 from windport import bound2 as W2
 from windport import sim as WS
+from windport.mapcache import map_file
 
 BIG = WS.BIG
 _NETS = {}
@@ -271,12 +268,7 @@ def get_net(geo, p):
     key = json.dumps([geo, p.get("section")], sort_keys=True)
     if key not in _NETS:
         D = build_map(geo)
-        raw = A.dumps(D)
-        d = Path(tempfile.gettempdir()) / "windport_maps"
-        d.mkdir(exist_ok=True)
-        sha = hashlib.sha256(raw).hexdigest()
-        f = d / f"{sha[:16]}_{os.getpid()}.json"
-        f.write_bytes(raw)
+        f, sha = map_file(A.dumps(D))
         net = WS.PortNet(str(f), sha, p, roles=A.ROLES)
         net.map_sha256 = sha
         _NETS[key] = (D, net)

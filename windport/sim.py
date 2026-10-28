@@ -54,18 +54,15 @@ simulate(cfg) builds layout, network and tasks from a point config and runs them
 run_point(cfg) returns only the result (JSON-serialisable).
 """
 import collections
-import hashlib
 import json
 import math
-import os
-import tempfile
-from pathlib import Path
 
 from occupancy import params as PP
 from occupancy.network import EPS, Net
 from occupancy.sim import Sim, Vehicle
 from windport import archetypes as A
 from windport import bound as WB
+from windport.mapcache import map_file
 
 BIG = 1e9                       # closed "until later": no open period after the window
 CRANE = ("c", "crane")
@@ -340,10 +337,7 @@ def get_net(geo, p):
     key = json.dumps([geo, p.get("section")], sort_keys=True)
     if key not in _NETS:
         D = A.build(geo["kind"], **{k: v for k, v in geo.items() if k != "kind"})
-        d = Path(tempfile.gettempdir()) / "windport_maps"
-        d.mkdir(exist_ok=True)
-        f = d / f"{hashlib.sha256(A.dumps(D)).hexdigest()[:16]}_{os.getpid()}.json"     # one file per process: no overwrites
-        sha = A.write(D, f)
+        f, sha = map_file(A.dumps(D))
         net = PortNet(str(f), sha, p, roles=A.ROLES)
         net.map_sha256 = sha
         _NETS[key] = (D, net)

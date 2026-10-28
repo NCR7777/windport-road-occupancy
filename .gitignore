@@ -3,6 +3,8 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
+# map file cache (windport/mapcache.py, files named by content hash; WINDPORT_MAP_CACHE moves it)
+.cache/
 # run directories that the experiment scripts write (results/windport_<part>_<hash>/) and working directories
 results/windport_*/
 out/

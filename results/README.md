@@ -1,10 +1,11 @@
 # Result data
 
 The files of this directory are the result files that the paper reads, with the configuration of each run directory and
-the inputs of each report directory, and two inputs of the shipyard batches (the turn analyses on the yard maps).
+the inputs of each report directory, and three inputs of the shipyard batches (the turn analyses on the yard maps).
 `MANIFEST.csv` lists every file of `results/` with its SHA-256, its size, the commit of the research repository it was
-exported from (`source_commit`), how it was exported (`export`) and where the paper uses it (`used_for`). `RECOMPUTE.md`
-(repository root) gives the command and the order of the scripts.
+exported from (`source_commit`), how it was exported (`export`) and where the paper uses it (`used_for`, in the numbering of
+the paper and its supplementary material, S = supplementary). `RECOMPUTE.md` (repository root) gives the command and the
+order of the scripts.
 
 `export` is
 - `as committed`: copied byte for byte;
@@ -13,30 +14,39 @@ exported from (`source_commit`), how it was exported (`export`) and where the pa
   shipyard maps are replaced by the names of their derived graphs (`networks`); directory names and batch labels are
   written as in this release; the key `geometry` (the parameters of the layout geometry, as `windport.archetypes.GEOMETRIES`)
   is written `geometry_params`;
-- `labels translated, internal names renamed` / `text translated, internal names renamed` / `notes translated`: CSV and JSON
-  data whose labels or notes were in Chinese (the label text only; numbers and keys unchanged), and whose batch labels and
-  directory names are written as in this release (the same renaming as the code: below);
+- `labels translated, internal names renamed` / `text translated, internal names renamed` / `notes translated` /
+  `internal labels renamed`: CSV and JSON data whose labels or notes were in Chinese (the label text only; numbers and keys
+  unchanged), and whose batch labels and directory names are written as in this release (the same renaming as the code:
+  below);
 - `translated`: markdown reports, translated;
 - `paths renamed`: `inputs.json` of a report directory;
 - `split in two parts`: `tables/design/compat/e_recheck_rows_part1.csv` and `_part2.csv` are one table of 317,308 data rows
   (58 MB) split at data row 158,654 so that each file stays below 50 MB; both parts carry the header row; part 1 followed by
   part 2 without its header row is the table.
 
+The `src` of a run configuration names the batch whose keys a rerun takes, and the `inputs.json` of a report directory
+lists every file the report read; these name directories of the research repository, not all of which are released (only
+the files that the paper reads are).
+
 ## Layout
 
 | Directory | Contents |
 |---|---|
-| `runs/w1_grid`, `runs/theorems`, `runs/chain` | exhaustive checks of W, of Theorems 3 and 4, of the cut in series (two-block chains) |
+| `runs/w1_grid`, `runs/theorems`, `runs/chain` | exhaustive checks of W, of the theorems (keys `thm3`, `thm4` of the configuration: names of the research repository), of the cut in series (two-block chains) |
 | `runs/random_bound`, `runs/random_lift_1`-`4`, `runs/main2_random_a`, `runs/main2_random_dead` | random-layout regressions (summaries) |
 | `runs/recheck`, `runs/facts` | recheck of the return correction; code facts (set composition, widths) |
 | `runs/deadend_exact`, `runs/deadend_chain2`, `runs/conservative_exact` | exhaustive checks against W″ (original and conservative lifting rule; summaries) |
-| `runs/maingeom_<batch>` | batches on the main geometry of the layouts (first cradle 170 m), conservative lifting rule: `e1e3_e1h` (gate holding places), `runs_e4` (fleet and cradles), `runs_conv` (convoy dispatch), `extra_port` (port times), `extra_sens` (sensitivity), `e2` (CP-SAT small instances, `e2long/` with 600 s), `critical`, `example`, `sens` (closure under the load), `xscan` (release threshold) |
-| `runs/main2_splice`, `runs/main2_codesign` | main2 geometry: rerun points spliced into their batches (`e1e3_e1/`, `runs_pocket/`, `extra_sens5/`); joint-design enumeration |
-| `runs/design_e6_hi` | shipyards, one voyage of storage, alternative manoeuvres (upper durations) |
-| `runs/design_turn`, `runs/spatial_turn_sweep` | turn analyses on the yard maps: class and duration of each alternative turn (`turn_alt.json`), turns that need one (`turn_extra.json`) |
+| `runs/revision_r1_x` | batches on the main geometry of the layouts (first cradle 170 m, cradle spacing 115 m), conservative lifting rule, spliced into their batches (`splice/<batch>/`): `e1e3_e1` (port runs), `e1e3_e1h` (gate holding places), `runs_e4` (fleet and cradles), `runs_conv` (convoy dispatch), `runs_pocket` (waiting pockets), `extra_port` (port times), `extra_sens`, `extra_sens5` (sensitivity), `conservative_xscan` (release threshold of direct lifting) |
+| `runs/revision_r1_e2`, `runs/revision_r1_ex`, `runs/revision_r1_sens` | the same geometry: CP-SAT small instances (`splice/e1e3_e2/`, `e2long/` with 600 s); critical single-lane length (`critical/`) and worked example (`example/`); closure under the load (`splice/conservative_sens/`) |
+| `runs/main2_codesign` | joint fleet-infrastructure design enumeration |
+| `runs/design_e6_hi`, `runs/revision_bmulti` | shipyards, one voyage of storage with alternative manoeuvres (upper durations); several storage areas |
+| `runs/revision_plans` | shipyards: near-yard slot layouts read by the storage batches (`plans.json`: road section, position along it, side, slots, crab distances; no coordinates) |
+| `runs/gode`, `runs/detour` | shipyards: two-level storage bounds (`numbers.json`); bounds with detours (`numbers.json`) |
+| `runs/design_turn`, `runs/spatial_turn_sweep`, `runs/revision_bturn` | turn analyses on the yard maps: class and duration of each alternative turn (`turn_alt.json`; `revision_bturn` on the storage routes), turns that need one (`turn_extra.json`) |
 | `runs/survey` | public load-out sites: `segments_public.csv` (haul paths by segment, measured on imagery, no coordinates), `critical_points.csv` (the sites as points of the critical-length figure) |
 | `tables/sites`, `tables/sites_multi` | the berth, storage area, gate and waiting area of each shipyard, one voyage and three voyages of storage |
-| `tables/spatial`, `tables/conservative`, `tables/main2`, `tables/design` | report tables of the stages (spatial additions, conservative lifting rule, main2 geometry, design analyses); `reports/after/e1_e3`, `e4_e7`, `extra`: the report tables of `windport_report.py`, `windport_report2.py`, `windport_report3.py` on the batches of the stage |
+| `tables/spatial`, `tables/conservative`, `tables/design` | report tables of the stages (spatial additions, conservative lifting rule, design analyses) |
+| `tables/revision` | report tables of the final stage: `numbers.json` (shipyard rows), `compat/` (shipyard turns and cradle-vehicle rates), `hrep/` (core case, binding regimes, recheck of every point, geometry check, ablation, upsizing, reserve, campaign), `reports/after/e1_e3`, `e4_e7`, `extra` (the report tables of `windport_report.py`, `windport_report2.py`, `windport_report3.py` on the batches of `runs/revision_r1_*`) |
 
 ## Conventions
 
@@ -45,9 +55,12 @@ exported from (`source_commit`), how it was exported (`export`) and where the pa
   `map:yantai` (or `kind = map` with `site`) the two shipyards; `storage`: `runs` one voyage, `multi` three voyages,
   `transfer` the two-level transfer.
 - Batch labels: `<stage>:<part>`, with the stages `e1e3` (E1-E3), `runs` (E4-E7), `extra` (the extra analyses), `spatial`,
-  `deadend`, `conservative`, `unified`, `maingeom`, `main2`, `design`; directory names `runs/<stage>_<part>`.
+  `deadend`, `conservative`, `unified`, `maingeom`, `main2`, `design`, `revision`, `gode`, `detour`; directory names
+  `runs/<stage>_<part>`.
 - `semantics`: `lift_tu0.05_head` is the conservative lifting rule with the area under the load closed for t_u = 0.05 p and
-  the load extent of the main measure; `src` names the batch whose keys a rerun takes.
+  the load extent of the main measure; `spacing` the cradle spacing (m; `null`: the default of the layouts).
+- Shipyard graphs: `networks` names the derived graphs of `data/networks`; `ban` the node and road sections (identifiers of
+  those graphs) closed to the loaded vehicle.
 - Scenarios (`scen`): `base` (the Rønne case model: loaded 2.5 km/h, crane cycle 1 h), `slow` (loaded 1 km/h), `long`
   (storage-quay route 1,500 m with a 1,200 m single lane), `longslow` (both), `lane` (as `longslow`, the single lane without
   side branches), `longpile` (vehicle and monopile 123.6 m), `fastcrane` (crane cycle 0.5 h), `joint`, `jointshared`

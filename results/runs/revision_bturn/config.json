@@ -1,0 +1,29 @@
+{
+ "ban": {
+  "okpo": [
+   [
+    "node_trace_016",
+    "road_trace_039",
+    "road_trace_619"
+   ]
+  ]
+ },
+ "clear_m": 1.0,
+ "geometry_params": {
+  "gate_cradle_m": 170.0,
+  "loop_open_m": 60.0,
+  "quay_edge_m": 20.0,
+  "ramp_axis": "along",
+  "turn_open_m": 60.0
+ },
+ "networks": {
+  "okpo": "okpo/rev1833",
+  "yantai": "yantai/rev396"
+ },
+ "part": "bturn",
+ "semantics": "lift_tu0.05_head",
+ "tsw": [
+  30.0,
+  300.0
+ ]
+}

@@ -1,0 +1,548 @@
+macro,manuscript,legacy,main,source,changed
+ApronCap,13,13,,make_numbers.py (macros of the conservative lifting rule),1
+AxleDeadWeight,3.9,3.9,,make_numbers.py (macros of the conservative lifting rule),1
+AxleLoadHi,33,33,,make_numbers.py (macros of the conservative lifting rule),1
+AxleLoadLo,18.75,18.75,,make_numbers.py (macros of the conservative lifting rule),1
+AxlePayloadMax,60,60,,make_numbers.py (macros of the conservative lifting rule),1
+AxleRatedHi,40,40,,make_numbers.py (macros of the conservative lifting rule),1
+AxleRatedLo,32,32,,make_numbers.py (macros of the conservative lifting rule),1
+CFixReach,32,32,,make_numbers.py (macros of the conservative lifting rule),1
+CLaneLevels,34,34,,make_numbers.py (macros of the conservative lifting rule),1
+COccReach,0,0,,make_numbers.py (macros of the conservative lifting rule),1
+CPlatEq,24,24,,make_numbers.py (macros of the conservative lifting rule),1
+CPlatLevels,34,34,,make_numbers.py (macros of the conservative lifting rule),1
+CRatioHi,3.58,3.62,,make_numbers.py (macros of the conservative lifting rule),1
+CRatioLo,1.21,1.22,,make_numbers.py (macros of the conservative lifting rule),1
+CSevenRange,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+CSevenStepHi,7,7,,make_numbers.py (macros of the conservative lifting rule),1
+CTieBaseHi,100\%,100\%,,make_numbers.py (macros of the conservative lifting rule),1
+CTieBaseLo,36\%,32\%,,make_numbers.py (macros of the conservative lifting rule),1
+CTieLaneHi,65\%,64\%,,make_numbers.py (macros of the conservative lifting rule),1
+CTieLaneLo,14\%,14\%,,make_numbers.py (macros of the conservative lifting rule),1
+ChainN,"3{,}840","3{,}840",,make_numbers.py (macros of the conservative lifting rule),1
+ChainNoGuard,360,360,,make_numbers.py (macros of the conservative lifting rule),1
+ChainTieW,90.1\%,90.1\%,,make_numbers.py (macros of the conservative lifting rule),1
+ChainTieWp,99.4\%,99.4\%,,make_numbers.py (macros of the conservative lifting rule),1
+ChainTight,370,370,,make_numbers.py (macros of the conservative lifting rule),1
+ChainTightExact,360,360,,make_numbers.py (macros of the conservative lifting rule),1
+ChainTightPieces,398,398,,make_numbers.py (macros of the conservative lifting rule),1
+CheapKMax,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+CheapS,"0, 1 or 3","0, 1 or 3",,make_numbers.py (macros of the conservative lifting rule),1
+ConvDispatchOnly,one,—,,make_numbers.py (macros of the conservative lifting rule),1
+ConvExConv,19,,,make_numbers.py (macros of the conservative lifting rule),0
+ConvExFcfs,17,,,make_numbers.py (macros of the conservative lifting rule),0
+ConvFewer,44,8,,make_numbers.py (macros of the conservative lifting rule),1
+ConvGainHi,3,—,,make_numbers.py (macros of the conservative lifting rule),1
+ConvGainLo,1,—,,make_numbers.py (macros of the conservative lifting rule),1
+ConvGridN,"23{,}040","23{,}040",,make_numbers.py (macros of the conservative lifting rule),1
+ConvHoldC,"3{,}596","3{,}143",,make_numbers.py (macros of the conservative lifting rule),1
+ConvHoldF,"3{,}165","3{,}113",,make_numbers.py (macros of the conservative lifting rule),1
+ConvHoldPct,13.6\%,1.0\%,,make_numbers.py (macros of the conservative lifting rule),1
+ConvNonMono,15,1,,make_numbers.py (macros of the conservative lifting rule),1
+ConvPlatHi,5,,,make_numbers.py (macros of the conservative lifting rule),0
+ConvPlatLo,3,,,make_numbers.py (macros of the conservative lifting rule),0
+ConvPortLane,12.63,14.52,,make_numbers.py (macros of the conservative lifting rule),1
+ConvPortLong,10.93,14.22,,make_numbers.py (macros of the conservative lifting rule),1
+ConvTotC,"6{,}801","6{,}557",,make_numbers.py (macros of the conservative lifting rule),1
+ConvTotF,"6{,}626","6{,}556",,make_numbers.py (macros of the conservative lifting rule),1
+ConvTotGain,2.6\%,0.0\%,,make_numbers.py (macros of the conservative lifting rule),1
+ConvTotPts,138,1,,make_numbers.py (macros of the conservative lifting rule),1
+CostDaysBHi,12.8,12.8,,make_numbers.py (macros of the conservative lifting rule),1
+CostDaysBLo,6.1,6.3,,make_numbers.py (macros of the conservative lifting rule),1
+CostDaysHi,7.2,7.2,,make_numbers.py (macros of the conservative lifting rule),1
+CostDaysLo,3.4,3.5,,make_numbers.py (macros of the conservative lifting rule),1
+CostEurBHi,"92{,}311","92{,}311",,make_numbers.py (macros of the conservative lifting rule),1
+CostEurBLo,"43{,}732","45{,}283",,make_numbers.py (macros of the conservative lifting rule),1
+CostEurHi,"51{,}694","51{,}694",,make_numbers.py (macros of the conservative lifting rule),1
+CostEurLo,"24{,}490","25{,}358",,make_numbers.py (macros of the conservative lifting rule),1
+CostSaveHi,8.86,8.86,,make_numbers.py (macros of the conservative lifting rule),1
+CostSaveLo,4.20,4.35,,make_numbers.py (macros of the conservative lifting rule),1
+CostThreeEur,430,"1{,}299",,make_numbers.py (macros of the conservative lifting rule),1
+CostThreeH,0.07,0.22,,make_numbers.py (macros of the conservative lifting rule),1
+CradleBaseOne,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+CradlePlatLaneN,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+CritCut,632,632,,make_numbers.py (macros of the conservative lifting rule),1
+CritCutFast,"1{,}466","1{,}466",,make_numbers.py (macros of the conservative lifting rule),1
+CritCutRows,7,7,,make_numbers.py (macros of the conservative lifting rule),1
+CritRows,18,18,,make_numbers.py (macros of the conservative lifting rule),1
+CritZone,278,278,,make_numbers.py (macros of the conservative lifting rule),1
+CritZoneAgree,16,16,,make_numbers.py (macros of the conservative lifting rule),1
+CritZoneFast,682,682,,make_numbers.py (macros of the conservative lifting rule),1
+CutAllN,50,50,,make_numbers.py (macros of the conservative lifting rule),1
+CutAllSame,43,25,,make_numbers.py (macros of the conservative lifting rule),1
+CutRoadN,25,27,,make_numbers.py (macros of the conservative lifting rule),1
+CutSame,18,2,,make_numbers.py (macros of the conservative lifting rule),1
+DirLanePull,16.45,17.02,,make_numbers.py (macros of the conservative lifting rule),1
+DirLaneRoad,16.07,16.66,,make_numbers.py (macros of the conservative lifting rule),1
+DirectLate,6,10,,make_numbers.py (macros of the conservative lifting rule),1
+DirectN,36,36,,make_numbers.py (macros of the conservative lifting rule),1
+DirxHalf,20.03,21.07,,make_numbers.py (macros of the conservative lifting rule),1
+EFiveN,"2{,}560","2{,}560",,make_numbers.py (macros of the conservative lifting rule),1
+EFourN,"10{,}080","10{,}080",,make_numbers.py (macros of the conservative lifting rule),1
+EOneHN,"17{,}280","17{,}280",,make_numbers.py (macros of the conservative lifting rule),1
+EOneN,"31{,}680","31{,}680",,make_numbers.py (macros of the conservative lifting rule),1
+EOneTie,73.4\%,68.5\%,,make_numbers.py (macros of the conservative lifting rule),1
+EOneTieAOne,96.7\%,93.5\%,,make_numbers.py (macros of the conservative lifting rule),1
+EOneTieAThree,95.4\%,93.8\%,,make_numbers.py (macros of the conservative lifting rule),1
+EOneTieATwo,97.1\%,92.3\%,,make_numbers.py (macros of the conservative lifting rule),1
+EOneTieFastOnRoad,25.8\%,9.4\%,,make_numbers.py (macros of the conservative lifting rule),1
+EOneTieFastPullIn,44.2\%,30.8\%,,make_numbers.py (macros of the conservative lifting rule),1
+EOneTieLaneAOne,38.5\%,35.0\%,,make_numbers.py (macros of the conservative lifting rule),1
+EOneTieLaneATwo,59.4\%,53.1\%,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeFastFixHi,7.31,7.36,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeFastFixLo,5.73,5.74,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeFastLb,5,5,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeFastOcc,7.71,7.84,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeFix,10.0,10.0,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeFixPlatHi,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeFixPlatLo,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeGain,84\%,86\%,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeHoldLane,14.27,14.49,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeHoldLong,11.23,11.45,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeOcc,18.42,18.64,,make_numbers.py (macros of the conservative lifting rule),1
+EThreeSlowOcc,10.74,10.96,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoCpConv,10,19,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoCpSim,18,19,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoCpSimCases,17,19,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoGapW,228,228,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoGapWp,171,177,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoLongN,17,17,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoLongProven,10,9,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoLongPullW,28,24,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoLongPullWp,12,11,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoLongRoadW,31,28,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoLongRoadWp,13,12,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoN,540,540,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoOpt,533,521,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoOptConv,524,506,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoOptSim,518,506,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoTieW,353,338,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoTieWp,388,371,,make_numbers.py (macros of the conservative lifting rule),1
+ETwoTimeLong,600,600,,make_numbers.py (macros of the conservative lifting rule),1
+EemAxles,80,80,,make_numbers.py (macros of the conservative lifting rule),1
+EemCells,18,18,,make_numbers.py (macros of the conservative lifting rule),1
+EemCount,116,116,,make_numbers.py (macros of the conservative lifting rule),1
+EemMass,"1{,}500","1{,}500",,make_numbers.py (macros of the conservative lifting rule),1
+EemSameTwo,13,13,,make_numbers.py (macros of the conservative lifting rule),1
+EemVoyageNew,10,10,,make_numbers.py (macros of the conservative lifting rule),1
+EmptyUse,5.86,5.86,,make_numbers.py (macros of the conservative lifting rule),1
+ExBlock,200,200,,make_numbers.py (macros of the conservative lifting rule),1
+ExKdLane,1.88,1.88,,make_numbers.py (macros of the conservative lifting rule),1
+ExKdPull,6.46,6.46,,make_numbers.py (macros of the conservative lifting rule),1
+ExKdRoad,2.63,2.63,,make_numbers.py (macros of the conservative lifting rule),1
+ExLane,"1{,}200","1{,}200",,make_numbers.py (macros of the conservative lifting rule),1
+ExLaneSim,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+ExLaneWp,9,9,,make_numbers.py (macros of the conservative lifting rule),1
+ExTlRoad,"2{,}102","2{,}102",,make_numbers.py (macros of the conservative lifting rule),1
+FastLiftH,0.5,0.5,,make_numbers.py (macros of the conservative lifting rule),1
+FhwaSpeed,4.8,4.8,,make_numbers.py (macros of the conservative lifting rule),1
+FiveCapNo,15,16,,make_numbers.py (macros of the conservative lifting rule),1
+FiveCapNu,5,5,,make_numbers.py (macros of the conservative lifting rule),1
+FiveL,24,24,,make_numbers.py (macros of the conservative lifting rule),1
+FiveLongCapTot,9,9,,make_numbers.py (macros of the conservative lifting rule),1
+FiveLongDedHi,13,13,,make_numbers.py (macros of the conservative lifting rule),1
+FiveLongDedLo,11,11,,make_numbers.py (macros of the conservative lifting rule),1
+FiveLongDedPctHi,31\%,31\%,,make_numbers.py (macros of the conservative lifting rule),1
+FiveLongDedPctLo,19\%,19\%,,make_numbers.py (macros of the conservative lifting rule),1
+FiveLongDedTot,11,10,,make_numbers.py (macros of the conservative lifting rule),1
+FiveLongDedZero,16,16,,make_numbers.py (macros of the conservative lifting rule),1
+FivePlainNuZero,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+FiveSameDir,450,407,,make_numbers.py (macros of the conservative lifting rule),1
+FiveSameDirOf,560,560,,make_numbers.py (macros of the conservative lifting rule),1
+FiveTide,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+FiveTideOne,25,24/25,,make_numbers.py (macros of the conservative lifting rule),1
+FiveTideZero,26,26,,make_numbers.py (macros of the conservative lifting rule),1
+FiveUfNoOne,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+FiveUfNoZero,24,24,,make_numbers.py (macros of the conservative lifting rule),1
+FiveUfNu,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+FixAtThree,10.02,10.07,,make_numbers.py (macros of the conservative lifting rule),1
+FixUnderThree,46\%,46\%,,make_numbers.py (macros of the conservative lifting rule),1
+FourGLong,24,24,,make_numbers.py (macros of the conservative lifting rule),1
+FourGShort,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+FourKMax,10,10,,make_numbers.py (macros of the conservative lifting rule),1
+FourLLong,24,24,,make_numbers.py (macros of the conservative lifting rule),1
+FourLMid,12,12,,make_numbers.py (macros of the conservative lifting rule),1
+GeoApronW,12,12,,make_numbers.py (macros of the conservative lifting rule),1
+GeoCorr,400,400,,make_numbers.py (macros of the conservative lifting rule),1
+GeoCorrW,10,10,,make_numbers.py (macros of the conservative lifting rule),1
+GeoCradleSp,110,110,,make_numbers.py (macros of the conservative lifting rule),1
+GeoDist,600,600,,make_numbers.py (macros of the conservative lifting rule),1
+GeoRamp,40,40,,make_numbers.py (macros of the conservative lifting rule),1
+GeoRowSp,15,15,,make_numbers.py (macros of the conservative lifting rule),1
+GeoRows,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+GeoStub,30,30,,make_numbers.py (macros of the conservative lifting rule),1
+GeoYardW,20,20,,make_numbers.py (macros of the conservative lifting rule),1
+GridGHi,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+GridGLo,0,0,,make_numbers.py (macros of the conservative lifting rule),1
+GridHandHi,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+GridKHi,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+GridL,"3, 5, 8 and 12","3, 5, 8 and 12",,make_numbers.py (macros of the conservative lifting rule),1
+GridPHi,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+GridSHi,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+HandMin,30,30,,make_numbers.py (macros of the conservative lifting rule),1
+HireDay,"7{,}200","7{,}200",,make_numbers.py (macros of the conservative lifting rule),1
+HireDaySup,"9{,}120","9{,}120",,make_numbers.py (macros of the conservative lifting rule),1
+HlvRateHi,"250{,}000","250{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+HlvRateLo,"150{,}000","150{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+HoldGain,31\%,30\%,,make_numbers.py (macros of the conservative lifting rule),1
+HoldInf,"4{,}168","4{,}063",,make_numbers.py (macros of the conservative lifting rule),1
+HoldOne,"3{,}527","3{,}483",,make_numbers.py (macros of the conservative lifting rule),1
+HoldOneLane,17.06,17.28,,make_numbers.py (macros of the conservative lifting rule),1
+HoldOneLong,15.74,15.97,,make_numbers.py (macros of the conservative lifting rule),1
+HoldTwo,"3{,}824","3{,}743",,make_numbers.py (macros of the conservative lifting rule),1
+HoldZero,"3{,}187","3{,}123",,make_numbers.py (macros of the conservative lifting rule),1
+InchLen,110,110,,make_numbers.py (macros of the conservative lifting rule),1
+InchMass,"2{,}300","2{,}300",,make_numbers.py (macros of the conservative lifting rule),1
+JackupRate,"140{,}000","140{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+JointRoroH,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+KasBarge,12.94,12.94,,make_numbers.py (macros of the conservative lifting rule),1
+KasOpRate,60,60,,make_numbers.py (macros of the conservative lifting rule),1
+KasOverlapMax,75\%,75\%,,make_numbers.py (macros of the conservative lifting rule),1
+KasSpeed,"2{,}500","2{,}500",,make_numbers.py (macros of the conservative lifting rule),1
+KasSpmtRate,180,180,,make_numbers.py (macros of the conservative lifting rule),1
+KasSupRate,80,80,,make_numbers.py (macros of the conservative lifting rule),1
+KasSupportCost,"60{,}000","60{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+KasVesselHi,3.31,3.31,,make_numbers.py (macros of the conservative lifting rule),1
+KasVesselLo,2.99,2.99,,make_numbers.py (macros of the conservative lifting rule),1
+KasVesselLoad,three,three,,make_numbers.py (macros of the conservative lifting rule),1
+KdBaseHi,9.3,9.3,,make_numbers.py (macros of the conservative lifting rule),1
+KdBaseLo,2.6,2.6,,make_numbers.py (macros of the conservative lifting rule),1
+KdLaneAOne,1.88,1.88,,make_numbers.py (macros of the conservative lifting rule),1
+KdLaneHi,2.4,2.4,,make_numbers.py (macros of the conservative lifting rule),1
+KdLaneLo,2.2,2.2,,make_numbers.py (macros of the conservative lifting rule),1
+LStarFastRoad,5.29,5.29,,make_numbers.py (macros of the conservative lifting rule),1
+LStarGain,32\%,32\%,,make_numbers.py (macros of the conservative lifting rule),1
+LStarLane,13.19,13.19,,make_numbers.py (macros of the conservative lifting rule),1
+LStarLaneInf,10.00,10.00,,make_numbers.py (macros of the conservative lifting rule),1
+LatC,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+LatCThree,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+LatCTwo,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+LatClear,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+LatLoss,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+LatLossPct,3.7\%,3.7\%,,make_numbers.py (macros of the conservative lifting rule),1
+LiftH,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+LindoMass,"2{,}515","2{,}515",,make_numbers.py (macros of the conservative lifting rule),1
+LoadedUse,10.5,10.5,,make_numbers.py (macros of the conservative lifting rule),1
+LongClear,5,5,,make_numbers.py (macros of the conservative lifting rule),1
+LongCorr,"1{,}200","1{,}200",,make_numbers.py (macros of the conservative lifting rule),1
+LongCorrKm,1.2,1.2,,make_numbers.py (macros of the conservative lifting rule),1
+LongDist,"1{,}500","1{,}500",,make_numbers.py (macros of the conservative lifting rule),1
+LongPile,123.6,123.6,,make_numbers.py (macros of the conservative lifting rule),1
+MixBaseOne,10,10,,make_numbers.py (macros of the conservative lifting rule),1
+MixFast,5.00,5.00,,make_numbers.py (macros of the conservative lifting rule),1
+MixLanePull,15.22,15.90,,make_numbers.py (macros of the conservative lifting rule),1
+MixLaneRoad,14.89,15.58,,make_numbers.py (macros of the conservative lifting rule),1
+MixPlatLaneN,8,7,,make_numbers.py (macros of the conservative lifting rule),1
+MixxBound,0.5,0.5,,make_numbers.py (macros of the conservative lifting rule),1
+MixxHalf,17.92,19.05,,make_numbers.py (macros of the conservative lifting rule),1
+MixxOne,21.42,22.55,,make_numbers.py (macros of the conservative lifting rule),1
+MixxWinFewer,2,4,,make_numbers.py (macros of the conservative lifting rule),1
+MixxWinN,40,40,,make_numbers.py (macros of the conservative lifting rule),1
+MixxZero,15.22,15.9,,make_numbers.py (macros of the conservative lifting rule),1
+MuhBase,14.20,14.35,,make_numbers.py (macros of the conservative lifting rule),1
+MuhFastOneH,8.50,8.50,,make_numbers.py (macros of the conservative lifting rule),1
+MuhMinBase,99,100,,make_numbers.py (macros of the conservative lifting rule),1
+MuhOneH,10.00,10.00,,make_numbers.py (macros of the conservative lifting rule),1
+MuhabieH,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+MuhabieSD,10\%,10\%,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoAngHi,104.7,104.7,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoAngLo,89.9,89.9,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoBerths,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoBigYard,6.82,6.82,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoBigYardRoute,"2{,}865","2{,}865",,make_numbers.py (macros of the conservative lifting rule),1
+OkpoQuay,977.5,977.5,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoQuayCand,13,13,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoQuayW,12,12,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoRoute,282.7,282.7,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoRouteHi,940,940,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoRouteLo,230,230,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoSetDownShare,"1{,}800","1{,}800",,make_numbers.py (macros of the conservative lifting rule),1
+OkpoTl,"1{,}961","1{,}961",,make_numbers.py (macros of the conservative lifting rule),1
+OkpoTurnsHi,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoYard,2.2,2.2,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoYardCand,15,15,,make_numbers.py (macros of the conservative lifting rule),1
+OkpoYardOk,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+PairUse,16.36,16.36,,make_numbers.py (macros of the conservative lifting rule),1
+PileDia,9.5,9.5,,make_numbers.py (macros of the conservative lifting rule),1
+PileLen,110,110,,make_numbers.py (macros of the conservative lifting rule),1
+PlatBaseMax,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+PlatBaseN,252,252,,make_numbers.py (macros of the conservative lifting rule),1
+PlatConvEq,146,151,,make_numbers.py (macros of the conservative lifting rule),1
+PlatConvGt,18,0,,make_numbers.py (macros of the conservative lifting rule),1
+PlatEq,164,150,,make_numbers.py (macros of the conservative lifting rule),1
+PlatLaneAOne,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+PlatLaneOther,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+PlatLen,30,30,,make_numbers.py (macros of the conservative lifting rule),1
+PlatLt,52,66,,make_numbers.py (macros of the conservative lifting rule),1
+PlatN,216,216,,make_numbers.py (macros of the conservative lifting rule),1
+PlatW,4.86,4.86,,make_numbers.py (macros of the conservative lifting rule),1
+PocketMax,1.2\%,0.7\%,,make_numbers.py (macros of the conservative lifting rule),1
+PocketN,"12{,}672","12{,}672",,make_numbers.py (macros of the conservative lifting rule),1
+PocketPtFrom,43,44,,make_numbers.py (macros of the conservative lifting rule),1
+PocketPtLoss,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+PocketPtTo,39,40,,make_numbers.py (macros of the conservative lifting rule),1
+PocketStub,30,30,,make_numbers.py (macros of the conservative lifting rule),1
+PortSThree,14.32,14.55,,make_numbers.py (macros of the conservative lifting rule),1
+PubBarge,15.06,15.06,,make_numbers.py (macros of the conservative lifting rule),1
+PubBargeBare,12.95,12.95,,make_numbers.py (macros of the conservative lifting rule),1
+PubBargeExtra,16\%,16\%,,make_numbers.py (macros of the conservative lifting rule),1
+PubRoute,250,250,,make_numbers.py (macros of the conservative lifting rule),1
+PubTOOne,3.29,3.33,,make_numbers.py (macros of the conservative lifting rule),1
+PubTOOneFcfs,3.80,3.98,,make_numbers.py (macros of the conservative lifting rule),1
+PubTOTwo,3.00,3.00,,make_numbers.py (macros of the conservative lifting rule),1
+QuayBearHi,30,30,,make_numbers.py (macros of the conservative lifting rule),1
+QuayBearLo,15,15,,make_numbers.py (macros of the conservative lifting rule),1
+RandMaps,"2{,}028","2{,}028",,make_numbers.py (macros of the conservative lifting rule),1
+RandN,"20{,}000","20{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+RandXHold,"4{,}530","4{,}530",,make_numbers.py (macros of the conservative lifting rule),1
+RandXLifts,"250{,}813","250{,}813",,make_numbers.py (macros of the conservative lifting rule),1
+RandXN,"34{,}000","34{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+RandZoneQ,"1{,}668","1{,}668",,make_numbers.py (macros of the conservative lifting rule),1
+RateBase,0.8,0.8,,make_numbers.py (macros of the conservative lifting rule),1
+RateBaseExtra,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+RateBaseSecond,5,5,,make_numbers.py (macros of the conservative lifting rule),1
+RateExtraHi,5,5,,make_numbers.py (macros of the conservative lifting rule),1
+RateExtraLo,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+RateLane,1.0,1.0,,make_numbers.py (macros of the conservative lifting rule),1
+RateLaneExtra,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+RateLanePlatOne,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+RateLanePlatSix,11,11,,make_numbers.py (macros of the conservative lifting rule),1
+RateLaneSecond,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+RatePlatHi,1.0,1.0,,make_numbers.py (macros of the conservative lifting rule),1
+RatePlatLo,0.6,0.6,,make_numbers.py (macros of the conservative lifting rule),1
+RateShortPrep,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+RatioBaseCut,0.24,0.24,,make_numbers.py (macros of the conservative lifting rule),1
+RatioLaneCut,1.68,1.68,,make_numbers.py (macros of the conservative lifting rule),1
+RecheckChanged,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+RecheckRandN,"20{,}000","20{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+RecheckRelaxHi,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+RecheckRelaxLo,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+RegAddN,7,7,,make_numbers.py (macros of the conservative lifting rule),1
+RegBaseF,60,60,,make_numbers.py (macros of the conservative lifting rule),1
+RegBaseI,"1{,}026","1{,}026",,make_numbers.py (macros of the conservative lifting rule),1
+RegBaseS,66,66,,make_numbers.py (macros of the conservative lifting rule),1
+RegBaseShare,89\%,89\%,,make_numbers.py (macros of the conservative lifting rule),1
+RegCellN,"1{,}152","1{,}152",,make_numbers.py (macros of the conservative lifting rule),1
+RegFastF,179,179,,make_numbers.py (macros of the conservative lifting rule),1
+RegFastI,774,774,,make_numbers.py (macros of the conservative lifting rule),1
+RegFastS,199,199,,make_numbers.py (macros of the conservative lifting rule),1
+RegKnown,46,46,,make_numbers.py (macros of the conservative lifting rule),1
+RegLaneCut,200,200,,make_numbers.py (macros of the conservative lifting rule),1
+RegLaneF,498,498,,make_numbers.py (macros of the conservative lifting rule),1
+RegLaneFShare,43\%,43\%,,make_numbers.py (macros of the conservative lifting rule),1
+RegLaneI,442,442,,make_numbers.py (macros of the conservative lifting rule),1
+RegLaneS,212,212,,make_numbers.py (macros of the conservative lifting rule),1
+RegRange,27,27,,make_numbers.py (macros of the conservative lifting rule),1
+RegRows,86,86,,make_numbers.py (macros of the conservative lifting rule),1
+RegScen,13,13,,make_numbers.py (macros of the conservative lifting rule),1
+RegShown,50,50,,make_numbers.py (macros of the conservative lifting rule),1
+RelCradle,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+RelGLong,24,24,,make_numbers.py (macros of the conservative lifting rule),1
+RelHalf,7,7,,make_numbers.py (macros of the conservative lifting rule),1
+RelL,12,12,,make_numbers.py (macros of the conservative lifting rule),1
+RelLShort,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+RelOne,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+RelQuarter,9,9,,make_numbers.py (macros of the conservative lifting rule),1
+RelZero,10,10,,make_numbers.py (macros of the conservative lifting rule),1
+RippelVessels,three,three,,make_numbers.py (macros of the conservative lifting rule),1
+RonPick,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+RonSetDown,0.5,0.5,,make_numbers.py (macros of the conservative lifting rule),1
+RonSupport,2.5,2.5,,make_numbers.py (macros of the conservative lifting rule),1
+RoroH,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+SensEG,3 and 24,3 and 24,,make_numbers.py (macros of the conservative lifting rule),1
+SensEKHi,6,6,,make_numbers.py (macros of the conservative lifting rule),1
+SensEL,4 and 12,4 and 12,,make_numbers.py (macros of the conservative lifting rule),1
+SensES,"0, 1 and 3","0, 1 and 3",,make_numbers.py (macros of the conservative lifting rule),1
+SensHandHi,60,60,,make_numbers.py (macros of the conservative lifting rule),1
+SensHandLo,15,15,,make_numbers.py (macros of the conservative lifting rule),1
+SensKdMax,3.6\%,3.6\%,,make_numbers.py (macros of the conservative lifting rule),1
+SensLevels,16,16,,make_numbers.py (macros of the conservative lifting rule),1
+SensLiftHi,1.5,1.5,,make_numbers.py (macros of the conservative lifting rule),1
+SensLiftLo,0.5,0.5,,make_numbers.py (macros of the conservative lifting rule),1
+SensLongHi,20,20,,make_numbers.py (macros of the conservative lifting rule),1
+SensLongPortHi,18.44,18.67,,make_numbers.py (macros of the conservative lifting rule),1
+SensN,"11{,}432","11{,}432",,make_numbers.py (macros of the conservative lifting rule),1
+SensPlatPort,18.47,18.70,,make_numbers.py (macros of the conservative lifting rule),1
+SensRoroHi,5,5,,make_numbers.py (macros of the conservative lifting rule),1
+SensRoroLo,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+SensSteerHi,10,10,,make_numbers.py (macros of the conservative lifting rule),1
+SensVHi,2.5,2.5,,make_numbers.py (macros of the conservative lifting rule),1
+SensVLo,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+SensXN,"3{,}352","3{,}352",,make_numbers.py (macros of the conservative lifting rule),1
+SetAxles,42,42,,make_numbers.py (macros of the conservative lifting rule),1
+SetLenLong,60,60,,make_numbers.py (macros of the conservative lifting rule),1
+SetTeHi,12.8\%,12.8\%,,make_numbers.py (macros of the conservative lifting rule),1
+SetTeLo,2.4\%,2.4\%,,make_numbers.py (macros of the conservative lifting rule),1
+SevenAxOne,80,80,,make_numbers.py (macros of the conservative lifting rule),1
+SevenAxThree,160,160,,make_numbers.py (macros of the conservative lifting rule),1
+SevenDiaHi,12,12,,make_numbers.py (macros of the conservative lifting rule),1
+SevenDiaMid,11.5,11.5,,make_numbers.py (macros of the conservative lifting rule),1
+SevenL,12,12,,make_numbers.py (macros of the conservative lifting rule),1
+SevenLaneW,12,12,,make_numbers.py (macros of the conservative lifting rule),1
+SevenLenHi,120,120,,make_numbers.py (macros of the conservative lifting rule),1
+SevenLenLo,85,85,,make_numbers.py (macros of the conservative lifting rule),1
+SevenMassHi,"3{,}000","3{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+SevenMassLo,"1{,}500","1{,}500",,make_numbers.py (macros of the conservative lifting rule),1
+SevenMassMid,"2{,}300","2{,}300",,make_numbers.py (macros of the conservative lifting rule),1
+SevenPoolHi,240,240,,make_numbers.py (macros of the conservative lifting rule),1
+SevenPoolLo,160,160,,make_numbers.py (macros of the conservative lifting rule),1
+SevenPoolThresh,"1{,}500","1{,}500",,make_numbers.py (macros of the conservative lifting rule),1
+SevenStepHi,12,12,,make_numbers.py (macros of the conservative lifting rule),1
+SevenStepLo,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+SevenStepPct,33\%,33\%,,make_numbers.py (macros of the conservative lifting rule),1
+SevenWHi,25,25,,make_numbers.py (macros of the conservative lifting rule),1
+SevenWLo,18.75,18.75,,make_numbers.py (macros of the conservative lifting rule),1
+SimPointsAll,"116{,}892","116{,}892",,make_numbers.py (macros of the conservative lifting rule),1
+SimPointsNew,"65{,}892","65{,}892",,make_numbers.py (macros of the conservative lifting rule),1
+SimPointsOld,"51{,}000","51{,}000",,make_numbers.py (macros of the conservative lifting rule),1
+SixConvHi,22,0,,make_numbers.py (macros of the conservative lifting rule),1
+SixConvLo,12,0,,make_numbers.py (macros of the conservative lifting rule),1
+SixFastIfaceHi,78\%,78\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixFastIfaceLo,73\%,73\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixFastShareHi,36\%,36\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixFastShareLo,17\%,17\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixIfaceHi,98\%,98\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixIfaceLo,95\%,95\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixKdOkpoPull,11.4,11.4,,make_numbers.py (macros of the conservative lifting rule),1
+SixKdOkpoRoad,2.15,2.15,,make_numbers.py (macros of the conservative lifting rule),1
+SixKdYantaiPull,12.8,12.8,,make_numbers.py (macros of the conservative lifting rule),1
+SixKdYantaiRoad,2.20,2.20,,make_numbers.py (macros of the conservative lifting rule),1
+SixN,"5{,}376","5{,}376",,make_numbers.py (macros of the conservative lifting rule),1
+SixOkpoFastN,17,17,,make_numbers.py (macros of the conservative lifting rule),1
+SixOkpoPullSum,"6{,}369","6{,}346",,make_numbers.py (macros of the conservative lifting rule),1
+SixOkpoRoadCost,6\%,4\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixOkpoRoadSum,"5{,}960","6{,}071",,make_numbers.py (macros of the conservative lifting rule),1
+SixPlatBase,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+SixPlatFast,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+SixPlatSlowYantai,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+SixPts,"5{,}376","5{,}376",,make_numbers.py (macros of the conservative lifting rule),1
+SixSMax,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+SixTieHi,92\%,92\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixTieLo,84\%,81\%,,make_numbers.py (macros of the conservative lifting rule),1
+SixTighter,120,120,,make_numbers.py (macros of the conservative lifting rule),1
+SixYantaiFastN,19,19,,make_numbers.py (macros of the conservative lifting rule),1
+SteerMin,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+ThmFourActive,833,833,,make_numbers.py (macros of the conservative lifting rule),1
+ThmFourN,"2{,}208","2{,}208",,make_numbers.py (macros of the conservative lifting rule),1
+ThmFourPareto,"2{,}859","2{,}859",,make_numbers.py (macros of the conservative lifting rule),1
+ThmThreeN,"4{,}608","4{,}608",,make_numbers.py (macros of the conservative lifting rule),1
+ThmThreeTie,56.0\%,56.0\%,,make_numbers.py (macros of the conservative lifting rule),1
+ThreeKHi,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+ThreeKrefHi,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+ThreeNv,10,10,,make_numbers.py (macros of the conservative lifting rule),1
+ThreeTol,2\%,2\%,,make_numbers.py (macros of the conservative lifting rule),1
+TideH,12.42,12.42,,make_numbers.py (macros of the conservative lifting rule),1
+TurnDeg,60,60,,make_numbers.py (macros of the conservative lifting rule),1
+TurnHi,265,265,,make_numbers.py (macros of the conservative lifting rule),1
+TurnLo,238,238,,make_numbers.py (macros of the conservative lifting rule),1
+TwoGHi,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+TwoGLo,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+TwoKHi,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+TwoKLo,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+TwoLHi,5,5,,make_numbers.py (macros of the conservative lifting rule),1
+TwoLLo,3,3,,make_numbers.py (macros of the conservative lifting rule),1
+TwoSHi,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+TwoSLo,0,0,,make_numbers.py (macros of the conservative lifting rule),1
+TwoTime,60,60,,make_numbers.py (macros of the conservative lifting rule),1
+WCandMax,2.60,2.60,,make_numbers.py (macros of the conservative lifting rule),1
+WCandOver,"1{,}788","1{,}788",,make_numbers.py (macros of the conservative lifting rule),1
+WGridGapOne,955,955,,make_numbers.py (macros of the conservative lifting rule),1
+WGridGapThree,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+WGridGapTwo,71,71,,make_numbers.py (macros of the conservative lifting rule),1
+WGridN,"18{,}144","18{,}144",,make_numbers.py (macros of the conservative lifting rule),1
+WGridPos,"14{,}688","14{,}688",,make_numbers.py (macros of the conservative lifting rule),1
+WGridRowSum,"19{,}765","19{,}765",,make_numbers.py (macros of the conservative lifting rule),1
+WGridTie,94.3\%,94.3\%,,make_numbers.py (macros of the conservative lifting rule),1
+WGridTieMulti,"3{,}735","3{,}735",,make_numbers.py (macros of the conservative lifting rule),1
+WGridTiePos,93.0\%,93.0\%,,make_numbers.py (macros of the conservative lifting rule),1
+WGridZero,"3{,}456","3{,}456",,make_numbers.py (macros of the conservative lifting rule),1
+WMixN,"2{,}880","2{,}880",,make_numbers.py (macros of the conservative lifting rule),1
+WMixOver,765,765,,make_numbers.py (macros of the conservative lifting rule),1
+WMixOverOf,"1{,}440","1{,}440",,make_numbers.py (macros of the conservative lifting rule),1
+WMixTie,92.8\%,92.8\%,,make_numbers.py (macros of the conservative lifting rule),1
+WPerN,384,384,,make_numbers.py (macros of the conservative lifting rule),1
+WPerTie,95.8\%,95.8\%,,make_numbers.py (macros of the conservative lifting rule),1
+WTwoN,"1{,}920","1{,}920",,make_numbers.py (macros of the conservative lifting rule),1
+WTwoTie,88.5\%,88.5\%,,make_numbers.py (macros of the conservative lifting rule),1
+WidthPass,15.36,15.36,,make_numbers.py (macros of the conservative lifting rule),1
+WidthTwo,20,20,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiAngHi,94.6,94.6,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiAngLo,85.4,85.4,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiBerths,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiQuay,214.8,214.8,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiQuayCand,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiQuayW,15,15,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiRoute,102.8,102.8,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiRouteHi,701,701,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiRouteLo,238,238,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiTurnsHi,4,4,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiYard,1.85,1.85,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiYardCand,8,8,,make_numbers.py (macros of the conservative lifting rule),1
+YantaiYardOk,2,2,,make_numbers.py (macros of the conservative lifting rule),1
+vEmpty,5,5,,make_numbers.py (macros of the conservative lifting rule),1
+vLoaded,2.5,2.5,,make_numbers.py (macros of the conservative lifting rule),1
+vSlow,1,1,,make_numbers.py (macros of the conservative lifting rule),1
+LStarCradle,,18.64,20.05,"main geometry core: L″_lift* for cradle S = 1, Q_h = 0 (minimum over K; = first-come-first-served)",1
+LStarDirRoad,,16.66,17.39,main geometry core: direct lift roadside (L″_lift* minimum over K),1
+LStarDirPull,,17.02,18.42,main geometry core: direct lift pull-in (L″_lift* minimum over K),1
+CoreCradleLegacy,,,18.64,core case cradle S = 1 on the old 40 m geometry (violates the first-cradle rule),1
+CoreCradleLegacyGate,,,20.48,"old 40 m geometry, load extent counted to the gate (conservative lifting rule span)",1
+CoreCradleFirstOneFifty,,,19.83,first cradle 150 m (same value in the conservative lifting rule sens),1
+CoreCradleHoldOne,,,18.25,"main geometry, one gate holding place (pull-in)",1
+CoreCradleHoldInf,,,14.65,"main geometry, unlimited holding places (pull-in)",1
+CoreSideCradle,,,20.78,"main geometry, side-by-side cradle S = 1 (side by side abstracts short pull-in spurs)",1
+TuRangeCradle,,,19.67–20.10,main geometry: cradle S = 1 at t_u = 0–0.1 p (roadside),1
+TuRangeDirect,,,16.94–17.84,main geometry: direct lift S = 0 at t_u = 0–0.1 p (roadside),1
+CorePlainCradle,,,19.67,main geometry: cradle S = 1 under the original lifting rule (appendix comparison),1
+XThreshRoad,,,1244,"main geometry: release-time threshold x·p beyond which direct lift S = 0 is slower than cradle S = 1 (s, roadside, xscan linear interpolation)",1
+XThreshPull,,,830,"main geometry: release-time threshold x·p beyond which direct lift S = 0 is slower than cradle S = 1 (s, pull-in, xscan linear interpolation)",1
+ClearRoad,,,0,"main geometry: time o from reaching the first cradle position to the vehicle body clearing the road (s, roadside)",1
+EpsU,,,148,"main geometry: time ε_U for the delivery vehicle to leave the area under the load (s, core case)",1
+ClearPull,,,414,"main geometry: time o from reaching the first cradle position to the vehicle body clearing the road (s, pull-in)",1
+FirstCradleM,,,170,main geometry: first cradle position from the gate (m),1
+TurnOpenM,,,60,main geometry: gate turning area radius (m),1
+QuayEdgeM,,,20,"main geometry: shoreline from the quay-front road centreline (m, in series; used only in geometry checks and plots)",1
+QuayEdgeSideM,,,45,"shoreline from the quay-front road centreline for side-by-side cradles (m, spur length + longitudinal clearance; used only in geometry checks and plots)",1
+OkpoMultiPullLStarTurnSix,,,14.38,"three-voyage L″_lift* (K = 2–8), turn substitute 600 s",1
+OkpoMultiPullFcfsTurnSix,,,21.76,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 600 s",1
+OkpoMultiPullLStarTurnEighteen,,,14.38,"three-voyage L″_lift* (K = 2–8), turn substitute 1800 s",1
+OkpoMultiPullFcfsTurnEighteen,,,24.42,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 1800 s",1
+OkpoMultiPullFcfsRange,,,20.42–24.42,"three-voyage first-come-first-served range: turn feasible → substitute 1,800 s (main-text figure)",1
+OkpoMultiPullHoldOneRange,,,15.13–18.72,"one gate holding place: turn feasible → substitute 1,800 s",1
+OkpoMultiRoadLStarTurnSix,,,14.38,"three-voyage L″_lift* (K = 2–8), turn substitute 600 s",1
+OkpoMultiRoadFcfsTurnSix,,,21.76,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 600 s",1
+OkpoMultiRoadLStarTurnEighteen,,,14.38,"three-voyage L″_lift* (K = 2–8), turn substitute 1800 s",1
+OkpoMultiRoadFcfsTurnEighteen,,,24.42,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 1800 s",1
+OkpoMultiRoadFcfsRange,,,20.42–24.42,"three-voyage first-come-first-served range: turn feasible → substitute 1,800 s (main-text figure)",1
+OkpoMultiRoadHoldOneRange,,,16.25–19.63,"one gate holding place: turn feasible → substitute 1,800 s",1
+YantaiMultiPullLStarTurnSix,,,10.00,"three-voyage L″_lift* (K = 2–8), turn substitute 600 s",1
+YantaiMultiPullFcfsTurnSix,,,14.90,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 600 s",1
+YantaiMultiPullLStarTurnEighteen,,,10.00,"three-voyage L″_lift* (K = 2–8), turn substitute 1800 s",1
+YantaiMultiPullFcfsTurnEighteen,,,22.90,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 1800 s",1
+YantaiMultiPullFcfsRange,,,10.90–22.90,"three-voyage first-come-first-served range: turn feasible → substitute 1,800 s (main-text figure)",1
+YantaiMultiPullHoldOneRange,,,10.55–22.52,"one gate holding place: turn feasible → substitute 1,800 s",1
+YantaiMultiRoadLStarTurnSix,,,10.00,"three-voyage L″_lift* (K = 2–8), turn substitute 600 s",1
+YantaiMultiRoadFcfsTurnSix,,,14.90,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 600 s",1
+YantaiMultiRoadLStarTurnEighteen,,,10.00,"three-voyage L″_lift* (K = 2–8), turn substitute 1800 s",1
+YantaiMultiRoadFcfsTurnEighteen,,,22.90,"three-voyage first-come-first-served (shortest over K = 2–8), turn substitute 1800 s",1
+YantaiMultiRoadFcfsRange,,,10.90–22.90,"three-voyage first-come-first-served range: turn feasible → substitute 1,800 s (main-text figure)",1
+YantaiMultiRoadHoldOneRange,,,10.55–22.52,"one gate holding place: turn feasible → substitute 1,800 s",1
+OkpoMultiTurnOk,,,0/204,spatial additions sweep check: the Okpo three-voyage route is feasible throughout,1
+EOneTieLaneAOneW,,95.0\%,90.6\%,E1 manuscript setting vs unified W″_lift (480 points),1
+EOneTieLanePullW,,57.1\%,52.9\%,E1 manuscript setting vs unified W″_lift (480 points),1
+EOneTieLaneATwoW,,73.8\%,72.9\%,E1 manuscript setting vs unified W″_lift (480 points),1
+EOneTieLaneAThreeW,,73.3\%,67.5\%,E1 manuscript setting vs unified W″_lift (480 points),1
+EOneTieW,,79.5\%,77.3\%,"E1 all 31,680 points",1
+ETwoTieWpp,,456,455,E2: = W″_lift in the 523 proven-optimal cases,1
+ETwoOptN,,521,523,E2 number of proven-optimal cases,1
+RecheckLiftRows,,"150{,}054","140{,}291","main geometry recheck rows (main geometry, conservative lifting rule, using W″_lift; plus 160 rows under the original lifting rule using W″, 140,451 rows in total)",1
+RecheckOrigSensRows,,,160,"main geometry recheck rows under the original lifting rule (orig group of the t_u sensitivity, using W″)",1
+RecheckLiftOver,,0,0,rows with simulation / CP-SAT > W″_lift,0
+RecheckLiftTie,,69.0\%,67.1\%,share of window forms at equality,1
+RandUnifiedN,,"24{,}000","24{,}000",main geometry random regression cases (two lifting rules per case),0
+RandUnifiedPiles,,"340{,}018","340{,}718",number of piles checked one by one,1
+RegimeLaneRoad,,387,395,"points per class of the five case classes (long single lane, main geometry)",1
+RegimeLanePrep,,438,436,"points per class of the five case classes (long single lane, main geometry)",1
+RegimeLaneCrane,,235,225,"points per class of the five case classes (long single lane, main geometry)",1
+RegimeLaneFleet,,92,96,"points per class of the five case classes (long single lane, main geometry)",1
+RegimeRoadTie,,81.0\%,76.5\%,"share at the bound for the road class (main geometry, 1291 points)",1

@@ -1,0 +1,154 @@
+{
+ "okpo": {
+  "site": "okpo",
+  "columns": [
+   {
+    "zone": "zone_trace_027",
+    "road": "road_trace_087",
+    "s": 89.0,
+    "side": "A",
+    "slots": 9,
+    "crab_max_m": 142.63,
+    "crabs": [
+     19.75,
+     35.11,
+     50.47,
+     65.83,
+     81.19,
+     96.55,
+     111.91,
+     127.27,
+     142.63
+    ]
+   }
+  ],
+  "zones": [
+   {
+    "zone": "zone_trace_027",
+    "area_m2": 22029,
+    "slots": 9,
+    "rows": 9,
+    "line": "road_trace_087",
+    "opp": null,
+    "road_w": 15.0,
+    "line_len_m": 192.8,
+    "pure": 9
+   }
+  ],
+  "slots": 9,
+  "order": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "yantai": {
+  "site": "yantai",
+  "columns": [
+   {
+    "zone": "zone_trace_003",
+    "road": "road_trace_094",
+    "s": 22.986,
+    "side": "A",
+    "slots": 3,
+    "crab_max_m": 45.97,
+    "crabs": [
+     15.25,
+     30.61,
+     45.97
+    ]
+   },
+   {
+    "zone": "zone_trace_003",
+    "road": "road_trace_024",
+    "s": 65.745,
+    "side": "B",
+    "slots": 2,
+    "crab_max_m": 35.43,
+    "crabs": [
+     20.07,
+     35.43
+    ]
+   },
+   {
+    "zone": "zone_trace_022",
+    "road": "road_trace_058",
+    "s": 65.0,
+    "side": "A",
+    "slots": 3,
+    "crab_max_m": 43.47,
+    "crabs": [
+     12.75,
+     28.11,
+     43.47
+    ]
+   },
+   {
+    "zone": "zone_trace_024",
+    "road": "road_trace_067",
+    "s": 64.0,
+    "side": "A",
+    "slots": 2,
+    "crab_max_m": 28.11,
+    "crabs": [
+     12.75,
+     28.11
+    ]
+   }
+  ],
+  "zones": [
+   {
+    "zone": "zone_trace_003",
+    "area_m2": 18510,
+    "slots": 5,
+    "rows": 5,
+    "line": "road_trace_023+road_trace_094+road_trace_092+road_trace_090+road_trace_088",
+    "opp": "road_trace_024",
+    "road_w": 20.0,
+    "line_len_m": 221.6,
+    "pure": 5
+   },
+   {
+    "zone": "zone_trace_022",
+    "area_m2": 9428,
+    "slots": 3,
+    "rows": 3,
+    "line": "road_trace_058+road_trace_063",
+    "opp": null,
+    "road_w": 15.0,
+    "line_len_m": 128.8,
+    "pure": 3
+   },
+   {
+    "zone": "zone_trace_024",
+    "area_m2": 6692,
+    "slots": 2,
+    "rows": 2,
+    "line": "road_trace_067",
+    "opp": null,
+    "road_w": 15.0,
+    "line_len_m": 141.6,
+    "pure": 2
+   }
+  ],
+  "slots": 10,
+  "order": [
+   0,
+   1,
+   2,
+   3,
+   0,
+   1,
+   2,
+   3,
+   0,
+   2
+  ]
+ }
+}

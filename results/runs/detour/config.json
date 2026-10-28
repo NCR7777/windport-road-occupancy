@@ -1,0 +1,17 @@
+{
+ "ban": {
+  "okpo": [
+   [
+    "node_trace_016",
+    "road_trace_039",
+    "road_trace_619"
+   ]
+  ]
+ },
+ "k": 2,
+ "networks": {
+  "okpo": "okpo/rev1833",
+  "yantai": "yantai/rev396"
+ },
+ "n_v": 10
+}

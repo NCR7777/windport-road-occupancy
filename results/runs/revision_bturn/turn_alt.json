@@ -1,0 +1,212 @@
+{
+ "okpo|multi_ban": {
+  "node_trace_015|road_trace_637|road_trace_635": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 665.1,
+    "base|lo": 0.0,
+    "slow|hi": 762.7,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_056|road_trace_065|road_trace_059": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 772.1,
+    "base|lo": 0.0,
+    "slow|hi": 1030.2,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_062|road_trace_684|road_trace_070": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 603.9,
+    "base|lo": 0.0,
+    "slow|hi": 609.7,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_171|road_trace_203|road_trace_207": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 600.0,
+    "base|lo": 0.0,
+    "slow|hi": 600.1,
+    "slow|lo": 0.0
+   }
+  }
+ },
+ "okpo|near": {
+  "node_trace_171|road_trace_203|road_trace_207": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 600.0,
+    "base|lo": 0.0,
+    "slow|hi": 600.1,
+    "slow|lo": 0.0
+   }
+  }
+ },
+ "okpo|transfer": {
+  "node_trace_014|road_trace_615|road_trace_617": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 772.1,
+    "base|lo": 0.0,
+    "slow|hi": 1030.2,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_016|road_trace_039|road_trace_619": {
+   "cls": "no space (operator to confirm)",
+   "t": {
+    "base|hi": 772.1,
+    "base|lo": 232.1,
+    "slow|hi": 1030.2,
+    "slow|lo": 490.2
+   }
+  },
+  "node_trace_056|road_trace_065|road_trace_059": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 772.1,
+    "base|lo": 0.0,
+    "slow|hi": 1030.2,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_062|road_trace_684|road_trace_070": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 603.9,
+    "base|lo": 0.0,
+    "slow|hi": 609.7,
+    "slow|lo": 0.0
+   }
+  }
+ },
+ "okpo|transfer_ban": {
+  "node_trace_015|road_trace_637|road_trace_635": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 665.1,
+    "base|lo": 0.0,
+    "slow|hi": 762.7,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_056|road_trace_065|road_trace_059": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 772.1,
+    "base|lo": 0.0,
+    "slow|hi": 1030.2,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_062|road_trace_684|road_trace_070": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 603.9,
+    "base|lo": 0.0,
+    "slow|hi": 609.7,
+    "slow|lo": 0.0
+   }
+  }
+ },
+ "yantai|near": {
+  "node_8fed6000-40b2-4147-a289-69110235e4ad|road_trace_024|road_trace_022": {
+   "cls": "reversing or crab steering",
+   "t": {
+    "base|hi": 600.1,
+    "base|lo": 0.0,
+    "slow|hi": 600.1,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_022|road_trace_022|road_trace_023": {
+   "cls": "reversing or crab steering",
+   "t": {
+    "base|hi": 598.9,
+    "base|lo": 0.0,
+    "slow|hi": 597.3,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_025|road_trace_088|road_trace_026": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 601.9,
+    "base|lo": 0.0,
+    "slow|hi": 604.7,
+    "slow|lo": 0.0
+   }
+  }
+ },
+ "yantai|transfer": {
+  "node_8fed6000-40b2-4147-a289-69110235e4ad|road_trace_114|road_trace_022": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 729.3,
+    "base|lo": 70.5,
+    "slow|hi": 923.3,
+    "slow|lo": 176.2
+   }
+  },
+  "node_trace_002|road_trace_041|road_trace_111": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 600.0,
+    "base|lo": 0.0,
+    "slow|hi": 599.9,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_010|road_87e75350-42c2-4af3-b3f4-24257dfe2d6d|road_trace_096": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 686.1,
+    "base|lo": 0.0,
+    "slow|hi": 815.4,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_022|road_trace_022|road_trace_023": {
+   "cls": "reversing or crab steering",
+   "t": {
+    "base|hi": 598.9,
+    "base|lo": 0.0,
+    "slow|hi": 597.3,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_025|road_trace_088|road_trace_026": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 601.9,
+    "base|lo": 0.0,
+    "slow|hi": 604.7,
+    "slow|lo": 0.0
+   }
+  },
+  "node_trace_054|road_trace_028|road_trace_058": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 739.0,
+    "base|lo": 61.3,
+    "slow|hi": 947.6,
+    "slow|lo": 153.3
+   }
+  },
+  "node_trace_082|road_ed7a39c9-d8ff-4bc5-8877-87f904bd71c2|road_trace_120": {
+   "cls": "early re-orientation",
+   "t": {
+    "base|hi": 693.3,
+    "base|lo": 0.0,
+    "slow|hi": 833.3,
+    "slow|lo": 0.0
+   }
+  }
+ }
+}

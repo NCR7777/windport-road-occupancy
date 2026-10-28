@@ -1,0 +1,380 @@
+{
+ "trate": {
+  "okpo|v1|hi|0": {
+   "T_rate": 25.211,
+   "c_s": 18151.71,
+   "tl_s": 1449.25,
+   "te_s": 72.94,
+   "bind": "K/c"
+  },
+  "okpo|v25|hi|0": {
+   "T_rate": 16.376,
+   "c_s": 11791.0,
+   "tl_s": 651.7,
+   "te_s": 72.94,
+   "bind": "K/c"
+  },
+  "okpo|r10|hi|0": {
+   "T_rate": 10.639,
+   "c_s": 7659.85,
+   "tl_s": 252.93,
+   "te_s": 31.71,
+   "bind": "K/c"
+  },
+  "okpo|r5|hi|0": {
+   "T_rate": 12.051,
+   "c_s": 8676.95,
+   "tl_s": 385.85,
+   "te_s": 31.71,
+   "bind": "K/c"
+  },
+  "okpo|v1|feas|0": {
+   "T_rate": 22.28,
+   "c_s": 16041.51,
+   "tl_s": 1449.25,
+   "te_s": 72.94,
+   "bind": "K/c"
+  },
+  "okpo|v25|feas|0": {
+   "T_rate": 13.804,
+   "c_s": 9938.9,
+   "tl_s": 651.7,
+   "te_s": 72.94,
+   "bind": "K/c"
+  },
+  "okpo|r10|feas|0": {
+   "T_rate": 8.066,
+   "c_s": 5807.75,
+   "tl_s": 252.93,
+   "te_s": 31.71,
+   "bind": "K/c"
+  },
+  "okpo|r5|feas|0": {
+   "T_rate": 9.479,
+   "c_s": 6824.85,
+   "tl_s": 385.85,
+   "te_s": 31.71,
+   "bind": "K/c"
+  },
+  "okpo|v1|hi|1": {
+   "T_rate": 25.211,
+   "c_s": 18151.71,
+   "tl_s": 1229.78,
+   "te_s": 94.18,
+   "bind": "K/c"
+  },
+  "okpo|v25|hi|1": {
+   "T_rate": 16.376,
+   "c_s": 11791.0,
+   "tl_s": 491.91,
+   "te_s": 94.18,
+   "bind": "K/c"
+  },
+  "okpo|r10|hi|1": {
+   "T_rate": 10.485,
+   "c_s": 7549.18,
+   "tl_s": 122.98,
+   "te_s": 40.95,
+   "bind": "K/c"
+  },
+  "okpo|r5|hi|1": {
+   "T_rate": 11.965,
+   "c_s": 8615.05,
+   "tl_s": 245.96,
+   "te_s": 40.95,
+   "bind": "K/c"
+  },
+  "okpo|v1|feas|1": {
+   "T_rate": 22.28,
+   "c_s": 16041.51,
+   "tl_s": 1229.78,
+   "te_s": 94.18,
+   "bind": "K/c"
+  },
+  "okpo|v25|feas|1": {
+   "T_rate": 13.804,
+   "c_s": 9938.9,
+   "tl_s": 491.91,
+   "te_s": 94.18,
+   "bind": "K/c"
+  },
+  "okpo|r10|feas|1": {
+   "T_rate": 8.061,
+   "c_s": 5804.08,
+   "tl_s": 122.98,
+   "te_s": 40.95,
+   "bind": "K/c"
+  },
+  "okpo|r5|feas|1": {
+   "T_rate": 9.479,
+   "c_s": 6824.85,
+   "tl_s": 245.96,
+   "te_s": 40.95,
+   "bind": "K/c"
+  },
+  "yantai|v1|hi|0": {
+   "T_rate": 20.398,
+   "c_s": 14686.38,
+   "tl_s": 2491.66,
+   "te_s": 74.19,
+   "bind": "K/c"
+  },
+  "yantai|v25|hi|0": {
+   "T_rate": 14.881,
+   "c_s": 10714.34,
+   "tl_s": 1500.7,
+   "te_s": 74.19,
+   "bind": "K/c"
+  },
+  "yantai|r10|hi|0": {
+   "T_rate": 11.535,
+   "c_s": 8305.4,
+   "tl_s": 1005.18,
+   "te_s": 32.26,
+   "bind": "K/c"
+  },
+  "yantai|r5|hi|0": {
+   "T_rate": 12.392,
+   "c_s": 8922.54,
+   "tl_s": 1170.35,
+   "te_s": 32.26,
+   "bind": "K/c"
+  },
+  "yantai|v1|feas|0": {
+   "T_rate": 15.775,
+   "c_s": 11357.78,
+   "tl_s": 1891.76,
+   "te_s": 74.19,
+   "bind": "K/c"
+  },
+  "yantai|v25|feas|0": {
+   "T_rate": 10.632,
+   "c_s": 7654.94,
+   "tl_s": 900.7,
+   "te_s": 74.19,
+   "bind": "K/c"
+  },
+  "yantai|r10|feas|0": {
+   "T_rate": 7.286,
+   "c_s": 5246.0,
+   "tl_s": 405.18,
+   "te_s": 32.26,
+   "bind": "K/c"
+  },
+  "yantai|r5|feas|0": {
+   "T_rate": 8.143,
+   "c_s": 5863.14,
+   "tl_s": 570.35,
+   "te_s": 32.26,
+   "bind": "K/c"
+  }
+ },
+ "reproduce": [
+  {
+   "site": "okpo",
+   "level": "hi",
+   "speed": "v1",
+   "now": 25.21,
+   "committed": 25.21,
+   "same": true
+  },
+  {
+   "site": "okpo",
+   "level": "hi",
+   "speed": "v25",
+   "now": 16.38,
+   "committed": 16.38,
+   "same": true
+  },
+  {
+   "site": "okpo",
+   "level": "hi",
+   "speed": "r10",
+   "now": 10.64,
+   "committed": 10.64,
+   "same": true
+  },
+  {
+   "site": "okpo",
+   "level": "hi",
+   "speed": "r5",
+   "now": 12.05,
+   "committed": 12.05,
+   "same": true
+  },
+  {
+   "site": "okpo",
+   "level": "feas",
+   "speed": "v1",
+   "now": 22.28,
+   "committed": 22.28,
+   "same": true
+  },
+  {
+   "site": "okpo",
+   "level": "feas",
+   "speed": "v25",
+   "now": 13.8,
+   "committed": 13.8,
+   "same": true
+  },
+  {
+   "site": "okpo",
+   "level": "feas",
+   "speed": "r10",
+   "now": 8.07,
+   "committed": 8.07,
+   "same": true
+  },
+  {
+   "site": "okpo",
+   "level": "feas",
+   "speed": "r5",
+   "now": 9.48,
+   "committed": 9.48,
+   "same": true
+  },
+  {
+   "site": "yantai",
+   "level": "hi",
+   "speed": "v1",
+   "now": 20.4,
+   "committed": 20.4,
+   "same": true
+  },
+  {
+   "site": "yantai",
+   "level": "hi",
+   "speed": "v25",
+   "now": 14.88,
+   "committed": 14.88,
+   "same": true
+  },
+  {
+   "site": "yantai",
+   "level": "hi",
+   "speed": "r10",
+   "now": 11.54,
+   "committed": 11.54,
+   "same": true
+  },
+  {
+   "site": "yantai",
+   "level": "hi",
+   "speed": "r5",
+   "now": 12.39,
+   "committed": 12.39,
+   "same": true
+  },
+  {
+   "site": "yantai",
+   "level": "feas",
+   "speed": "v1",
+   "now": 15.77,
+   "committed": 15.77,
+   "same": true
+  },
+  {
+   "site": "yantai",
+   "level": "feas",
+   "speed": "v25",
+   "now": 10.63,
+   "committed": 10.63,
+   "same": true
+  },
+  {
+   "site": "yantai",
+   "level": "feas",
+   "speed": "r10",
+   "now": 7.29,
+   "committed": 7.29,
+   "same": true
+  },
+  {
+   "site": "yantai",
+   "level": "feas",
+   "speed": "r5",
+   "now": 8.14,
+   "committed": 8.14,
+   "same": true
+  }
+ ],
+ "order": [
+  {
+   "level": "hi",
+   "speed": "v1",
+   "ban": 0,
+   "T_rate": 25.211,
+   "T_seq_lb": 40.585,
+   "T_seq": 60.874,
+   "ok": true
+  },
+  {
+   "level": "hi",
+   "speed": "v25",
+   "ban": 0,
+   "T_rate": 16.376,
+   "T_seq_lb": 29.72,
+   "T_seq": 40.7,
+   "ok": true
+  },
+  {
+   "level": "feas",
+   "speed": "v1",
+   "ban": 0,
+   "T_rate": 22.28,
+   "T_seq_lb": 36.824,
+   "T_seq": 52.194,
+   "ok": true
+  },
+  {
+   "level": "feas",
+   "speed": "v25",
+   "ban": 0,
+   "T_rate": 13.804,
+   "T_seq_lb": 26.506,
+   "T_seq": 34.794,
+   "ok": true
+  },
+  {
+   "level": "hi",
+   "speed": "v1",
+   "ban": 1,
+   "T_rate": 25.211,
+   "T_seq_lb": 39.385,
+   "T_seq": 60.28,
+   "ok": true
+  },
+  {
+   "level": "hi",
+   "speed": "v25",
+   "ban": 1,
+   "T_rate": 16.376,
+   "T_seq_lb": 29.041,
+   "T_seq": 40.323,
+   "ok": true
+  },
+  {
+   "level": "feas",
+   "speed": "v1",
+   "ban": 1,
+   "T_rate": 22.28,
+   "T_seq_lb": 35.624,
+   "T_seq": 51.961,
+   "ok": true
+  },
+  {
+   "level": "feas",
+   "speed": "v25",
+   "ban": 1,
+   "T_rate": 13.804,
+   "T_seq_lb": 25.826,
+   "T_seq": 34.661,
+   "ok": true
+  }
+ ],
+ "all_same": true,
+ "all_ordered": true,
+ "k": 2,
+ "n_v": 10
+}
